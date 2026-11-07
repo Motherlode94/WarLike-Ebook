@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10141e">
+<title>Lecture · WarLike Ebook</title>
+<style>
+:root{color-scheme:dark;--bg:#10141e;--panel:#1b2331;--line:#374256;--text:#f4eee3;--muted:#b8c1cd;--gold:#e1bd7e;--paper:#f8f1e6;--ink:#282324}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,sans-serif}a{color:inherit}header{position:sticky;top:0;z-index:2;background:#10141ef2;border-bottom:1px solid var(--line);padding:14px 20px}header .bar{max-width:1040px;margin:auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap}header a{color:var(--gold);text-decoration:none;font-weight:700}header h1{font-size:1rem;margin:0;flex:1;min-width:160px}.wrap{max-width:920px;margin:auto;padding:25px 16px 60px}.controls{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:0 0 18px}.controls button,.controls a,.controls input{font:inherit;border:1px solid #596679;border-radius:8px;padding:9px 12px;color:var(--text);background:var(--panel)}.controls button{cursor:pointer}.controls button:disabled{opacity:.45;cursor:not-allowed}.controls a{text-decoration:none}.controls input{width:74px;text-align:center}.controls label{color:var(--muted)}.page{background:var(--paper);color:var(--ink);border-radius:4px;box-shadow:0 12px 40px #0006;min-height:65vh;padding:clamp(24px,6vw,64px);font-family:Georgia,'Times New Roman',serif;font-size:var(--reading-size,18px);line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}.page:focus{outline:3px solid var(--gold);outline-offset:3px}.status{text-align:center;color:var(--muted);font-size:.9rem}.error{color:#ffd0c4}.note{color:var(--muted);text-align:center;font-size:.85rem}.controls button:focus-visible,.controls a:focus-visible,.controls input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}@media(max-width:550px){header h1{flex-basis:60%}.page{padding:25px 19px}.wrap{padding-inline:10px}.controls{gap:6px}.controls button,.controls a{padding:8px 10px}}
+</style></head>
+<body>
+<header><div class="bar"><a href="./index.html#bibliotheque">← Bibliothèque</a><h1 id="title">Lecteur WarLike Ebook</h1><a id="pdf" hidden target="_blank" rel="noopener">Ouvrir le PDF ↗</a></div></header>
+<main class="wrap">
+<p class="status" id="status" role="status" aria-live="polite">Chargement du livre…</p>
+<div class="controls" aria-label="Navigation de lecture">
+<button id="prev" type="button" disabled>← Précédente</button>
+<label for="pageInput">Page</label><input id="pageInput" type="number" min="1" value="1" inputmode="numeric" disabled><span id="total"> / —</span>
+<button id="go" type="button" disabled>Aller</button><button id="next" type="button" disabled>Suivante →</button>
+<button id="smaller" type="button" aria-label="Réduire la taille du texte">A−</button><button id="larger" type="button" aria-label="Agrandir la taille du texte">A+</button>
+</div>
+<article class="page" id="content" tabindex="-1">Chargement du livre…</article>
+<p class="note">Lecture adaptée au téléphone et à l’ordinateur. La dernière page lue est enregistrée sur cet appareil. Le PDF conserve la mise en page originale.</p>
+</main>
+<script>
+'use strict';
+const catalog={
+  ombres:{title:'La Promesse des Ombres · extrait',file:'la-promesse-des-ombres'},
+  toi:{title:'Jusqu’à Toi · Les Terres Noyées',file:'jusqua-toi'},
+  dieu:{title:'Le Dieu Oublié · chapitres I à X',file:'le-dieu-oublie'}
+};
+const $=id=>document.getElementById(id), bookId=new URLSearchParams(location.search).get('livre'), book=catalog[bookId];
+let pages=[],current=1,size=18;
+function storageGet(key){try{return localStorage.getItem(key)}catch{return null}}
+function storageSet(key,value){try{localStorage.setItem(key,String(value))}catch{}}
+function show(page){
+ current=Math.max(1,Math.min(pages.length,Math.floor(Number(page)||1)));
+ $('content').textContent=pages[current-1].trim();
+ $('pageInput').value=String(current);$('prev').disabled=current===1;$('next').disabled=current===pages.length;
+ $('status').textContent='Page '+current+' sur '+pages.length;
+ storageSet('warlike-ebook:page:'+bookId,current);
+}
+function move(page){show(page);$('content').focus({preventScroll:true});window.scrollTo({top:0,behavior:'smooth'})}
+function resize(delta){size=Math.max(14,Math.min(30,size+delta));document.documentElement.style.setProperty('--reading-size',size+'px');storageSet('warlike-ebook:font-size',size)}
+$('prev').addEventListener('click',()=>move(current-1));
+$('next').addEventListener('click',()=>move(current+1));
+$('go').addEventListener('click',()=>move($('pageInput').value));
+$('pageInput').addEventListener('keydown',e=>{if(e.key==='Enter')move(e.target.value)});
+$('smaller').addEventListener('click',()=>resize(-2));$('larger').addEventListener('click',()=>resize(2));
+document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.key==='ArrowRight'&&current<pages.length)move(current+1);if(e.key==='ArrowLeft'&&current>1)move(current-1)});
+async function init(){
+ if(!book){$('status').textContent='Livre introuvable.';$('status').classList.add('error');$('content').textContent='Retourne à la bibliothèque pour choisir un livre.';return}
+ document.title=book.title+' · WarLike Ebook';$('title').textContent=book.title;
+ $('pdf').href='./assets/books/'+book.file+'.pdf';$('pdf').hidden=false;
+ try{
+  const response=await fetch('./assets/books/'+book.file+'.json');
+  if(!response.ok)throw new Error('Lecture indisponible');
+  const data=await response.json();if(!Array.isArray(data)||!data.length||!data.every(x=>typeof x==='string'))throw new Error('Livre invalide');
+  pages=data;$('total').textContent=' / '+pages.length;$('pageInput').max=String(pages.length);
+  $('pageInput').disabled=false;$('go').disabled=false;
+  size=Math.max(14,Math.min(30,Number(storageGet('warlike-ebook:font-size'))||18));resize(0);
+  show(storageGet('warlike-ebook:page:'+bookId)||1);
+ }catch(error){$('status').textContent='Impossible de charger les pages.';$('status').classList.add('error');$('content').textContent='Utilise « Ouvrir le PDF » ci-dessus, ou reviens à la bibliothèque pour réessayer.'}
+}
+init();
+</script></body></html>
