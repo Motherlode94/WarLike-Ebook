@@ -6,7 +6,7 @@ Bibliothèque numérique des œuvres originales de HardieBay.
 Catalogue responsive, recherche, filtres, fiches descriptives, thème clair/sombre.
 
 ## Livres
-- **La Promesse des Ombres** — Ninja/Fantasy, 11 pages (PDF à intégrer)
+- **La Promesse des Ombres** — Ninja/Fantasy, tome complet en cours de rédaction (objectif : au moins 150 pages). Une version initiale de 11 pages existe, mais ne constitue pas le roman définitif.
 - **Jusqu'à Toi — Les Terres Noyées** — Survival/Drame, 160 pages (PDF à intégrer)
 - **Le Dieu Oublié** — Dark fantasy (à venir)
 
@@ -15,6 +15,6 @@ Sur GitHub : **Settings → Pages → Build and deployment** puis **Deploy from 
 
 Adresse attendue après activation : https://motherlode94.github.io/WarLike-Ebook/
 
-Les PDF ne sont pas encore hébergés sur ce dépôt. À ajouter sous `assets/books/`, puis activer les liens de lecture et téléchargement dans `index.html`.
+Les PDF ne sont pas encore hébergés sur ce dépôt. Le PDF initial de La Promesse des Ombres ne doit pas être présenté comme le tome complet. À ajouter sous `assets/books/`, puis activer les liens de lecture et téléchargement dans `index.html`.
 
 © 2026 HardieBay Books — Textes et univers : tous droits réservés.
