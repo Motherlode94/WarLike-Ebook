@@ -24,3 +24,11 @@ Adresse attendue après activation : https://motherlode94.github.io/WarLike-Eboo
 Les fichiers PDF et leurs textes paginés sont hébergés sous `assets/books/`. Le fichier de La Promesse des Ombres est un extrait de 11 pages, pas le tome complet.
 
 © 2026 HardieBay Books — Textes et univers : tous droits réservés.
+
+## Images et personnages
+
+- 5 couvertures originales SVG : `assets/covers/`
+- 10 portraits illustrés SVG : `assets/characters/`
+- Galerie des personnages avec fiches et filtres : [`personnages.html`](personnages.html)
+
+Les visuels sont des illustrations vectorielles stylisées initiales, pas des portraits photoréalistes.
