@@ -8,7 +8,7 @@ Catalogue responsive, recherche, filtres, fiches descriptives, thème clair/somb
 ## Livres
 - **La Promesse des Ombres** — Ninja/Fantasy, tome complet en cours de rédaction (objectif : au moins 150 pages). Une version initiale de 11 pages existe, mais ne constitue pas le roman définitif.
 - **Jusqu'à Toi — Les Terres Noyées** — Survival/Drame, 160 pages (PDF à intégrer)
-- **Le Dieu Oublié** — Dark fantasy (à venir)
+- **Le Dieu Oublié — Tome I : La Cendre et le Réveil** — Dark fantasy, œuvre existante avec 10 chapitres (I à X) déjà écrits ; PDF complet de 67 pages signalé dans l’ancienne bibliothèque HardieBay Books (fichier à récupérer et intégrer à ce dépôt).
 
 ## Publication
 Sur GitHub : **Settings → Pages → Build and deployment** puis **Deploy from a branch** > `main` > `/(root)`.
