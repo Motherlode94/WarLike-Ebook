@@ -217,5 +217,22 @@
       "source": "Manuscrit original (160 pages)"
     }
   ],
-  "extraNote": "Le roman original comprend 31 chapitres et 160 pages. La saison 1 présente ici les 20 premiers chapitres ; les chapitres 21 à 31 restent lisibles dans le roman intégral."
+  "extraNote": "Le roman original comprend 31 chapitres et 160 pages. La saison 1 présente ici les 20 premiers chapitres ; les chapitres 21 à 31 restent lisibles dans le roman intégral.",
+  "bonusScenes": [
+    {
+      "chapter": 1,
+      "title": "Avant la rupture",
+      "text": "Malik avait préparé deux bols de céréales, bien qu'il sût que Lina choisirait encore les tartines. Elle entra dans la cuisine en traînant ses chaussettes sur le carrelage et lui demanda si les poissons dormaient. Il répondit par une théorie maladroite, qu'elle contesta avec le sérieux d'une enfant de dix ans.\n\nLe bulletin météo tournait sur un petit écran. On y parlait du barrage en amont, de fortes pluies et d'une inspection annoncée pour la semaine suivante. Malik baissa le son. Il devait emmener Lina à l'école, puis terminer une intervention sur un chantier près de la rivière.\n\n— On passe chez la libraire après ? demanda-t-elle.\n\n— Si tu termines tes devoirs.\n\nElle leva les yeux au ciel. Il ajouta qu'il viendrait la chercher plus tôt vendredi. Il ne savait pas encore combien cette promesse compterait dans les jours suivants.\n\nÀ la porte, Lina revint lui donner une étreinte qu'elle avait oublié de lui offrir au réveil. Son cartable sentait le papier neuf et la mandarine. Malik la regarda rejoindre le trottoir avant de rentrer récupérer ses clés. Plus tard, les images de ce matin deviendraient l'une des choses les plus précieuses qu'il emporterait à travers les terres noyées."
+    },
+    {
+      "chapter": 10,
+      "title": "Une carte humide",
+      "text": "La carte était devenue si fragile que Malik la déplia sur son genou avec la précaution d'un chirurgien. Plusieurs routes avaient disparu sous l'eau; d'autres semblaient encore franchissables, mais personne ne pouvait lui garantir qu'un pont tiendrait au passage.\n\nUne femme âgée lui proposa du thé devant une maison dont le rez-de-chaussée avait été vidé. Elle avait perdu son mari lors de l'évacuation et refusait de quitter le quartier sans savoir où il avait été conduit.\n\n— Vous cherchez votre fille, dit-elle après avoir entendu son histoire. Moi, je cherche quelqu'un qui connaît encore son nom.\n\nMalik voulut lui donner une réponse, puis renonça. Ils partagèrent une boîte de biscuits ramollis et comparèrent leurs notes. La femme connaissait un dépôt de secours plus au nord, où les familles étaient parfois regroupées avant d'être déplacées.\n\nSur la carte, Malik dessina une croix sans l'entourer. Il avait appris à ne plus confondre une piste avec une certitude.\n\nAvant son départ, la femme lui demanda de laisser un message si ses recherches le conduisaient au dépôt. Il promit de le faire. Quelques kilomètres plus loin, il se rendit compte que chercher Lina l'avait obligé à devenir, lui aussi, le témoin des absences des autres."
+    },
+    {
+      "chapter": 20,
+      "title": "Le prénom dans la foule",
+      "text": "À l'entrée du centre d'accueil, Malik lut chaque nom sur les listes punaisées sous un auvent. Il avait déjà parcouru plusieurs dizaines de colonnes quand la fatigue fit se confondre les lettres. Il s'arrêta, ferma les yeux et sentit la panique s'approcher.\n\nUn volontaire lui apporta de l'eau et lui demanda de reprendre depuis le début avec lui. Malik aurait voulu refuser : accepter de l'aide ressemblait à perdre du temps. Mais son index tremblait sur le papier et son sac pesait trop lourd pour ses épaules.\n\nIls relurent les colonnes en prononçant à voix haute les noms, un par un. À chaque prénom d'enfant, Malik se redressait malgré lui.\n\nLina n'y figurait pas.\n\n— Ce n'est pas forcément une mauvaise nouvelle, expliqua le volontaire. Certaines listes arrivent en retard. Il existe d'autres centres.\n\nMalik connaissait cette phrase. Il avait lui-même prononcé des mots semblables pour rassurer des inconnus. Il demanda les adresses, les heures des navettes et la procédure pour laisser une photographie.\n\nQuand il ressortit, le ciel commençait à se dégager. Il s'assit sur une marche et regarda le dessin que Lina avait glissé dans sa poche avant la catastrophe. Elle y avait représenté leur maison sans oublier les rideaux. Malik suivit les traits du doigt, puis se releva pour continuer."
+    }
+  ]
 }
