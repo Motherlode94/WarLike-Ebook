@@ -3,7 +3,7 @@
 Bibliothèque numérique des histoires originales, romans et récits de HardieBay.
 
 ## Lire les saisons
-- **[Saisons & Épisodes](saisons.html)** — catalogue interactif : **5 œuvres, 5 saisons 1, 20 chapitres chacune, 100 chapitres indexés**.
+- **[Saisons & Épisodes](saisons.html)** — catalogue interactif : **6 œuvres, 6 saisons 1, 20 chapitres chacune, 120 chapitres indexés**.
 - Chaque saison comporte **5 épisodes de 4 chapitres**.
 - La progression est enregistrée localement sur l'appareil.
 - Les nouveaux chapitres sont lus directement dans la page des saisons ; les chapitres antérieurs conservent leurs textes d'origine, via les lecteurs HTML ou PDF.
@@ -15,8 +15,13 @@ Bibliothèque numérique des histoires originales, romans et récits de HardieBa
 | Jusqu’à Toi | Les Terres Noyées | les 20 premiers des 31 chapitres du manuscrit original (160 pages) |
 | Le Dieu Oublié | La Cendre et le Réveil | 10 chapitres d'origine et 10 nouveaux |
 | La Promesse des Ombres | Le chemin vers la guérisseuse | premier chapitre original (11 pages), puis 19 chapitres développés |
+| Les Heures Creuses | La Maison qui Respire | 20 chapitres originaux d’horreur surnaturelle écrits pour la version web |
 
 **À ne pas confondre :** les chapitres récemment ajoutés sont des épisodes narratifs courts. Le PDF initial de *La Promesse des Ombres* comporte toujours 11 pages et n'est pas un roman de 150 pages. Les compléments sont actuellement accessibles dans la version web de la saison.
+
+## Horreur surnaturelle
+
+**Les Heures Creuses** : Iris Vernet revient à Valcombe où la voix de son frère disparu réapparaît sur une cassette. Avec Salomé Darras et Abel Morel, elle enquête sur des voix dans les canalisations et sur trente-sept personnes effacées des archives. Saison 1 achevée en 20 chapitres et 5 épisodes, [lisible sur le site](saisons.html?livre=heures). La saison est un récit court (environ 4 900 mots), pas un roman long de 150 pages. Aucun PDF du nouveau livre n’est encore disponible.
 
 ## Portraits
 - [Galerie de 10 personnages](personnages.html)
