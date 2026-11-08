@@ -28,7 +28,7 @@ Les fichiers PDF et leurs textes paginés sont hébergés sous `assets/books/`. 
 ## Images et personnages
 
 - 5 couvertures originales SVG : `assets/covers/`
-- 10 portraits illustrés SVG : `assets/characters/`
+- 8 portraits réalistes WebP et 2 portraits vectoriels provisoires (Lina et la petite sœur ninja) : `assets/characters/`
 - Galerie des personnages avec fiches et filtres : [`personnages.html`](personnages.html)
 
-Les visuels sont des illustrations vectorielles stylisées initiales, pas des portraits photoréalistes.
+Les portraits principaux et six des personnages du catalogue sont progressivement remplacés par des illustrations réalistes. Lina et la petite sœur ninja restent à remplacer par des visuels correspondant à leur âge.
