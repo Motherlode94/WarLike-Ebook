@@ -197,5 +197,22 @@
       "status": "published"
     }
   ],
-  "extraNote": "Histoire cyberpunk de 20 chapitres, 5 épisodes, avec une conclusion à la recherche de Sera et au premier conflit contre Synapse. Texte web, pas encore de PDF."
+  "extraNote": "Histoire cyberpunk de 20 chapitres, 5 épisodes, avec une conclusion à la recherche de Sera et au premier conflit contre Synapse. Texte web, pas encore de PDF.",
+  "bonusScenes": [
+    {
+      "chapter": 1,
+      "title": "Sous la pluie artificielle",
+      "text": "La livraison de Naïa semblait ordinaire jusqu'au moment où la patrouille lui demanda de montrer le contenu du colis. Elle était habituée aux contrôles; Nacre-9 ne laissait jamais ses coursiers oublier à qui appartenaient les rues.\n\nLe drone inspecta son bracelet. Un voyant clignota en rouge, puis revint au vert. Naïa avait déjà recopié sur son écran les numéros de série de la patrouille. Dans le cas où elle disparaîtrait, Idris saurait quel service avait été le dernier à la voir.\n\n— Pourquoi ne connectez-vous pas votre cargaison au réseau ? demanda le garde.\n\n— Mon client ne paye pas pour qu'on lise ses messages.\n\nIl eut un sourire qui ne monta pas jusqu'à ses yeux. Un train passa au-dessus d'eux. Naïa profita du vacarme pour se glisser dans la foule et descendre un escalier de maintenance.\n\nAu niveau inférieur, elle s'arrêta sous une enseigne hors service. Les noms des morts ne figuraient pas sur les publicités; les entreprises préféraient vendre des souvenirs heureux. Elle retourna la carte et lut l'étiquette : Sera Voss.\n\nSa sœur avait disparu dans un incendie que les journaux avaient traité en trois phrases. Pour la première fois depuis cinq ans, Naïa eut la sensation que ce silence avait été acheté."
+    },
+    {
+      "chapter": 10,
+      "title": "La mémoire sous contrat",
+      "text": "Idris affichait les lignes du contrat Synapse sur trois écrans hors réseau. Naïa lisait avec peine les annexes techniques, pleines de termes qui transformaient des souvenirs humains en « unités transférables ».\n\n— On parle d'une copie volontaire, dit-elle.\n\n— Au début, oui. Regarde cette clause.\n\nUn paragraphe autorisait l'extension des droits d'utilisation en cas d'urgence civique. Rien ne définissait précisément l'urgence ni la personne habilitée à la déclarer. Une autre annexe permettait de supprimer l'accès à une sauvegarde sans en informer son propriétaire.\n\nNaïa passa une main sur son visage. Sera avait travaillé pour cette entreprise avant de disparaître. Était-elle une victime, une employée complice ou quelqu'un qui avait changé de camp en comprenant les conséquences ?\n\n— Tu penses qu'elle a signé ?\n\nIdris ferma un des écrans.\n\n— Je pense qu'on doit retrouver sa signature. Pas en inventer une qui nous arrange.\n\nAu-dessus d'eux, une annonce vantait la tranquillité qu'apportaient les nouveaux services de la mémoire. Naïa songea aux habitants qui avaient accepté une technologie médicale, sans savoir que leurs souvenirs pouvaient devenir une marchandise. Elle décida de chercher d'abord les premiers contrats, ceux où le consentement avait encore un sens."
+    },
+    {
+      "chapter": 20,
+      "title": "Les vivants de Nacre-9",
+      "text": "Au petit matin, Naïa traversa le marché inférieur avec l'impression de reconnaître chaque visage. Rien n'était plus faux. Elle connaissait seulement les noms que les systèmes avaient voulu effacer, les lieux dont les archives ne gardaient qu'une version et les familles qui vivaient avec de fausses certitudes.\n\nIdris marchait près d'elle. Ils s'arrêtèrent devant une boutique où un vieil homme tentait de réparer une radio analogique. Il leur demanda s'ils avaient entendu parler du nouveau scandale. Naïa répondit qu'elle en connaissait une partie, pas toute la vérité.\n\n— C'est déjà plus que ce qu'on nous donnait avant, dit l'homme.\n\nElle ne sut pas si c'était un compliment. La carte de Sera pesait dans sa poche, intacte malgré les recherches. Elle contenait encore des fragments qu'ils n'avaient pas su interpréter.\n\nNaïa s'assit au bord du quai et relut son dernier message à sa sœur. Elle avait écrit quelque chose de banal, une plaisanterie sur la pluie artificielle. Il lui restait désormais une chance de comprendre ce qui lui était arrivé, mais elle refusait d'en faire une excuse pour exposer de nouveaux innocents.\n\nLorsque le premier train s'ébranla, elle se releva. Nacre-9 était plus vaste que Synapse. Il était temps que la ville puisse se souvenir d'elle-même."
+    }
+  ]
 }
