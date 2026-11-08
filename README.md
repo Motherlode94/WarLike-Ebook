@@ -53,3 +53,17 @@ Site attendu : https://motherlode94.github.io/WarLike-Ebook/
 
 ## Propriété littéraire
 © 2026 HardieBay Books. Textes, noms et univers : tous droits réservés à l'auteur.
+
+## Trois nouvelles sagas originales — 150 chapitres courts
+
+Nouveau lecteur : [`nouveaux-romans.html`](nouveaux-romans.html), accessible depuis l'accueil et les saisons.
+
+| Saga | Genre | Chapitres | Fichier |
+| --- | --- | --- | --- |
+| Les Veilleurs de Brume | Mystère surnaturel | 50 | `romans/brume.js` |
+| Les Héritiers de Valdorne | Thriller adolescent | 50 | `romans/valdorne.js` |
+| Arodan — Le Sang des Libres | Épopée antique | 50 | `romans/arodan.js` |
+
+Ces histoires sont entièrement originales, avec personnages, lieux et intrigues propres. Le lecteur fournit un sommaire, la navigation, le réglage de la taille de police et la progression locale. Les chapitres sont **courts**, ce ne sont pas encore trois romans de plusieurs centaines de pages.
+
+Le commit GitHub a été effectué, mais la disponibilité de ces routes sur le domaine `.pages.dev` n'a pas encore été confirmée par un test HTTP externe.
