@@ -197,5 +197,22 @@
       "status": "published"
     }
   ],
-  "extraNote": "Saison 1 complète au format web : 20 chapitres narratifs, 5 épisodes. Aucun PDF n'est encore publié pour ce nouveau livre."
+  "extraNote": "Saison 1 complète au format web : 20 chapitres narratifs, 5 épisodes. Aucun PDF n'est encore publié pour ce nouveau livre.",
+  "bonusScenes": [
+    {
+      "chapter": 1,
+      "title": "La voix que l'on répare",
+      "text": "Le studio était vide quand Iris recommença la bande pour la troisième fois. Elle connaissait le bruit d'un ruban ancien, le souffle d'une copie endommagée et les défauts d'un micro trop proche. Aucun de ces sons ne justifiait la sensation d'avoir entendu Noé respirer.\n\nElle posa les mains à plat sur la console. Le nom de son frère n'avait pas été prononcé chez elle depuis des années. Elle avait rangé les photographies dans une caisse, gardé la cassette que leur mère refusait d'entendre et appris un métier où chaque voix pouvait être restaurée par fragments.\n\nSon téléphone vibra. Salomé lui demandait si elle viendrait à Valcombe pour la commémoration. Iris commença une réponse, l'effaça, puis écrivit seulement : « Je viens. »\n\nAvant d'éteindre les appareils, elle isola la fréquence des trois coups. Les spectrogrammes ne montraient aucune réverbération de pièce. Comme si les coups n'avaient pas été enregistrés dans un lieu, mais frappés au moment exact où elle les écoutait.\n\nIris tira une copie numérique et conserva l'original sous clé. Sa peur lui disait de détruire la bande; son expérience lui demandait de garder une preuve. Elle choisit la seconde voix, sans imaginer le prix qu'aurait ce geste."
+    },
+    {
+      "chapter": 10,
+      "title": "Les morts que l'on nomme",
+      "text": "Abel avait préparé du thé pour trois, même s'il semblait épuisé. Iris disposa ses notes sur la table pendant que Salomé rapprochait les dates des disparitions. Elles ne formaient pas un cycle régulier, comme on l'avait d'abord supposé. Elles suivaient les travaux sur les anciennes canalisations du village.\n\n— Alors c'est un problème de tuyaux ? demanda Salomé avec une ironie fatiguée.\n\n— Non, répondit Iris. Mais quelque chose passe par là.\n\nAbel expliqua qu'enfant il avait entendu une voix sortir de l'évier. Sa mère lui avait interdit de répondre. Il ne sut jamais si elle connaissait la légende ou si elle craignait seulement qu'on le prenne pour un fou.\n\nSalomé regarda la liste des trente-sept noms. Plusieurs appartenaient à des personnes dont elle avait connu les familles. Elle les avait pourtant oubliées jusqu'à ce qu'Iris lui montre les registres.\n\n— Je ne veux pas seulement les compter, dit-elle. Je veux retrouver qui ils étaient.\n\nIls décidèrent de chercher des photographies, des lettres et des objets conservés par leurs proches. Iris sentit alors que l'enquête changeait de nature. Elle ne travaillait plus seulement à expliquer une menace. Elle essayait de rendre aux absents la place qu'on leur avait retirée."
+    },
+    {
+      "chapter": 20,
+      "title": "Après la troisième voix",
+      "text": "Le matin qui suivit, Valcombe n'avait pas changé d'apparence. Le bus arrivait à la même heure, la boulangerie ouvrait ses volets et la pluie tombait avec la même lenteur. Iris aurait voulu que la ville porte une marque visible de ce qu'elle avait traversé.\n\nSalomé l'attendait sur la place avec un carton de photographies. Abel avait promis de retrouver les familles qui accepteraient de témoigner. Personne ne savait encore combien des trente-sept noms pourraient être rétablis.\n\n— Tu comptes repartir ? demanda Salomé.\n\nIris regarda la cassette dans sa poche. Elle ne contenait plus la même voix, ou peut-être avait-elle enfin cessé de l'entendre comme une promesse de retour.\n\n— Oui. Mais je reviendrai avec les copies et les enregistrements.\n\nElles parlèrent des habitants à prévenir, des archives à restaurer et des silences qu'il faudrait respecter. Ce n'était pas une victoire spectaculaire. Les disparus ne revenaient pas simplement parce qu'on les nommait.\n\nLorsque le car apparut, Iris se tourna une dernière fois vers les ouvertures vides du clocher. Elle savait désormais qu'une voix pouvait être un appel, un piège ou un souvenir. Sa tâche n'était pas d'y répondre toujours, mais d'apprendre à distinguer ce qu'elle devait transmettre de ce qu'elle devait laisser dormir."
+    }
+  ]
 }
