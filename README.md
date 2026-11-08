@@ -67,3 +67,23 @@ Nouveau lecteur : [`nouveaux-romans.html`](nouveaux-romans.html), accessible dep
 Ces histoires sont entièrement originales, avec personnages, lieux et intrigues propres. Le lecteur fournit un sommaire, la navigation, le réglage de la taille de police et la progression locale. Les chapitres sont **courts**, ce ne sont pas encore trois romans de plusieurs centaines de pages.
 
 Le commit GitHub a été effectué, mais la disponibilité de ces routes sur le domaine `.pages.dev` n'a pas encore été confirmée par un test HTTP externe.
+
+
+## Renforcement des huit romans antérieurs — novembre 2026
+
+24 **scènes inédites** (trois par roman) ont été ajoutées directement aux fichiers de saison `assets/seasons/*.json` et reliées au lecteur `saisons.html`, sans écraser les manuscrits initiaux.
+
+| Roman | Chapitres concernés | Objectif des nouvelles scènes |
+|---|---|---|
+| La Dernière Ligne | 9, 14, 20 | Mémoire de la guerre, responsabilité et reconstruction |
+| Les Jours Interdits | 9, 15, 20 | Intimité, communication, limites et réconciliation |
+| Jusqu'à Toi | 1, 10, 20 | Lien père-fille, entraide et incertitude de la recherche |
+| Le Dieu Oublié | 11, 16, 20 | Vie quotidienne, enquête sur les archives et dilemme familial |
+| La Promesse des Ombres | 2, 10, 20 | Soins, apprentissage et relation frère-sœur |
+| Les Heures Creuses | 1, 10, 20 | Deuil, voix enregistrées et mémoire des disparus |
+| Les Archives du Silence | 1, 10, 20 | Témoins, alibis et conséquences judiciaires |
+| Les Fantômes de Néon | 1, 10, 20 | Vie urbaine, consentement aux technologies et mémoire |
+
+Les chapitres web comportant l'une de ces scènes présentent celle-ci à la suite du récit, tandis que les chapitres hérités d'un PDF ou d'une page historique conservent un lien vers le texte d'origine et un bouton distinct « Scène inédite ». Le nombre canonique de chapitres reste de 20 par saison ; les 24 scènes sont des compléments, non 24 nouveaux chapitres.
+
+**Limite :** cette intervention développe plusieurs scènes par œuvre ; elle ne transforme pas encore tous les chapitres de 200–300 mots en chapitres longs. Le code et les données ont été vérifiés structurellement, pas le déploiement public dans le navigateur.
