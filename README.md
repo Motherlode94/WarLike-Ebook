@@ -3,7 +3,7 @@
 Bibliothèque numérique des histoires originales, romans et récits de HardieBay.
 
 ## Lire les saisons
-- **[Saisons & Épisodes](saisons.html)** — catalogue interactif : **7 œuvres, 7 saisons 1, 20 chapitres chacune, 140 chapitres indexés**.
+- **[Saisons & Épisodes](saisons.html)** — catalogue interactif : **8 œuvres, 8 saisons 1, 20 chapitres chacune, 160 chapitres indexés**.
 - Chaque saison comporte **5 épisodes de 4 chapitres**.
 - La progression est enregistrée localement sur l'appareil.
 - Les nouveaux chapitres sont lus directement dans la page des saisons ; les chapitres antérieurs conservent leurs textes d'origine, via les lecteurs HTML ou PDF.
@@ -17,6 +17,7 @@ Bibliothèque numérique des histoires originales, romans et récits de HardieBa
 | La Promesse des Ombres | Le chemin vers la guérisseuse | premier chapitre original (11 pages), puis 19 chapitres développés |
 | Les Heures Creuses | La Maison qui Respire | 20 chapitres originaux d’horreur surnaturelle écrits pour la version web |
 | Les Archives du Silence | L’Affaire du pont de Bellac | 20 chapitres policiers originaux écrits pour la version web |
+| Les Fantômes de Néon | La Ville qui se Souvient | 20 chapitres cyberpunk originaux écrits pour la version web |
 
 **À ne pas confondre :** les chapitres récemment ajoutés sont des épisodes narratifs courts. Le PDF initial de *La Promesse des Ombres* comporte toujours 11 pages et n'est pas un roman de 150 pages. Les compléments sont actuellement accessibles dans la version web de la saison.
 
@@ -27,6 +28,10 @@ Bibliothèque numérique des histoires originales, romans et récits de HardieBa
 ## Policier et mystère
 
 **Les Archives du Silence** : la commandante Éva Sorel enquête sur l’assassinat d’Adrien Valette dans l’hôtel des Archives. Les indices du badge C12, de l’horloge arrêtée et des documents falsifiés convergent vers un secret lié à l’effondrement du pont de Bellac. Saison 1 de 20 chapitres et 5 épisodes, [lisible ici](saisons.html?livre=archives). Récit court de 5 500 mots environ ; pas encore de PDF ni de portraits spécifiques.
+
+## Cyberpunk
+
+**Les Fantômes de Néon** : Naïa Voss découvre une sauvegarde de sa sœur Sera, déclarée morte, et enquête sur les souvenirs manipulés par Synapse Corporation dans Nacre-9. La saison 1 compte 20 chapitres en cinq épisodes, [lisibles ici](saisons.html?livre=neon). Ce texte d’environ 5 000 mots est un récit court, pas encore un roman long. Couverture disponible ; PDF et portraits spécifiques à réaliser.
 
 ## Portraits
 - [Galerie de 10 personnages](personnages.html)
