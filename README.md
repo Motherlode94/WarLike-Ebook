@@ -11,8 +11,8 @@ Catalogue responsive, recherche, filtres et lecteur de pages adapté au mobile. 
 - **Le Dieu Oublié — Tome I : La Cendre et le Réveil** — Dark fantasy, œuvre existante avec 10 chapitres (I à X) déjà écrits ; chapitres I à X réunis dans un PDF de 66 pages, disponibles à la lecture.
 
 ## Récits originaux lisibles en ligne
-- **La Dernière Ligne** — récit de guerre, 4 chapitres, histoire autonome terminée. [Lire](livres/la-derniere-ligne.html)
-- **Les Jours Interdits** — drame sentimental adulte, 4 chapitres, histoire autonome terminée. [Lire](livres/les-jours-interdits.html)
+- **La Dernière Ligne** — récit de guerre, 8 chapitres, histoire développée. [Lire](livres/la-derniere-ligne.html)
+- **Les Jours Interdits** — drame sentimental adulte, 8 chapitres, histoire développée. [Lire](livres/les-jours-interdits.html)
 
 Ces deux histoires sont des récits courts complets, et non des romans de 150 pages. Les autres œuvres conservent leur statut réel.
 
