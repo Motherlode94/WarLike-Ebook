@@ -197,5 +197,22 @@
       "status": "published"
     }
   ],
-  "extraNote": "Saison 1 complète au format web : 20 chapitres et 5 épisodes. L'enquête repose sur des indices présents dès les premiers chapitres. Aucun PDF n'est encore disponible."
+  "extraNote": "Saison 1 complète au format web : 20 chapitres et 5 épisodes. L'enquête repose sur des indices présents dès les premiers chapitres. Aucun PDF n'est encore disponible.",
+  "bonusScenes": [
+    {
+      "chapter": 1,
+      "title": "Ce que voit le premier témoin",
+      "text": "L'agent d'entretien attendait dans le couloir, les mains rougies par le détergent. Il avait découvert le corps d'Adrien Valette à vingt-deux heures dix. Depuis, tous ceux qui passaient lui demandaient de raconter la même scène, et son récit perdait un détail à chaque répétition.\n\nÉva Sorel lui offrit une chaise et lui demanda de reprendre depuis le moment où il avait ouvert le bâtiment, sans interrompre son histoire. Il expliqua avoir trouvé une enveloppe vide près de la main du juge. Il se souvenait aussi d'une odeur de cire chaude dans la salle, bien qu'aucune bougie ne s'y trouvât.\n\n— Pourquoi n'avez-vous pas parlé de l'odeur ? demanda Jonas.\n\nL'homme baissa les yeux.\n\n— Personne ne m'a posé la question.\n\nÉva nota le détail sans en faire une conclusion. Elle fit préciser la position de la porte et les objets que le témoin avait déplacés pour vérifier si Valette respirait. Ses mains tremblaient à présent moins fort.\n\nAvant de repartir, il demanda s'il risquait de perdre son poste pour avoir touché le corps. Éva lui répondit qu'aider un homme en danger ne le rendait pas suspect. Elle lui promit seulement que ses gestes seraient consignés exactement. À ses yeux, une enquête commençait par cette précision-là."
+    },
+    {
+      "chapter": 10,
+      "title": "L'alibi fragile",
+      "text": "Victor Lemaire attendait depuis deux heures. À travers la vitre de la salle d'audition, il observait la pluie frapper les voitures de service. Il avait demandé trois fois si son avocat arrivait.\n\nQuand Éva reprit l'entretien, elle ne lui montra pas immédiatement les contradictions de son emploi du temps. Elle lui demanda ce qu'il avait mangé le soir du meurtre, puis où il avait rangé son manteau. Les réponses étaient hésitantes, mais plausibles.\n\n— Vous cherchez à me faire confondre les heures, dit-il.\n\n— Je cherche à savoir quelles heures vous connaissez réellement.\n\nElle posa devant lui une impression des appels enregistrés par la mairie. Certains étaient trop courts pour correspondre à la conversation qu'il prétendait avoir tenue. Victor admit qu'il avait utilisé le téléphone de son assistante et demandé qu'elle confirme sa présence.\n\nJonas leva les yeux. Éva lui fit signe de ne pas intervenir.\n\n— Pourquoi ?\n\nVictor prit un moment pour répondre. Il avait rencontré quelqu'un qu'il ne voulait pas compromettre dans une affaire municipale. Il ne donnait pas encore le nom.\n\nÉva ne le pressa pas. Elle demanda à vérifier cette nouvelle version, sachant qu'un mensonge sur un alibi pouvait dissimuler une liaison, une peur ou un meurtre. La différence ne se décidait pas à l'intonation de la voix."
+    },
+    {
+      "chapter": 20,
+      "title": "L'archive rendue",
+      "text": "Éva revint seule dans la salle des Cartes après la fin de l'enquête. Les scellés avaient été retirés et les conservateurs préparaient une consultation exceptionnelle des documents sur le pont de Bellac. Sur la table, l'enveloppe vide reposait désormais dans une pochette d'archives.\n\nJonas entra avec deux cafés.\n\n— Tu crois qu'on a fait le tour ?\n\n— On a établi ce qu'on pouvait prouver, répondit-elle. Ce n'est pas tout ce qu'on voudrait savoir.\n\nIl regarda les rayonnages. Plusieurs familles attendaient encore des réponses sur les morts de la catastrophe. L'affaire Valette avait révélé des falsifications, mais n'avait pas rendu leurs proches aux survivants.\n\nÉva demanda que la commission publie les documents vérifiés avec les limites de chaque témoignage. Elle ne voulait pas remplacer une ancienne histoire officielle par une nouvelle légende aussi commode.\n\nDans le couloir, un jeune homme lisait le nom de sa grand-mère sur une liste restaurée. Il n'avait aucune idée de ce que cette ligne avait coûté à retrouver.\n\nÉva termina son café. La justice ne rendait pas le temps perdu, pensa-t-elle; elle pouvait au moins empêcher qu'on oblige les vivants à douter de ce qu'ils avaient traversé. Elle éteignit la lumière et laissa la salle ouverte au public."
+    }
+  ]
 }
