@@ -87,3 +87,9 @@ Le commit GitHub a été effectué, mais la disponibilité de ces routes sur le 
 Les chapitres web comportant l'une de ces scènes présentent celle-ci à la suite du récit, tandis que les chapitres hérités d'un PDF ou d'une page historique conservent un lien vers le texte d'origine et un bouton distinct « Scène inédite ». Le nombre canonique de chapitres reste de 20 par saison ; les 24 scènes sont des compléments, non 24 nouveaux chapitres.
 
 **Limite :** cette intervention développe plusieurs scènes par œuvre ; elle ne transforme pas encore tous les chapitres de 200–300 mots en chapitres longs. Le code et les données ont été vérifiés structurellement, pas le déploiement public dans le navigateur.
+
+## Les Veilleurs de Brume — édition enrichie (novembre 2026)
+
+Les **chapitres 1 à 12 sur 50** ont été réécrits à partir des résumés initiaux en scènes narratives développées (disparitions, preuves, témoins, dialogue, relations et progression de la confrérie). Les chapitres 13 à 50 restent courts et demandent encore une réécriture. Les noms canoniques, les indices principaux et la fin ont été conservés.
+
+Lire : [Les Veilleurs de Brume](nouveaux-romans.html?livre=brume).
