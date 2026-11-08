@@ -1,0 +1,221 @@
+{
+  "id": "toi",
+  "title": "Jusqu’à Toi",
+  "series": "Saison 1 — Les Terres Noyées",
+  "subtitle": "Survival · Drame familial",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "La rupture",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Les routes noyées",
+      "chapters": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Les refuges",
+      "chapters": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Le convoi",
+      "chapters": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "number": 5,
+      "title": "La piste de Lina",
+      "chapters": [
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Le Téléphone",
+      "type": "pdf",
+      "page": 5,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 2,
+      "title": "La Première Vague",
+      "type": "pdf",
+      "page": 10,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 3,
+      "title": "La Ville Sans Courant",
+      "type": "pdf",
+      "page": 15,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 4,
+      "title": "La Liste Des Absents",
+      "type": "pdf",
+      "page": 20,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 5,
+      "title": "Les Rails",
+      "type": "pdf",
+      "page": 25,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 6,
+      "title": "Ceux Du Conteneur",
+      "type": "pdf",
+      "page": 30,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 7,
+      "title": "Les Voix Sur La Radio",
+      "type": "pdf",
+      "page": 35,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 8,
+      "title": "Le Col Des Pins",
+      "type": "pdf",
+      "page": 40,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 9,
+      "title": "Le Feu De Garde",
+      "type": "pdf",
+      "page": 45,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 10,
+      "title": "La Station Des Cèdres",
+      "type": "pdf",
+      "page": 50,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 11,
+      "title": "La Montagne Fracturée",
+      "type": "pdf",
+      "page": 55,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 12,
+      "title": "Le Refuge Blanc",
+      "type": "pdf",
+      "page": 60,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 13,
+      "title": "Le Jour Des Choix",
+      "type": "pdf",
+      "page": 65,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 14,
+      "title": "Le Poste Sans Médecins",
+      "type": "pdf",
+      "page": 70,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 15,
+      "title": "La Ferme Des Ormes",
+      "type": "pdf",
+      "page": 75,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 16,
+      "title": "Le Convoi Brisé",
+      "type": "pdf",
+      "page": 80,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 17,
+      "title": "La Nuit De L’Orage",
+      "type": "pdf",
+      "page": 85,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 18,
+      "title": "L’Observatoire",
+      "type": "pdf",
+      "page": 90,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 19,
+      "title": "Les Cartes De L’Eau",
+      "type": "pdf",
+      "page": 95,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    },
+    {
+      "number": 20,
+      "title": "Saint-Aube",
+      "type": "pdf",
+      "page": 100,
+      "status": "published",
+      "source": "Manuscrit original (160 pages)"
+    }
+  ],
+  "extraNote": "Le roman original comprend 31 chapitres et 160 pages. La saison 1 présente ici les 20 premiers chapitres ; les chapitres 21 à 31 restent lisibles dans le roman intégral."
+}
