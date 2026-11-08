@@ -1,0 +1,187 @@
+{
+  "id": "neon",
+  "title": "Les Fantômes de Néon",
+  "series": "Saison 1 — La Ville qui se Souvient",
+  "subtitle": "Cyberpunk · Science-fiction · Thriller",
+  "episodes": [
+    {
+      "number": 1,
+      "title": "La carte interdite",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Les mémoires volées",
+      "chapters": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Sous le niveau zéro",
+      "chapters": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "number": 4,
+      "title": "La ville déconnectée",
+      "chapters": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Les fantômes retrouvent un nom",
+      "chapters": [
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "La pluie sur les circuits",
+      "type": "text",
+      "text": "À Nacre-9, il pleuvait même lorsque les nuages avaient disparu. Les tours récupéraient l'humidité de la baie et la rejetaient sous forme de bruine pour refroidir leurs batteries. Sous les affiches holographiques, les passants avançaient avec des visages éclairés de publicités.\n\nNaïa Voss, coursière indépendante, livrait une carte de mémoire à travers les marchés nocturnes du niveau inférieur. Le client n'avait laissé qu'une instruction : ne pas connecter la carte au réseau municipal. Une chose inhabituelle, puisque la plupart des appareils de Nacre-9 exigeaient une authentification permanente.\n\nUne patrouille de sécurité privée l'arrêta près de la station Delta. Ses drones cherchèrent le code du colis. Naïa n'avait rien déclaré sur son bracelet d'identité. Elle offrit un sourire, montra la licence d'une livraison précédente et profita du passage d'un train pour disparaître dans un escalier technique.\n\nDans un atelier abandonné, elle inspecta la carte sans la lire. Une étiquette portait un nom : « Sera Voss ». Celui de sa sœur, morte cinq ans auparavant dans un incendie d'usine.\n\nNaïa sentit son souffle se bloquer. Elle connaissait la signature numérique de Sera : un petit triangle tracé en marge de tous ses messages. Le même triangle figurait sur le boîtier.\n\nSon terminal vibra. Un message sans expéditeur s'afficha : « Ne livre pas ce que tu n'as pas encore compris. »\n\nAu-dessus de la ville, les écrans annoncèrent que Synapse Corporation lançait une nouvelle version de son service de mémoire sécurisée. Naïa rangea le colis dans sa veste. Cette nuit-là, elle choisit pour la première fois de ne pas terminer une mission.",
+      "status": "published"
+    },
+    {
+      "number": 2,
+      "title": "Le visage de Sera",
+      "type": "text",
+      "text": "Naïa se rendit chez Idris Kellan, un ancien auditeur du réseau Synapse. Il habitait sous une ligne de transport, dans un appartement dont les fenêtres étaient recouvertes de filtres opaques.\n\nIdris accepta d'examiner la carte à condition qu'elle reste hors ligne. Il utilisa un lecteur optique ancien, isolé du réseau. Au lieu d'une vidéo, l'appareil afficha une suite de fragments : une voix, un couloir blanc et le visage de Sera, filmé plusieurs mois après la date officielle de sa mort.\n\n— Ce fichier pourrait être fabriqué, dit Idris.\n\n— Je connais sa façon de marcher.\n\n— Ce n'est pas une preuve. C'est une raison de vérifier.\n\nLa vidéo montrait Sera devant une porte marquée « ARCHIVE CIVIQUE — NIVEAU ZÉRO ». Elle disait : « Si vous regardez ceci, les effacements ont commencé. »\n\nPuis l'image se coupa.\n\nIdris reconnut un ancien protocole de sauvegarde, développé pour les soins neurologiques. Des personnes pouvaient conserver volontairement leurs souvenirs dans des unités protégées. Synapse avait obtenu un contrat public pour cette technologie, mais les conditions d'utilisation avaient changé depuis.\n\n— Pourquoi ta sœur se serait-elle trouvée là ?\n\nNaïa raconta qu'elle avait travaillé comme technicienne dans une usine de capteurs. L'incendie avait détruit le bâtiment et les registres. On leur avait remis une urne sans possibilité d'identifier les restes.\n\nIdris observa le triangle dessiné sur la carte.\n\n— Si quelqu'un a simulé sa mort, il a pris beaucoup de risques pour que tu voies ceci aujourd'hui.\n\nNaïa lui demanda de l'aider. Il refusa d'abord. Puis une notification apparut sur son ancien terminal : son autorisation professionnelle, révoquée depuis trois ans, venait d'être réactivée.\n\nQuelqu'un attendait leur prochaine décision.",
+      "status": "published"
+    },
+    {
+      "number": 3,
+      "title": "Les habitants oubliés",
+      "type": "text",
+      "text": "Dans les rues de Nacre-9, une manifestation réclamait des explications sur des « blancs » de mémoire. Des employés ne se souvenaient plus d'une réunion ; des familles avaient perdu le souvenir de déménagements entiers. Les médecins parlaient de fatigue numérique. La ville distribuait des crédits de repos.\n\nNaïa et Idris rencontrèrent Alma Serrin, une bibliothécaire qui recueillait les témoignages sur papier. Elle refusait d'enregistrer les récits dans les terminaux civiques.\n\nAlma leur montra deux carnets. Dans le premier, un homme décrivait le visage de sa fille à une date précise. Dans le second, il affirmait ne jamais avoir eu d'enfant. Pourtant, les voisins confirmaient la présence de la petite fille dans l'immeuble.\n\n— Elle est où ? demanda Naïa.\n\n— Vivante, chez une tante. Son père a oublié son existence. Il a toujours ses photographies, mais ne reconnaît pas la personne dessus.\n\nIdris examina les dates. Les modifications correspondaient aux vagues de mise à jour des implants Synapse.\n\nIls ne pouvaient pas prouver que l'entreprise était responsable ; des contaminations logicielles, des erreurs de diagnostic et des falsifications étaient possibles. Alma leur confia les copies des témoignages, avec l'accord des familles.\n\nAu même moment, les écrans publics affichèrent un avis de sécurité : plusieurs coursiers non autorisés étaient recherchés pour manipulation de données privées. Naïa vit sa silhouette parmi les images floues.\n\nElle ferma sa capuche.\n\n— Ils n'ont même pas attendu que nous découvrions ce que contient la carte.\n\n— Alors ils savent qu'elle existe, répondit Idris.\n\nSur le mur de la bibliothèque, quelqu'un avait écrit à la peinture : « Si vous oubliez, nous nous souviendrons pour vous. »",
+      "status": "published"
+    },
+    {
+      "number": 4,
+      "title": "L'ascenseur du niveau zéro",
+      "type": "text",
+      "text": "La première piste conduisait à un ascenseur de service situé sous l'ancien tribunal. Le plan officiel s'arrêtait au niveau moins six. La vidéo de Sera mentionnait le niveau zéro, un étage qui ne figurait plus dans les cartes municipales.\n\nIdris trouva une autorisation d'accès temporaire liée à son identité professionnelle réactivée. Elle était valable vingt minutes. Il soupçonnait un piège, mais l'horodatage correspondait à une ancienne fenêtre de maintenance.\n\nIls préparèrent une copie de leurs découvertes pour Alma. Si l'accès tournait mal, elle pourrait prévenir des avocats et des journalistes indépendants.\n\nDans l'ascenseur, les publicités se succédèrent jusqu'au niveau moins six. Puis l'écran devint noir. Une voix synthétique demanda à Naïa de confirmer son consentement à la collecte de souvenirs.\n\n— Refusé, dit-elle.\n\nLa cabine s'immobilisa un instant. Idris ouvrit le panneau manuel et désactiva la connexion du lecteur. Ils descendirent encore, jusqu'à une porte sans poignée.\n\nDerrière la vitre, on distinguait des rangées de capsules et un technicien qui travaillait sur une console. Le badge qu'il portait indiquait « ÉQUIPE DE CONTINUITÉ ».\n\nLe technicien leva la tête. Il semblait les attendre.\n\n— Je ne peux pas vous laisser entrer, dit-il à travers l'interphone. Mais je peux vous dire où chercher la source.\n\nIl leur montra un numéro de dossier : 9-17-SV.\n\nAvant qu'ils puissent poser une question, les lumières virèrent au rouge et l'ascenseur remonta automatiquement.\n\nDe retour dans la rue, Naïa avait une seule certitude : la vidéo de Sera ne montrait pas un décor fabriqué. Ce niveau existait.",
+      "status": "published"
+    },
+    {
+      "number": 5,
+      "title": "La dette d'Idris",
+      "type": "text",
+      "text": "Idris cessa de répondre pendant deux jours. Naïa le retrouva dans un café sans publicité, rare endroit où les clients payaient encore en monnaie métallique.\n\nIl lui expliqua pourquoi Synapse l'avait licencié. Des années plus tôt, il avait signé un rapport certifiant que les sauvegardes mémorielles exigeaient un consentement explicite. Une annexe signalait pourtant que certaines versions d'implants pouvaient écraser des séquences à distance, sans authentification locale.\n\n— Tu l'as laissé passer ? demanda Naïa.\n\n— J'ai demandé un délai pour corriger le protocole. Ils ont retiré l'annexe et publié le rapport sans moi. Puis j'ai accepté une indemnité de départ au lieu de témoigner.\n\nIl n'essaya pas de transformer son silence en acte de prudence. Il avait eu peur de perdre son logement et les soins de son père.\n\nNaïa se leva pour partir. Elle pensait à Sera, à toutes les familles d'Alma, à ce qu'un seul document signé pouvait permettre.\n\nIdris ne la retint pas.\n\nLe soir, elle reçut un message contenant la copie originale de l'annexe, avec les commentaires et signatures de plusieurs ingénieurs. Idris avait conservé des preuves, mais ne les avait jamais confiées à une autorité indépendante.\n\nNaïa retourna le voir.\n\n— Je ne sais pas encore si je peux te faire confiance.\n\n— Alors n'essaie pas. Vérifie ce que je te donne.\n\nIls décidèrent de transmettre le document à Alma et à un collectif de juristes. Naïa comprit que le pire secret d'Idris n'était pas d'avoir ignoré le risque. C'était de l'avoir reconnu et d'avoir vécu ensuite comme s'il ne pouvait plus rien faire.",
+      "status": "published"
+    },
+    {
+      "number": 6,
+      "title": "Les fantômes au marché",
+      "type": "text",
+      "text": "Une panne frappa le marché de Givre. Pendant quarante secondes, les implants de paiement affichèrent des noms appartenant à des personnes disparues. Certains passants virent même des souvenirs qui ne leur appartenaient pas : une cuisine inconnue, une chanson d'enfance, un quai noyé de pluie.\n\nNaïa reconnut l'usine où travaillait Sera dans un fragment apparu sur un écran public. La scène montrait des ouvriers quittant le bâtiment la veille de l'incendie. Un véhicule sans immatriculation attendait derrière le portail.\n\nAlma recueillit les témoignages et refusa de conclure à une présence surnaturelle. Les fragments pouvaient être des copies de sauvegardes, distribuées accidentellement par un système défectueux.\n\nIdris identifia un motif dans les interruptions : un paquet de données émis depuis le niveau zéro avait été répliqué sur les bornes du marché.\n\nUne responsable de Synapse, Mirelle Ordan, annonça qu'il s'agissait d'un incident isolé et que les souvenirs des citoyens n'avaient jamais été exposés. Quelques heures plus tard, les vidéos publiées par les passants furent supprimées des plateformes dominantes.\n\nNaïa se procura une copie sur un vieux support amovible. Elle remarqua, au bord du cadre, un triangle dessiné au marqueur sur un mur d'usine.\n\nSera utilisait ce signe pour indiquer une porte sûre lorsqu'elles étaient enfants.\n\nNaïa suivit la piste jusqu'à un atelier fermé. Sur le métal, le triangle était encore visible sous plusieurs couches de peinture.\n\nPour la première fois, elle ne se demanda plus si sa sœur était vivante. Elle se demanda qui avait voulu lui faire croire qu'elle était morte.",
+      "status": "published"
+    },
+    {
+      "number": 7,
+      "title": "La chambre aux copies",
+      "type": "text",
+      "text": "L'atelier ouvrait sur une salle où s'empilaient des boîtiers d'implants obsolètes. Un homme attendait près d'une table. Il se présenta comme Tarek Noh, ancien technicien de maintenance. Il avait aidé Sera à copier des journaux de fonctionnement avant l'incendie.\n\n— Elle pensait que le programme allait devenir obligatoire, dit-il.\n\nTarek expliqua qu'une sauvegarde « de sécurité » pouvait être activée par défaut, puis exploitée pour prédire les décisions des habitants. Le système enregistrait des émotions, des réactions et des associations de souvenirs. Officiellement, il améliorait la prévention des crises.\n\n— Et les effacements ? demanda Idris.\n\n— Quand une prédiction était fausse, le système corrigeait parfois les données sources. Ils appelaient ça de la réduction de bruit.\n\nTarek n'avait pas de preuve que chaque disparition de mémoire provenait de cette fonction. Il possédait cependant des journaux techniques montrant des opérations de correction non sollicitées.\n\nNaïa demanda où se trouvait Sera. Le technicien détourna les yeux.\n\n— Elle a quitté l'usine avant l'incendie. Je l'ai conduite jusqu'au niveau zéro. Après, je n'ai plus reçu de nouvelles.\n\nIl posa sur la table un petit capteur détaché d'une capsule. Le numéro de série correspondait au dossier 9-17-SV.\n\nIdris proposa de le faire analyser indépendamment. Tarek accepta, à condition que son témoignage reste protégé.\n\nQuand ils ressortirent, deux drones surveillaient la rue. Naïa sentit que la ville se rétrécissait autour d'eux, mais aussi que l'histoire de Sera devenait enfin vérifiable.",
+      "status": "published"
+    },
+    {
+      "number": 8,
+      "title": "La ville prédit votre peur",
+      "type": "text",
+      "text": "Naïa reçut une notification personnalisée : son appartement serait inspecté le lendemain pour « prévention des risques d'automutilation ». Elle n'avait jamais demandé cette visite. Le message cita son rythme cardiaque et ses déplacements nocturnes comme facteurs d'alerte.\n\nAlma reconnut une méthode de pression déjà utilisée contre des plaignants. En présentant une enquête administrative comme un soin, la municipalité pouvait isoler les personnes gênantes sans mandat pénal.\n\nNaïa consulta une avocate du collectif. Celle-ci déposa immédiatement une contestation et demanda l'origine de la recommandation algorithmique. Le système répondit par un score, sans fournir les données qui l'avaient produit.\n\nIdris expliqua que Synapse proposait précisément ces scores aux administrations : ils étaient censés prévoir les incidents et optimiser l'usage des ressources. Les mêmes modèles pouvaient identifier ceux qui risquaient de dénoncer une anomalie.\n\n— Ils ont transformé nos souvenirs en probabilités, dit Naïa.\n\n— Et les probabilités en décisions sur nos vies, répondit Alma.\n\nÀ la bibliothèque, ils constituèrent un dossier où chaque personne consentante pouvait comparer son historique d'implant aux décisions administratives reçues. Les différences n'étaient pas encore une preuve de manipulation générale, mais elles montraient un motif.\n\nDans une ruelle, Naïa croisa un homme qui la reconnut sans qu'elle l'ait jamais rencontré.\n\n— Vous êtes la sœur de Sera, murmura-t-il. Elle m'a sauvé un souvenir.\n\nAvant qu'elle puisse répondre, il disparut dans la foule. Naïa ne le poursuivit pas ; elle avait appris que courir après une voix au hasard était la meilleure manière de perdre une preuve.",
+      "status": "published"
+    },
+    {
+      "number": 9,
+      "title": "Le témoin qui se souvient deux fois",
+      "type": "text",
+      "text": "L'homme se présenta finalement chez Alma. Il s'appelait Pavel Shin, infirmier dans une clinique du réseau Synapse. Il avait reçu deux versions du souvenir d'une intervention : dans l'une, un patient avait refusé un traitement ; dans l'autre, il avait signé son consentement.\n\nPavel avait conservé les feuilles originales parce que les systèmes numériques semblaient se contredire. Les signatures manuscrites ne correspondaient pas aux versions archivées.\n\n— Pourquoi venir maintenant ? demanda Naïa.\n\n— Parce qu'ils ont commencé à me demander pourquoi je garde du papier.\n\nIl raconta que Sera avait participé à une équipe de contrôle interne. Elle lui avait appris à comparer les journaux de sauvegarde et les formulaires physiques. Lorsque les écarts devenaient trop importants, elle refusait de valider la procédure.\n\nUn jour, elle avait disparu. L'incendie de l'usine était survenu peu après.\n\nIdris comprit que le dossier 9-17-SV pouvait désigner un programme de protection des témoins, ou au contraire un stockage forcé de leurs mémoires.\n\nNaïa demanda à Pavel s'il avait revu Sera.\n\n— J'ai entendu sa voix pendant une intervention, il y a six mois. Mais je n'ai pas vu son visage.\n\nCette réponse lui fit plus de peine que les rumeurs. Une voix pouvait être copiée, recomposée, utilisée sans la personne dont elle provenait. Elle commençait à le savoir mieux que quiconque.\n\nIls ajoutèrent le témoignage de Pavel au dossier et organisèrent une vérification médicale indépendante. Sera n'était plus seulement une sœur à retrouver. Elle était liée à un ensemble de violations qui dépassaient leur famille.",
+      "status": "published"
+    },
+    {
+      "number": 10,
+      "title": "Le tribunal des données",
+      "type": "text",
+      "text": "Le collectif déposa une requête devant le tribunal civique. L'avocate demanda la suspension des modifications mémorielles à distance jusqu'à l'examen des preuves. Synapse répondit que ses protocoles protégeaient la santé publique et que divulguer leur fonctionnement exposerait les habitants à des attaques informatiques.\n\nL'audience fut diffusée sur les écrans de Nacre-9. Pour la première fois, les spectateurs virent les formulaires de consentement contradictoires et les journaux d'opérations non sollicitées.\n\nMirelle Ordan témoigna au nom de l'entreprise. Elle reconnut des erreurs de synchronisation, mais nia que Synapse ait jamais voulu effacer l'identité d'un citoyen.\n\nNaïa l'écouta depuis le fond de la salle. Une partie d'elle voulait crier le nom de Sera. Elle s'obligea à rester silencieuse : une accusation non vérifiée pourrait fragiliser les témoignages de familles qui avaient accepté de s'exposer.\n\nLe juge ordonna la conservation immédiate des journaux de sauvegarde, mais refusa la suspension totale du service en attendant une expertise. Une décision partielle, insuffisante pour les victimes, mais qui empêchait désormais l'entreprise de détruire légalement ses traces.\n\nDans le couloir, un journaliste demanda à Naïa si Synapse était coupable.\n\n— Je sais ce que les documents montrent, répondit-elle. Pour le reste, nous continuons de chercher.\n\nIdris lui sourit. La ville avait l'habitude des slogans. Une réponse précise lui paraissait presque révolutionnaire.",
+      "status": "published"
+    },
+    {
+      "number": 11,
+      "title": "La voix dans le casque",
+      "type": "text",
+      "text": "La nuit de l'audience, le casque de Naïa se connecta à un canal qu'elle ne connaissait pas. Une voix féminine demanda : « Tu as retrouvé le triangle ? »\n\nNaïa reconnut immédiatement Sera. Elle n'eut pas besoin d'écouter une seconde fois pour sentir monter les larmes.\n\n— Prouve-moi que tu es toi, dit-elle.\n\nLa voix répondit par un souvenir d'enfance, un après-midi où elles avaient cassé une fenêtre puis menti à leur mère. Naïa savait pourtant que les implants pouvaient conserver ce type de souvenir. Elle demanda autre chose : une décision que Sera aurait prise après la date de sa disparition.\n\nUn silence suivit.\n\n— Je ne peux pas te montrer où je suis, dit la voix. Ils utilisent nos réactions pour me localiser.\n\nNaïa garda le canal ouvert sans parler. Idris, qui analysait la connexion depuis une pièce voisine, découvrit que le signal provenait de plusieurs relais à la fois. Il ne pouvait pas en établir la source physique.\n\nLa voix reprit : « Dossier neuf-dix-sept. Tu y trouveras ce qu'ils n'ont pas réussi à supprimer. »\n\nPuis le canal se ferma.\n\nNaïa resta longtemps assise. Elle ne savait pas si elle venait de parler à sa sœur ou à une copie capable de jouer son rôle. Elle savait seulement qu'une information nouvelle pouvait être vérifiée.\n\nLe lendemain, le collectif demanda légalement l'accès au dossier 9-17-SV, désormais placé sous obligation de conservation par le tribunal.",
+      "status": "published"
+    },
+    {
+      "number": 12,
+      "title": "La vérité d'une sauvegarde",
+      "type": "text",
+      "text": "L'expertise révéla que le dossier 9-17-SV contenait plusieurs sauvegardes de Sera, enregistrées après l'incendie. Les métadonnées indiquaient des sessions successives, certaines consenties, d'autres activées sans signature valide.\n\nIdris expliqua à Naïa la différence entre un souvenir enregistré et une conscience vivante. Une copie de données pouvait imiter des émotions, répondre à des questions et reconstituer une personnalité. Rien ne prouvait qu'elle était la personne elle-même.\n\nNaïa éprouva une colère froide contre Synapse. L'entreprise avait pu faire de Sera un produit, sans son autorisation.\n\nUne pièce du dossier changea toutefois leur lecture : un message signé par la vraie Sera, daté de plusieurs semaines après l'incendie, déclarait qu'elle était entrée volontairement au niveau zéro pour témoigner contre le programme. Elle avait demandé une protection extérieure.\n\nL'entreprise avait ensuite classé son identité comme inactive.\n\nAlma souligna que la signature devait être authentifiée. Un juge ordonna la comparaison avec plusieurs documents antérieurs. Les experts confirmèrent la correspondance, tout en précisant qu'une signature ne pouvait établir la situation actuelle de Sera.\n\nNaïa regarda une photographie de leur enfance. Elle n'avait pas récupéré sa sœur. Elle avait appris qu'elle n'avait pas été tuée dans l'incendie, et que quelqu'un avait ensuite effacé sa présence administrative.\n\nCette vérité partielle était déjà immense. Elle lui donnait une direction, pas une conclusion.",
+      "status": "published"
+    },
+    {
+      "number": 13,
+      "title": "Le vote des actionnaires",
+      "type": "text",
+      "text": "Synapse convoqua ses actionnaires pour approuver une mise à jour exceptionnelle. Mirelle Ordan proposa de supprimer la fonction de correction automatique, sans reconnaître son utilisation passée. L'annonce fit monter le cours de l'entreprise et fut présentée comme un geste de transparence.\n\nLe collectif refusa de célébrer trop vite. Une fonction retirée du produit public pouvait survivre dans les infrastructures internes.\n\nTarek expliqua que les serveurs du niveau zéro conservaient des modèles capables de reconstruire des profils mémoriels même après la suppression des copies visibles. Il existait donc deux systèmes : celui dont parlaient les publicités, et celui qui continuait d'analyser les données en coulisse.\n\nNaïa, Idris et Alma décidèrent de concentrer leur enquête sur cette séparation. Ils ne chercheraient pas à provoquer une panne générale, qui mettrait en danger les patients dépendant des implants médicaux. Ils demanderaient une saisie supervisée des serveurs.\n\nLa requête nécessitait un témoin technique interne. Pavel était prêt à parler, mais il avait peur pour ses patients. Tarek accepta finalement d'expliquer les circuits au tribunal, en protégeant les informations médicales privées.\n\nLa veille de l'audience, Naïa reçut une enveloppe physique contenant une photographie de Sera devant une porte métallique. Au dos, le triangle familier était dessiné.\n\nLa photographie ne portait aucune date. Le visage de Sera semblait avoir vieilli.\n\nNaïa la posa sur la table. Pour la première fois, une image ne suffisait plus à la convaincre. Elle voulait une rencontre libre, pas une reconstruction convaincante.",
+      "status": "published"
+    },
+    {
+      "number": 14,
+      "title": "La panne blanche",
+      "type": "text",
+      "text": "Au petit matin, une panne simultanée toucha plusieurs quartiers. Les portiques de transport restèrent ouverts, les écrans cessèrent de diffuser de la publicité et les implants médicaux basculèrent sur leurs fonctions locales. L'entreprise parla d'une maintenance imprévue.\n\nDans les rues, les habitants découvrirent qu'ils pouvaient encore se parler sans interface. Certains en rirent. D'autres paniquèrent à l'idée de ne plus pouvoir consulter leurs souvenirs synchronisés.\n\nIdris avait prévu ce risque. Avec l'aide de médecins bénévoles, le collectif diffusa des consignes simples pour les personnes dépendant des implants : vérifier les appareils médicaux, contacter les services d'urgence et ne pas accepter de mise à jour non identifiée.\n\nNaïa traversa la ville à vélo pour remettre des supports de secours aux cliniques. Elle croisa des enfants jouant sous des enseignes devenues noires. Nacre-9 lui parut soudain plus ancienne et plus humaine.\n\nÀ la fin de la journée, les écrans se rallumèrent. Une publicité annonça que Synapse avait « restauré la continuité ». Mais un message anonyme circulait déjà sur les réseaux indépendants : la panne avait été provoquée par une tentative d'effacement massif des journaux sous séquestre.\n\nLe tribunal ordonna une enquête. Naïa ne savait pas qui avait saboté le système. Elle savait que l'arrêt avait révélé une dépendance dangereuse : une seule entreprise contrôlait des fonctions essentielles à la vie quotidienne.\n\nLe soir, elle rejoignit Alma, Idris et Tarek. Ils décidèrent que la suite de leur combat ne concernerait plus seulement une sœur disparue. Elle concernerait le droit d'une ville à se souvenir sans permission.",
+      "status": "published"
+    },
+    {
+      "number": 15,
+      "title": "La porte sans identité",
+      "type": "text",
+      "text": "La saisie judiciaire du niveau zéro commença sous la surveillance de magistrats, de techniciens indépendants et de représentants des patients. Naïa fut autorisée à assister à l'identification du dossier Sera Voss, sans accéder aux souvenirs privés d'autres personnes.\n\nDerrière la porte, les rangées de capsules étaient moins impressionnantes que dans ses cauchemars. Certaines contenaient des supports de stockage. D'autres servaient à la réhabilitation de patients neurologiques. Une seule portait une étiquette papier : 9-17-SV.\n\nDans les fichiers saisis, les enquêteurs trouvèrent une instruction de suspension d'identité : désactiver les traces publiques de Sera pour « préserver l'intégrité du programme ». Le document était signé par un responsable aujourd'hui retraité, mais autorisé par Mirelle Ordan.\n\nNaïa lut la phrase plusieurs fois. Il ne s'agissait plus d'une simple erreur administrative. Une décision avait effacé une femme des registres tout en conservant ses données.\n\nUn médecin de l'équipe expliqua que Sera avait quitté les installations après sa dernière session. Un badge temporaire avait ouvert une sortie de service, sans qu'aucune caméra montre son visage.\n\n— Elle peut être partie de son plein gré, dit-il. Ou avoir été conduite dehors. Nous ne savons pas.\n\nNaïa accepta l'incertitude. Elle récupéra une copie certifiée des éléments la concernant et la remit à l'avocate. Le laboratoire conserverait les supports originaux.\n\nEn sortant, elle aperçut son reflet dans une porte vitrée. Elle n'y voyait plus une sœur poursuivant un fantôme. Elle y voyait quelqu'un capable de défendre la réalité de l'autre contre une machine qui prétendait mieux la connaître.",
+      "status": "published"
+    },
+    {
+      "number": 16,
+      "title": "La mémoire n'est pas une propriété",
+      "type": "text",
+      "text": "L'enquête publique força Synapse à révéler l'existence du système de correction à distance. Des ingénieurs témoignèrent que la fonction avait été créée pour réparer des défaillances, puis étendue à des usages de police prédictive et de gestion sociale.\n\nMirelle Ordan reconnut avoir autorisé la conservation des profils sans consentement explicite, mais affirma qu'elle cherchait à éviter une crise sanitaire. Les documents saisis montrèrent pourtant plusieurs avertissements internes ignorés, dont celui d'Idris.\n\nLe tribunal ordonna la suspension des corrections non consenties et la création d'une autorité indépendante de contrôle des sauvegardes. Des procédures pénales et civiles furent ouvertes ; les responsabilités individuelles restaient à déterminer.\n\nNaïa refusa de transformer ce jugement provisoire en victoire absolue. Les souvenirs déjà modifiés ne reviendraient pas tous. Certains habitants auraient besoin de soins et d'accompagnement. D'autres exigeraient le droit de détruire leurs copies.\n\nAlma organisa une assemblée à la bibliothèque. Les habitants y parlèrent de ce qu'ils souhaitaient conserver : un album photographique, une lettre, le récit d'un parent, une histoire honteuse qu'ils voulaient pourtant garder.\n\nIdris prit la parole à son tour. Il reconnut sa responsabilité passée et s'engagea à transmettre tout ce qu'il savait aux experts, sans demander d'être pardonné pour son silence.\n\nNaïa regarda les visages autour d'elle. Une ville n'était pas seulement un ensemble de données. C'était la possibilité de se souvenir différemment, de contester un récit et de garder le droit de changer.",
+      "status": "published"
+    },
+    {
+      "number": 17,
+      "title": "Le dernier message de Sera",
+      "type": "text",
+      "text": "Un soir, un message manuscrit fut déposé dans la boîte aux lettres de Naïa. Il contenait la même écriture que les anciens carnets de Sera, mais aucun nom d'expéditeur.\n\n« Je suis vivante. Je n'ai pas été libre de te le dire pendant des années. Le réseau gardait une copie de moi, et je ne savais pas combien de mes messages étaient réellement les miens. »\n\nLa lettre indiquait un café à l'extérieur de Nacre-9, dans une région sans connexion obligatoire. Elle précisait que Naïa devait pouvoir décider de venir ou non.\n\nIdris examina l'enveloppe. Le papier et l'encre étaient ordinaires. Rien ne prouvait encore son authenticité. Naïa avait appris à ne plus confondre un signe familier avec une identité.\n\nElle se rendit au café avec une amie qui l'attendit dehors. Une femme était assise près d'une fenêtre, les cheveux plus courts, une cicatrice au-dessus de la main gauche. Lorsque Naïa entra, elle leva les yeux.\n\nElles ne coururent pas l'une vers l'autre. Elles restèrent immobiles, comme si cinq années pouvaient se traverser en un regard.\n\n— Qu'est-ce que je t'ai dit la dernière fois que nous avons parlé seules ? demanda Naïa.\n\nSera hésita, puis répondit :\n\n— Tu voulais quitter la ville. Je t'ai dit de ne pas attendre que quelqu'un t'autorise à vivre.\n\nNaïa se souvint. Cette conversation n'avait jamais été enregistrée, mais elle savait aussi que leurs souvenirs pouvaient être incertains. Elle demanda d'autres détails, accepta les hésitations et laissa le temps faire son travail.\n\nLorsqu'elles se prirent enfin dans les bras, Naïa ne chercha pas à rendre le moment parfait. Elle pleura simplement pour les années perdues et pour celles qui restaient possibles.",
+      "status": "published"
+    },
+    {
+      "number": 18,
+      "title": "Les ombres dans la lumière",
+      "type": "text",
+      "text": "Sera raconta peu à peu ce qu'elle avait vécu. Elle avait tenté de dénoncer les corrections mémorielles depuis l'intérieur, puis été placée dans un programme qui contrôlait ses communications. Des alliés l'avaient aidée à sortir, mais elle s'était cachée après avoir découvert qu'une copie de sa voix circulait encore dans le réseau.\n\nElle ne demandait pas que tout soit oublié. Elle voulait témoigner officiellement, puis décider elle-même de l'exposition de son histoire.\n\nNaïa lui parla d'Alma, d'Idris, de Tarek et des familles qui avaient perdu des pans de mémoire. Sera demanda à rencontrer le collectif, mais refusa qu'on fasse d'elle un symbole unique.\n\nLes deux sœurs marchèrent longtemps au bord de la mer. Au loin, Nacre-9 brillait comme un circuit imprimé posé contre le ciel. Ses tours étaient toujours là, ses écrans aussi. La ville n'avait pas changé en une nuit.\n\nLes premières procédures avaient cependant rendu visibles des actes que Synapse croyait pouvoir cacher indéfiniment. Des patients récupéraient leurs dossiers. Des citoyens demandaient une copie de leurs données. Des institutions apprenaient à ne plus traiter une décision algorithmique comme une vérité sans appel.\n\nNaïa retourna à son travail de coursière, mais choisit désormais les contrats qui respectaient la vie privée de leurs destinataires. Elle livrait parfois des lettres sur papier, parfois des disques isolés, parfois simplement un livre prêté par Alma.\n\nUn soir de pluie artificielle, elle reçut un appel de Sera. La voix était un peu fatiguée, imparfaite, libre de raccrocher.\n\n— Tu rentres bientôt ? demanda sa sœur.\n\nNaïa regarda les voies lumineuses qui traversaient la ville.\n\n— Oui. J'arrive.\n\nAu-dessus d'elle, les publicités continuaient de promettre des vies sans erreurs. Naïa n'avait plus besoin qu'on lui offre cela. Elle voulait seulement une vie dont les souvenirs, même douloureux, lui appartiendraient.",
+      "status": "published"
+    }
+  ],
+  "extraNote": "Histoire cyberpunk de 20 chapitres, 5 épisodes, avec une conclusion à la recherche de Sera et au premier conflit contre Synapse. Texte web, pas encore de PDF."
+}
