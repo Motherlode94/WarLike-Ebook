@@ -216,5 +216,22 @@
       "status": "published",
       "source": "Continuation"
     }
+  ],
+  "bonusScenes": [
+    {
+      "chapter": 2,
+      "title": "La veille de Sayo",
+      "text": "La fillette s'était endormie sur une chaise, les doigts encore serrés autour de la manche de son frère. Sayo la souleva avec précaution et la coucha près du poêle, puis retourna examiner le blessé.\n\nLe poison avait ralenti, mais sa fièvre persistait. Sayo rinça une compresse, nota la couleur de la plaie et refit le bandage. Elle connaissait cette formule depuis de nombreuses années. Elle avait vu ses maîtres la conserver dans des boîtes scellées en prétendant qu'elle servirait uniquement contre les ennemis du clan.\n\nDans la chambre voisine, la petite sœur se redressa en sursaut.\n\n— Il est mort ?\n\n— Non, dit Sayo. Pas cette nuit.\n\nLa fillette s'approcha du lit, malgré ses jambes tremblantes. Elle voulut savoir si elle aurait pu courir plus vite, porter son frère autrement ou atteindre la maison avant la tombée de la nuit.\n\n— Tu as traversé la montagne épuisée et tu l'as amené jusqu'ici, répondit Sayo. Aucun enfant n'aurait dû avoir à le faire.\n\nElle tendit un bol de soupe à la fillette. Cette fois, celle-ci le prit. Derrière le rideau, son frère ouvrit brièvement les yeux et murmura son prénom. Sayo ne leur demanda pas de raconter l'attaque; ils auraient le temps, s'ils parvenaient à dormir."
+    },
+    {
+      "chapter": 10,
+      "title": "Une leçon sans arme",
+      "text": "Toma invita la petite sœur à déplacer trois pierres du sentier. Il l'obligea à commencer par la plus légère, puis à recommencer sans se presser.\n\n— Je peux porter les grosses, protesta-t-elle.\n\n— Je ne doute pas de ta force. Je doute de la façon dont tu la dépenses quand tu as peur.\n\nElle prit une pierre trop lourde. Ses mains glissèrent; elle la laissa tomber et se mordit la lèvre de colère. Toma lui demanda d'observer la pente. Un enfant qui voulait tout faire seul pouvait mettre en danger ceux qui marchaient derrière lui.\n\nIls reprirent l'exercice, une pierre après l'autre. Lorsqu'ils eurent terminé, le chemin était assez large pour une civière.\n\n— À quoi cela me servira-t-il contre ceux qui ont blessé mon frère ?\n\nToma regarda vers la maison de Sayo, dont la cheminée fumait dans le froid.\n\n— À faire passer quelqu'un de l'autre côté quand il en aura besoin.\n\nLa fillette resta silencieuse. Elle aurait voulu apprendre une technique secrète, une frappe décisive, quelque chose qui effacerait le souvenir de son impuissance. Elle avait reçu une leçon de patience. Ce soir-là, en changeant les linges de son frère, elle comprit qu'elle s'en servirait bien plus souvent qu'elle ne l'imaginait."
+    },
+    {
+      "chapter": 20,
+      "title": "La promesse au matin",
+      "text": "Le frère sortit de la maison avec l'aide d'une canne. Chaque pas lui arrachait une grimace qu'il tentait de cacher. Sa petite sœur marchait juste à côté, prête à le soutenir au moindre faux mouvement.\n\n— Arrête de me regarder comme si j'allais me casser, dit-il.\n\n— Alors arrête de faire semblant que tu n'as pas mal.\n\nIls s'arrêtèrent au bord de la clairière. La neige avait fondu autour des pierres, révélant un chemin qui descendait vers le monde. Sayo restait sur le seuil, les bras croisés. Elle ne les avait jamais considérés comme ses enfants; pourtant, ils savaient qu'ils lui devaient plus qu'une guérison.\n\nLe frère demanda si leur clan était encore un foyer pour eux. La fillette hésita. Elle avait grandi en pensant que les règles de son clan ne pouvaient jamais être fausses. Depuis l'attaque, elle avait rencontré des adultes bannis qui avaient fait preuve de plus d'honneur que ceux qui les commandaient.\n\n— On cherchera la vérité ensemble, dit-elle. Mais on ne se perdra pas pour ça.\n\nSon frère lui tendit la main. Elle la prit avec une fierté discrète. Devant eux, le sentier était long, et aucune promesse ne pouvait le rendre sûr. Ils avaient simplement décidé de ne plus le parcourir seuls."
+    }
   ]
 }
