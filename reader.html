@@ -10,7 +10,7 @@
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,sans-serif}a{color:inherit}header{position:sticky;top:0;z-index:2;background:#10141ef2;border-bottom:1px solid var(--line);padding:14px 20px}header .bar{max-width:1040px;margin:auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap}header a{color:var(--gold);text-decoration:none;font-weight:700}header h1{font-size:1rem;margin:0;flex:1;min-width:160px}.wrap{max-width:920px;margin:auto;padding:25px 16px 60px}.controls{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:0 0 18px}.controls button,.controls a,.controls input{font:inherit;border:1px solid #596679;border-radius:8px;padding:9px 12px;color:var(--text);background:var(--panel)}.controls button{cursor:pointer}.controls button:disabled{opacity:.45;cursor:not-allowed}.controls a{text-decoration:none}.controls input{width:74px;text-align:center}.controls label{color:var(--muted)}.page{background:var(--paper);color:var(--ink);border-radius:4px;box-shadow:0 12px 40px #0006;min-height:65vh;padding:clamp(24px,6vw,64px);font-family:Georgia,'Times New Roman',serif;font-size:var(--reading-size,18px);line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}.page:focus{outline:3px solid var(--gold);outline-offset:3px}.status{text-align:center;color:var(--muted);font-size:.9rem}.error{color:#ffd0c4}.note{color:var(--muted);text-align:center;font-size:.85rem}.controls button:focus-visible,.controls a:focus-visible,.controls input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}@media(max-width:550px){header h1{flex-basis:60%}.page{padding:25px 19px}.wrap{padding-inline:10px}.controls{gap:6px}.controls button,.controls a{padding:8px 10px}}
 </style></head>
 <body>
-<header><div class="bar"><a href="./index.html#bibliotheque">← Bibliothèque</a><h1 id="title">Lecteur WarLike Ebook</h1><a id="pdf" hidden target="_blank" rel="noopener">Ouvrir le PDF ↗</a></div></header>
+<header><div class="bar"><a href="./index.html#bibliotheque">← Bibliothèque</a><a href="./saisons.html" id="seasons-link" style="color:var(--gold);text-decoration:none">Saisons & épisodes</a><h1 id="title">Lecteur WarLike Ebook</h1><a id="pdf" hidden target="_blank" rel="noopener">Ouvrir le PDF ↗</a></div></header>
 <main class="wrap">
 <p class="status" id="status" role="status" aria-live="polite">Chargement du livre…</p>
 <div class="controls" aria-label="Navigation de lecture">
@@ -50,7 +50,7 @@ $('smaller').addEventListener('click',()=>resize(-2));$('larger').addEventListen
 document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.key==='ArrowRight'&&current<pages.length)move(current+1);if(e.key==='ArrowLeft'&&current>1)move(current-1)});
 async function init(){
  if(!book){$('status').textContent='Livre introuvable.';$('status').classList.add('error');$('content').textContent='Retourne à la bibliothèque pour choisir un livre.';return}
- document.title=book.title+' · WarLike Ebook';$('title').textContent=book.title;
+ document.title=book.title+' · WarLike Ebook';$('title').textContent=book.title;const seasonLink=$('seasons-link');seasonLink.href='./saisons.html?livre='+encodeURIComponent(bookId)+(new URLSearchParams(location.search).get('chapitre')?'&chapitre='+encodeURIComponent(new URLSearchParams(location.search).get('chapitre')):'');
  $('pdf').href='./assets/books/'+book.file+'.pdf';$('pdf').hidden=false;
  try{
   const response=await fetch('./assets/books/'+book.file+'.json');
@@ -59,7 +59,7 @@ async function init(){
   pages=data;$('total').textContent=' / '+pages.length;$('pageInput').max=String(pages.length);
   $('pageInput').disabled=false;$('go').disabled=false;
   size=Math.max(14,Math.min(30,Number(storageGet('warlike-ebook:font-size'))||18));resize(0);
-  show(storageGet('warlike-ebook:page:'+bookId)||1);
+  const requestedPage=new URLSearchParams(location.search).get('page');show(requestedPage||storageGet('warlike-ebook:page:'+bookId)||1);
  }catch(error){$('status').textContent='Impossible de charger les pages.';$('status').classList.add('error');$('content').textContent='Utilise « Ouvrir le PDF » ci-dessus, ou reviens à la bibliothèque pour réessayer.'}
 }
 init();
