@@ -61,7 +61,7 @@ export function mountReaderTools({mode,content}){
  const saveNote=make('button','Enregistrer la note');saveNote.type='button';saveNote.hidden=true;noteBox.hidden=true;
  const heading=make('p','Texte sélectionné :','warlike-note-label');heading.hidden=true;
  panel.append(title,buttons,heading,noteBox,saveNote,status,notes);
- const host=content.closest('.reader,.wrap,.chapter')||content.parentElement;host.insertBefore(panel,content);
+ content.parentElement.insertBefore(panel,content);
  let entries=loadEntries(),pendingQuote='',selectedContext=null;
  const context=()=>readContext(mode);
  function getQuote(){
