@@ -1,0 +1,99 @@
+// WarLike Ebook — local reading dashboard. This module never changes manuscript content.
+export const SEASONS=[
+ ['ligne','La Dernière Ligne','Guerre / Drame'],['jours','Les Jours Interdits','Romance adulte'],
+ ['toi','Jusqu’à Toi','Survival'],['dieu','Le Dieu Oublié','Dark Fantasy'],
+ ['ombres','La Promesse des Ombres','Ninja / Fantasy'],['heures','Les Heures Creuses','Horreur surnaturelle'],
+ ['archives','Les Archives du Silence','Policier / Mystère'],['neon','Les Fantômes de Néon','Cyberpunk']
+];
+export const NOVELS=[
+ ['brume','Les Veilleurs de Brume','Mystère surnaturel'],
+ ['valdorne','Les Héritiers de Valdorne','Thriller adolescent'],
+ ['arodan','Arodan — Le Sang des Libres','Épopée antique et révolte']
+];
+export const PDFS=[
+ ['ombres','La Promesse des Ombres · extrait'],
+ ['toi','Jusqu’à Toi · Les Terres Noyées'],
+ ['dieu','Le Dieu Oublié · chapitres I à X']
+];
+export const CATALOG=[
+ ...SEASONS.map(([id,title,genre])=>({kind:'season',id,title,genre,total:20,href:'./saisons.html?livre='+id})),
+ ...NOVELS.map(([id,title,genre])=>({kind:'novel',id,title,genre,total:50,href:'./nouveaux-romans.html?livre='+id})),
+ ...PDFS.map(([id,title])=>({kind:'pdf',id,title,genre:'Manuscrit / PDF',total:0,href:'./reader.html?livre='+id}))
+];
+const safeStorage={
+ get(key){try{return window.localStorage.getItem(key)}catch{return null}},
+ remove(key){try{window.localStorage.removeItem(key);return true}catch{return false}}
+};
+export function normalizeChapter(value,total){
+ const n=Number(value);return Number.isInteger(n)&&n>=1&&n<=total?n:null;
+}
+export function getProgress(item,get=safeStorage.get){
+ if(item.kind==='season'){
+  let raw=[];try{raw=JSON.parse(get('warlike:chapters:'+item.id)||'[]')}catch{}
+  if(!Array.isArray(raw))raw=[];
+  const chapters=[...new Set(raw.map(v=>normalizeChapter(v,item.total)).filter(Boolean))].sort((a,b)=>a-b);
+  return {started:chapters.length>0,seen:chapters.length,total:item.total,position:chapters.at(-1)||1,
+   next:chapters.length===item.total?item.total:Math.min(item.total,(chapters.at(-1)||0)+1),finished:chapters.length===item.total};
+ }
+ if(item.kind==='novel'){
+  const saved=Number(get('warlike-reading-'+item.id));
+  // Novels store a zero-based last chapter index. A missing key means no started reading.
+  const started=get('warlike-reading-'+item.id)!==null&&Number.isInteger(saved)&&saved>=0&&saved<item.total;
+  const position=started?saved+1:1;
+  return {started,seen:started?position:0,total:item.total,position,next:position,finished:false};
+ }
+ const current=Number(get('warlike-ebook:page:'+item.id));
+ const started=Number.isInteger(current)&&current>=1&&get('warlike-ebook:page:'+item.id)!==null;
+ return {started,seen:started?current:0,total:0,position:started?current:1,next:started?current:1,finished:false};
+}
+export function resumeUrl(item,progress){
+ const url=new URL(item.href,'https://warlike.local/');
+ if(item.kind==='pdf')url.searchParams.set('page',String(progress.position));
+ else url.searchParams.set('chapitre',String(progress.next));
+ return url.pathname.replace(/^\//,'./')+url.search;
+}
+function element(tag,content,cls){const e=document.createElement(tag);if(content!==undefined)e.textContent=String(content);if(cls)e.className=cls;return e}
+function makeCard(item,progress){
+ const article=element('article',undefined,'card');article.append(element('span',item.kind==='season'?'Saison de 20 chapitres':item.kind==='novel'?'Saga de 50 chapitres':'Pages de manuscrit','type'));
+ article.append(element('h3',item.title),element('p',item.genre));
+ const desc=progress.started?(item.kind==='pdf'?'Dernière page : '+progress.position:progress.seen+' / '+item.total+' chapitres consultés ou atteints'):'Pas encore commencé';
+ article.append(element('p',desc));
+ if(item.total){const track=element('div',undefined,'track');track.setAttribute('role','progressbar');track.setAttribute('aria-label','Progression de '+item.title);track.setAttribute('aria-valuemin','0');track.setAttribute('aria-valuemax',String(item.total));track.setAttribute('aria-valuenow',String(progress.seen));const fill=element('div');fill.style.width=Math.min(100,progress.seen/item.total*100)+'%';track.append(fill);article.append(track)}
+ const link=element('a',progress.started?'Reprendre la lecture':'Commencer la lecture','resume');link.href=resumeUrl(item,progress);article.append(link);
+ return article;
+}
+function notice(message){const target=document.getElementById('notice');target.hidden=false;target.textContent=message}
+function state(){return CATALOG.map(item=>({...item,progress:getProgress(item)}))}
+function render(){
+ const records=state(),started=records.filter(x=>x.progress.started);
+ document.getElementById('started').textContent=String(started.length);
+ document.getElementById('chapters').textContent=String(records.filter(x=>x.kind!=='pdf').reduce((count,x)=>count+x.progress.seen,0));
+ document.getElementById('finished').textContent=String(records.filter(x=>x.kind==='season'&&x.progress.finished).length);
+ const box=document.getElementById('inProgress');box.replaceChildren();
+ if(!started.length)box.append(element('p','Aucune lecture enregistrée sur cet appareil. Ouvre un livre pour commencer.','empty'));
+ for(const item of started)box.append(makeCard(item,item.progress));
+ const query=document.getElementById('search').value.trim().toLocaleLowerCase('fr'),kind=document.getElementById('kind').value;
+ const catalog=document.getElementById('catalog');catalog.replaceChildren();
+ let filtered=records.filter(x=>(kind==='all'||kind===x.kind)&&(x.title+' '+x.genre).toLocaleLowerCase('fr').includes(query));
+ if(!filtered.length)catalog.append(element('p','Aucun livre ne correspond à la recherche.','empty'));
+ else for(const item of filtered)catalog.append(makeCard(item,item.progress));
+}
+function exportProgress(){
+ const progress={schema:'warlike-ebook-progress-v1',exportedAt:new Date().toISOString(),progress:CATALOG.map(item=>({kind:item.kind,id:item.id,...getProgress(item)}))};
+ const blob=new Blob([JSON.stringify(progress,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob);
+ const a=document.createElement('a');a.href=url;a.download='warlike-ebook-progression.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),3000);
+ notice('Copie de la progression exportée. Aucun transfert vers un serveur.');
+}
+function clearProgress(){
+ if(!window.confirm('Effacer sur cet appareil toutes les progressions WarLike Ebook connues ? Cette action est irréversible sans sauvegarde.'))return;
+ const keys=[...SEASONS.map(b=>'warlike:chapters:'+b[0]),...NOVELS.map(b=>'warlike-reading-'+b[0]),...PDFS.map(b=>'warlike-ebook:page:'+b[0])];
+ let ok=true;for(const key of keys)if(!safeStorage.remove(key))ok=false;
+ notice(ok?'Les progressions enregistrées ont été effacées de ce navigateur.':'Certaines progressions n’ont pas pu être effacées (stockage bloqué).');render();
+}
+if(typeof document!=='undefined'){
+ document.getElementById('search')?.addEventListener('input',render);
+ document.getElementById('kind')?.addEventListener('change',render);
+ document.getElementById('export')?.addEventListener('click',exportProgress);
+ document.getElementById('clear')?.addEventListener('click',clearProgress);
+ if(document.getElementById('catalog'))render();
+}

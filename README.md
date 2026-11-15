@@ -93,3 +93,18 @@ Les chapitres web comportant l'une de ces scènes présentent celle-ci à la sui
 Les **chapitres 1 à 12 sur 50** ont été réécrits à partir des résumés initiaux en scènes narratives développées (disparitions, preuves, témoins, dialogue, relations et progression de la confrérie). Les chapitres 13 à 50 restent courts et demandent encore une réécriture. Les noms canoniques, les indices principaux et la fin ont été conservés.
 
 Lire : [Les Veilleurs de Brume](nouveaux-romans.html?livre=brume).
+
+
+## Tableau de bord de lecture — « Ma lecture »
+
+La page [Ma lecture](ma-lecture.html) centralise les progressions **locales** déjà enregistrées : les huit saisons (20 chapitres chacune), les trois sagas nouvelles (50 chapitres chacune) et les trois manuscrits convertis en pages texte.
+
+- Reprise au chapitre/page enregistré, recherche et filtres par collection.
+- Indicateurs du nombre d'œuvres commencées et de chapitres consultés ou atteints.
+- Export JSON de l'état de progression ; suppression volontaire et confirmée de la progression connue.
+- Aucune donnée personnelle envoyée vers un serveur. L'export JSON sert d'archive de consultation, pas d'import ou de synchronisation automatique.
+- Les saisons enregistrent les **chapitres ouverts**, pas les chapitres réellement terminés. Un pourcentage de progression n'est donc pas une preuve de lecture intégrale.
+- Pour les romans de 50 chapitres, le lecteur sauvegarde actuellement un **index de chapitre zéro-based**, converti en numéro affiché pour la reprise.
+- Pour les manuscrits PDF, les pages sont conservées avec la clé de lecture existante.
+
+Tests de contrats : `node --test tests/reading-dashboard.test.mjs`. Vérification automatique dans `.github/workflows/reading-dashboard.yml`.
