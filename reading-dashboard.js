@@ -1,3 +1,5 @@
+import {createBackup,restoreBackup} from './reading-backup.js';
+import {loadEntries,bookmarkUrl} from './reader-tools.js';
 // WarLike Ebook — local reading dashboard. This module never changes manuscript content.
 export const SEASONS=[
  ['ligne','La Dernière Ligne','Guerre / Drame'],['jours','Les Jours Interdits','Romance adulte'],
@@ -78,6 +80,23 @@ function render(){
  if(!filtered.length)catalog.append(element('p','Aucun livre ne correspond à la recherche.','empty'));
  else for(const item of filtered)catalog.append(makeCard(item,item.progress));
 }
+function renderMarks(){
+ const box=document.getElementById('readerMarks');if(!box)return;box.replaceChildren();
+ const marks=loadEntries().slice().reverse();
+ if(!marks.length){box.append(element('p','Aucun signet, surlignage ou annotation enregistré dans ce navigateur.','empty'));return}
+ for(const entry of marks){
+  const book=CATALOG.find(item=>item.kind===entry.kind&&item.id===entry.book);
+  if(!book)continue;
+  const card=element('article',undefined,'card');
+  card.append(element('span',entry.type==='bookmark'?'Signet':entry.type==='highlight'?'Surlignage':'Annotation','type'));
+  card.append(element('h3',book.title));
+  card.append(element('p',(entry.kind==='pdf'?'Page ':'Chapitre ')+entry.position));
+  if(entry.quote)card.append(element('p','« '+entry.quote.slice(0,180)+' »'));
+  if(entry.note)card.append(element('p',entry.note.slice(0,180)));
+  const link=element('a','Retourner au passage','resume');link.href=bookmarkUrl(entry);card.append(link);box.append(card);
+ }
+ if(!box.children.length)box.append(element('p','Aucune annotation reconnue dans ce navigateur.','empty'));
+}
 function exportProgress(){
  const progress={schema:'warlike-ebook-progress-v1',exportedAt:new Date().toISOString(),progress:CATALOG.map(item=>({kind:item.kind,id:item.id,...getProgress(item)}))};
  const blob=new Blob([JSON.stringify(progress,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob);
@@ -95,5 +114,25 @@ if(typeof document!=='undefined'){
  document.getElementById('kind')?.addEventListener('change',render);
  document.getElementById('export')?.addEventListener('click',exportProgress);
  document.getElementById('clear')?.addEventListener('click',clearProgress);
- if(document.getElementById('catalog'))render();
+ document.getElementById('exportBackup')?.addEventListener('click',()=>{
+  try{
+   const data=JSON.stringify(createBackup(),null,2);
+   const url=URL.createObjectURL(new Blob([data],{type:'application/json'}));
+   const a=document.createElement('a');a.href=url;a.download='warlike-ebook-sauvegarde-lecture.json';a.click();
+   setTimeout(()=>URL.revokeObjectURL(url),2000);
+   notice('Sauvegarde créée : progression et annotations, sans fichiers PDF ou EPUB importés.');
+  }catch(error){notice('Export impossible : '+error.message)}
+ });
+ document.getElementById('importBackup')?.addEventListener('change',async event=>{
+  const file=event.target.files?.[0];if(!file)return;
+  try{
+   if(file.size>650000)throw Error('Le fichier de sauvegarde dépasse 650 Ko.');
+   const document=JSON.parse(await file.text());
+   if(!window.confirm('Restaurer cette sauvegarde ? Les valeurs des mêmes livres seront remplacées sur cet appareil.'))return;
+   const total=restoreBackup(document);
+   notice(total+' entrées de progression ou d’annotations restaurées. Recharge un lecteur ouvert pour les voir.');
+   render();renderMarks();
+  }catch(error){notice('Restauration impossible : '+error.message)}finally{event.target.value=''}
+ });
+ if(document.getElementById('catalog')){render();renderMarks()}
 }

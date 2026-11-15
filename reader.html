@@ -11,7 +11,7 @@
 </style>
 <link rel="stylesheet" href="./design-system/warlike-foundation.css?v=1.1">
 <link rel="stylesheet" href="./design-system/warlike-shell.css?v=1.1">
-</head>
+<link rel="stylesheet" href="./reader-tools.css"></head>
 <body>
 <header><div class="bar"><a href="./index.html#bibliotheque">← Bibliothèque</a><a href="./saisons.html" id="seasons-link" style="color:var(--gold);text-decoration:none">Saisons & épisodes</a><h1 id="title">Lecteur WarLike Ebook</h1><a id="pdf" hidden target="_blank" rel="noopener">Ouvrir le PDF ↗</a></div><a href="./ma-lecture.html" style="display:inline-flex;align-items:center;gap:6px;border:1px solid currentColor;border-radius:9px;padding:8px 12px;font-weight:700;text-decoration:none">📖 Ma lecture</a></header>
 <main class="wrap">
@@ -42,6 +42,8 @@ function show(page){
  $('pageInput').value=String(current);$('prev').disabled=current===1;$('next').disabled=current===pages.length;
  $('status').textContent='Page '+current+' sur '+pages.length;
  storageSet('warlike-ebook:page:'+bookId,current);
+ const url=new URL(location.href);url.searchParams.set('page',String(current));history.replaceState(null,'',url);
+ document.dispatchEvent(new Event('warlike:reading-change'));
 }
 function move(page){show(page);$('content').focus({preventScroll:true});window.scrollTo({top:0,behavior:'smooth'})}
 function resize(delta){size=Math.max(14,Math.min(30,size+delta));document.documentElement.style.setProperty('--reading-size',size+'px');storageSet('warlike-ebook:font-size',size)}
@@ -66,4 +68,4 @@ async function init(){
  }catch(error){$('status').textContent='Impossible de charger les pages.';$('status').classList.add('error');$('content').textContent='Utilise « Ouvrir le PDF » ci-dessus, ou reviens à la bibliothèque pour réessayer.'}
 }
 init();
-</script></body></html>
+</script><script type="module">import {mountReaderTools} from './reader-tools.js';mountReaderTools({mode:'pdf',content:document.getElementById('content')});</script></body></html>
