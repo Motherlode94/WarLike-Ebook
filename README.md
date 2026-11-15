@@ -144,3 +144,19 @@ node --test tests/personal-library.test.mjs
 ```
 
 Validation browser indispensable : stockage IndexedDB, import/export, quota, PDF et EPUB réels, mobile, absence de requêtes réseau contenant les données de lecture.
+
+
+## V4 — transfert chiffré des données de lecture
+
+La page **Ma lecture** peut désormais exporter et restaurer les progressions et les annotations dans une enveloppe JSON chiffrée : `warlike-ebook-encrypted-backup-v1`.
+
+- Web Crypto avec **PBKDF2-HMAC-SHA-256 (310 000 itérations)**, sel aléatoire de 16 octets et **AES-256-GCM** (nonce aléatoire de 12 octets).
+- Phrase secrète de 12 caractères minimum, jamais incluse dans le fichier de sauvegarde ni enregistrée par l'interface.
+- Contrôle du schéma et de l'intégrité avant restauration ; une phrase secrète incorrecte échoue sans modification des progressions.
+- Les imports/exports existants non chiffrés restent accessibles pour compatibilité. Préférer l'export chiffré pour les transferts.
+- **Les PDF/EPUB importés restent dans IndexedDB et ne font pas partie du fichier chiffré**. Aucune synchronisation cloud n'est active.
+- Le chiffrement protège les fichiers de sauvegarde, mais **pas les données de progression en mémoire ni dans localStorage** une fois déchiffrées.
+
+Le [contrat de synchronisation future](docs/ebook-cloud-sync-contract.md) décrit les endpoints, la session Keys/Server, les protections CORS/CSRF et la résolution des conflits. Aucun endpoint n'est activé par ce changement.
+
+Tests : `node --test tests/encrypted-reading-backup.test.mjs`.
