@@ -1,4 +1,4 @@
-name: Ebook reading dashboard checks
+name: Ebook reading quality gates
 on:
   push:
   pull_request:
@@ -12,16 +12,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Check dashboard JavaScript
-        run: node --check reading-dashboard.js
+      - name: Verify JavaScript modules
+        run: |
+          node --check reading-dashboard.js
           node --check reader-tools.js
-      - name: Validate reading progress contracts
-        run: node --test tests/reading-dashboard.test.mjs tests/reader-tools.test.mjs
-      - name: Check UI resources
+          node --check personal-books.js
+          node --check personal-library.js
+          node --check reading-backup.js
+      - name: Test reading models and backups
+        run: node --test tests/reading-dashboard.test.mjs tests/reader-tools.test.mjs tests/personal-library.test.mjs
+      - name: Verify EPUB/PDF reader entry points
         run: |
           test -s ma-lecture.html
-          test -s reading-dashboard.css
-          test -s reading-dashboard.js
-          test -s reader-tools.js
-          test -s reader-tools.css
-          grep -q 'reading-dashboard.js' ma-lecture.html
+          test -s mes-livres.html
+          test -s personal-library.css
+          test -s personal-library.js
+          grep -q 'personal-library.js' mes-livres.html
+          grep -q 'importBackup' ma-lecture.html
