@@ -95,7 +95,9 @@ export function mountReaderTools({mode,content}){
    });card.append(remove);notes.append(card);
   }
   if(!matches.length)notes.append(make('p','Aucun signet ni note sur cette page.','warlike-tool-empty'));
-  // After a new chapter has been rendered, restore exact-quote highlights.
+  // Rebuild visual highlights without changing or persisting manuscript HTML.
+  for(const mark of [...content.querySelectorAll('mark.warlike-mark')])mark.replaceWith(document.createTextNode(mark.textContent));
+  content.normalize();
   for(const e of matches)if(e.type==='highlight')putHighlight(content,e.quote);
  }
  bookmark.addEventListener('click',()=>add('bookmark'));
