@@ -6,9 +6,9 @@ export const SEASONS=[
  ['archives','Les Archives du Silence','Policier / Mystère'],['neon','Les Fantômes de Néon','Cyberpunk']
 ];
 export const NOVELS=[
- ['brume','Les Veilleurs de Brume','Fantastique'],
- ['valdorne','Valdorne','Fantasy'],
- ['arodan','Arodan','Fiction']
+ ['brume','Les Veilleurs de Brume','Mystère surnaturel'],
+ ['valdorne','Les Héritiers de Valdorne','Thriller adolescent'],
+ ['arodan','Arodan — Le Sang des Libres','Épopée antique et révolte']
 ];
 export const PDFS=[
  ['ombres','La Promesse des Ombres · extrait'],
