@@ -19,13 +19,15 @@ jobs:
           node --check personal-books.js
           node --check personal-library.js
           node --check reading-backup.js
+          node --check encrypted-reading-backup.js
       - name: Test reading models and backups
-        run: node --test tests/reading-dashboard.test.mjs tests/reader-tools.test.mjs tests/personal-library.test.mjs
+        run: node --test tests/reading-dashboard.test.mjs tests/reader-tools.test.mjs tests/personal-library.test.mjs tests/encrypted-reading-backup.test.mjs
       - name: Verify EPUB/PDF reader entry points
         run: |
           test -s ma-lecture.html
           test -s mes-livres.html
           test -s personal-library.css
           test -s personal-library.js
+          test -s encrypted-reading-backup.js
           grep -q 'personal-library.js' mes-livres.html
           grep -q 'importBackup' ma-lecture.html
