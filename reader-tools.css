@@ -1,0 +1,15 @@
+/* WarLike Ebook reading notebook — local-only, typography-safe */
+.warlike-reading-tools{margin:18px 0 24px;padding:19px;border:1px solid #7c816d;border-radius:14px;background:#202b28;color:#f9f5e9;font:14px/1.55 'Manrope','Inter',system-ui,sans-serif;white-space:normal}
+.warlike-reading-tools h3{margin:0 0 12px;color:#f9ebc9;font:700 21px/1.2 'Playfair Display',Georgia,serif}
+.warlike-tool-actions{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:10px}
+.warlike-reading-tools button{font:700 12px 'Manrope','Inter',system-ui,sans-serif;border:1px solid #8b9a81;background:#37443b;color:#fff9e9;border-radius:8px;padding:9px 12px;cursor:pointer}
+.warlike-reading-tools button:hover{border-color:#e1bd7e}
+.warlike-reading-tools button:focus-visible,.warlike-reading-tools textarea:focus-visible{outline:3px solid #e1bd7e;outline-offset:2px}
+.warlike-reading-tools textarea{display:block;width:100%;max-width:100%;resize:vertical;background:#17231d;color:#fff;padding:11px;border-radius:8px;border:1px solid #8b9a81;margin:8px 0}
+.warlike-reading-tools textarea[hidden],.warlike-reading-tools button[hidden],.warlike-reading-tools p[hidden]{display:none}
+.warlike-tool-status,.warlike-tool-empty{color:#e4ddca;font-size:12px}
+.warlike-tool-entry{background:#29392f;border:1px solid #586a58;padding:12px;border-radius:9px;margin:10px 0}
+.warlike-tool-entry strong{color:#e1d0ac}.warlike-tool-entry blockquote{font:italic 14px/1.5 Georgia,serif;margin:9px 0;padding:7px 11px;border-left:3px solid #d5be72;overflow-wrap:anywhere}
+.warlike-tool-entry p{margin:9px 0;color:#e5e7dc}
+.warlike-mark{color:#201f15!important;background:#f0d57d!important;border-radius:3px;padding:1px 0}
+@media(max-width:580px){.warlike-reading-tools{padding:12px}.warlike-reading-tools button{flex:1 1 auto}}
