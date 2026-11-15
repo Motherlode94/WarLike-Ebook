@@ -1,3 +1,4 @@
+import {createBackup,restoreBackup} from './reading-backup.js';
 import {loadEntries,bookmarkUrl} from './reader-tools.js';
 // WarLike Ebook — local reading dashboard. This module never changes manuscript content.
 export const SEASONS=[
@@ -113,5 +114,25 @@ if(typeof document!=='undefined'){
  document.getElementById('kind')?.addEventListener('change',render);
  document.getElementById('export')?.addEventListener('click',exportProgress);
  document.getElementById('clear')?.addEventListener('click',clearProgress);
+ document.getElementById('exportBackup')?.addEventListener('click',()=>{
+  try{
+   const data=JSON.stringify(createBackup(),null,2);
+   const url=URL.createObjectURL(new Blob([data],{type:'application/json'}));
+   const a=document.createElement('a');a.href=url;a.download='warlike-ebook-sauvegarde-lecture.json';a.click();
+   setTimeout(()=>URL.revokeObjectURL(url),2000);
+   notice('Sauvegarde créée : progression et annotations, sans fichiers PDF ou EPUB importés.');
+  }catch(error){notice('Export impossible : '+error.message)}
+ });
+ document.getElementById('importBackup')?.addEventListener('change',async event=>{
+  const file=event.target.files?.[0];if(!file)return;
+  try{
+   if(file.size>650000)throw Error('Le fichier de sauvegarde dépasse 650 Ko.');
+   const document=JSON.parse(await file.text());
+   if(!window.confirm('Restaurer cette sauvegarde ? Les valeurs des mêmes livres seront remplacées sur cet appareil.'))return;
+   const total=restoreBackup(document);
+   notice(total+' entrées de progression ou d’annotations restaurées. Recharge un lecteur ouvert pour les voir.');
+   render();renderMarks();
+  }catch(error){notice('Restauration impossible : '+error.message)}finally{event.target.value=''}
+ });
  if(document.getElementById('catalog')){render();renderMarks()}
 }
