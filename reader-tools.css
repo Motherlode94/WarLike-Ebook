@@ -13,3 +13,9 @@
 .warlike-tool-entry p{margin:9px 0;color:#e5e7dc}
 .warlike-mark{color:#201f15!important;background:#f0d57d!important;border-radius:3px;padding:1px 0}
 @media(max-width:580px){.warlike-reading-tools{padding:12px}.warlike-reading-tools button{flex:1 1 auto}}
+
+/* Night mode changes the reading sheet only; manuscript text stays untouched. */
+body.warlike-reader-night :is(.page,#readText,#chapterText){background:#141b22!important;color:#eee6d6!important}
+body.warlike-reader-night .chapter{background:#101720!important;border-color:#627084}
+body.warlike-reader-night .warlike-mark{background:#cda55a!important;color:#201913!important}
+body.warlike-reader-night .warlike-reading-tools{background:#121c1c}
