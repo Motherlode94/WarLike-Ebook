@@ -108,3 +108,16 @@ La page [Ma lecture](ma-lecture.html) centralise les progressions **locales** d�
 - Pour les manuscrits PDF, les pages sont conservées avec la clé de lecture existante.
 
 Tests de contrats : `node --test tests/reading-dashboard.test.mjs`. Vérification automatique dans `.github/workflows/reading-dashboard.yml`.
+
+
+## Carnet de lecture : signets, annotations et mode nuit
+
+Dans les lecteurs `reader.html`, `saisons.html` et `nouveaux-romans.html`, le carnet de lecture permet :
+- d'enregistrer un signet sur la page ou le chapitre actif ;
+- de surligner un passage sélectionné (500 caractères maximum) et de conserver une annotation personnelle (1500 caractères maximum) ;
+- de retrouver le carnet sur une page spécifique et d'accéder aux entrées depuis **Ma lecture** ;
+- d'activer un mode nuit partagé, sans réécrire les manuscrits.
+
+Les entrées sont enregistrées uniquement dans `localStorage` (clé `warlike:reader-tools:v1`). Aucun compte ni synchronisation. Le surlignage s'appuie sur une correspondance exacte dans un nœud de texte : les sélections couvrant plusieurs paragraphes ne sont pas garanties et les textes révisés peuvent faire perdre l'ancrage. Les annotations ne modifient pas les sources littéraires.
+
+Tests : `node --test tests/reader-tools.test.mjs` et workflow `reading-dashboard.yml`. Contrôle manuel recommandé sur mobile et navigateur réel (sélection de texte, stockage désactivé, mode nuit, passages longs).
