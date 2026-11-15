@@ -14,11 +14,14 @@ jobs:
           node-version: '22'
       - name: Check dashboard JavaScript
         run: node --check reading-dashboard.js
+          node --check reader-tools.js
       - name: Validate reading progress contracts
-        run: node --test tests/reading-dashboard.test.mjs
+        run: node --test tests/reading-dashboard.test.mjs tests/reader-tools.test.mjs
       - name: Check UI resources
         run: |
           test -s ma-lecture.html
           test -s reading-dashboard.css
           test -s reading-dashboard.js
+          test -s reader-tools.js
+          test -s reader-tools.css
           grep -q 'reading-dashboard.js' ma-lecture.html
