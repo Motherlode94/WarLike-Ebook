@@ -1,10 +1,9 @@
-import {SEASONS,NOVELS,PDFS} from './reading-dashboard.js';
 import {STORE_KEY,cleanEntry} from './reader-tools.js';
 export const BACKUP_SCHEMA='warlike-ebook-reading-backup-v2';
 export const PROGRESS_KEYS=[
- ...SEASONS.map(([id])=>'warlike:chapters:'+id),
- ...NOVELS.map(([id])=>'warlike-reading-'+id),
- ...PDFS.map(([id])=>'warlike-ebook:page:'+id),
+ ...['ligne','jours','toi','dieu','ombres','heures','archives','neon'].map(id=>'warlike:chapters:'+id),
+ ...['brume','valdorne','arodan'].map(id=>'warlike-reading-'+id),
+ ...['ombres','toi','dieu'].map(id=>'warlike-ebook:page:'+id),
  'warlike-ebook:font-size','warlike-reading-font','warlike-reading-theme','warlike:reader-tools:night',
  STORE_KEY
 ];
