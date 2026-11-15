@@ -1,0 +1,40 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {encryptReadingBackup,decryptReadingBackup,restoreEncryptedBackup,validateEnvelope,ENCRYPTED_SCHEMA} from '../encrypted-reading-backup.js';
+const store=()=>{const map=new Map();return {getItem:k=>map.get(k)??null,setItem:(k,v)=>map.set(k,String(v)),removeItem:k=>map.delete(k)}};
+test('AES-GCM encrypted backup round trip retains reader notes and progress',async()=>{
+ const source=store();
+ source.setItem('warlike-reading-brume','12');
+ source.setItem('warlike:chapters:heures','[1,2,4]');
+ source.setItem('warlike:reader-tools:v1','[{"kind":"season","book":"heures","position":4,"type":"bookmark"}]');
+ const pass='Longue phrase secrète pour mes livres';
+ const encoded=await encryptReadingBackup(pass,source);
+ assert.equal(encoded.schema,ENCRYPTED_SCHEMA);
+ const serialized=JSON.stringify(encoded);
+ assert.ok(!serialized.includes('warlike-reading-brume'),'backup must not expose plaintext reading keys');
+ assert.ok(!serialized.includes('Longue phrase'),'backup must not expose the password');
+ const target=store();
+ const result=await restoreEncryptedBackup(encoded,pass,target);
+ assert.equal(result,3);
+ assert.equal(target.getItem('warlike-reading-brume'),'12');
+ assert.equal(target.getItem('warlike:chapters:heures'),'[1,2,4]');
+ const decoded=await decryptReadingBackup(encoded,pass);
+ assert.equal(decoded.data['warlike-reading-brume'],'12');
+});
+test('wrong password, altered ciphertext and malformed envelope are rejected',async()=>{
+ const value=await encryptReadingBackup('une phrase de douze caractères ou plus',store());
+ await assert.rejects(()=>decryptReadingBackup(value,'mauvaise phrase beaucoup plus longue'),/incorrecte|endommagée/);
+ assert.throws(()=>validateEnvelope({...value,kdf:{...value.kdf,iterations:100}}),/reconnus/);
+ assert.throws(()=>validateEnvelope({...value,ciphertext:'not-base64'}),/invalides/);
+ const edited={...value,ciphertext:value.ciphertext.replace(/^./,value.ciphertext[0]==='A'?'B':'A')};
+ await assert.rejects(()=>decryptReadingBackup(edited,'une phrase de douze caractères ou plus'),/incorrecte|endommagée/);
+});
+test('password minimum is enforced and UI never stores it in localStorage',async()=>{
+ await assert.rejects(()=>encryptReadingBackup('short',store()),/12 caractères/);
+ const {readFileSync}=await import('node:fs');
+ const html=readFileSync(new URL('../ma-lecture.html',import.meta.url),'utf8');
+ const app=readFileSync(new URL('../reading-dashboard.js',import.meta.url),'utf8');
+ for(const id of ['backupPassword','exportEncrypted','importEncrypted','secureStatus'])assert.ok(html.includes('id="'+id+'"'));
+ assert.ok(app.includes("backupPassword.value=''"));
+ assert.ok(!app.includes("localStorage.setItem('backupPassword'"));
+});
