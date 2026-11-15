@@ -121,3 +121,26 @@ Dans les lecteurs `reader.html`, `saisons.html` et `nouveaux-romans.html`, le ca
 Les entrées sont enregistrées uniquement dans `localStorage` (clé `warlike:reader-tools:v1`). Aucun compte ni synchronisation. Le surlignage s'appuie sur une correspondance exacte dans un nœud de texte : les sélections couvrant plusieurs paragraphes ne sont pas garanties et les textes révisés peuvent faire perdre l'ancrage. Les annotations ne modifient pas les sources littéraires.
 
 Tests : `node --test tests/reader-tools.test.mjs` et workflow `reading-dashboard.yml`. Contrôle manuel recommandé sur mobile et navigateur réel (sélection de texte, stockage désactivé, mode nuit, passages longs).
+
+
+## V3 — bibliothèque personnelle EPUB/PDF et sauvegardes
+
+- [Mes livres importés](mes-livres.html) : import local de PDF ou EPUB jusqu'à **30 Mio par fichier** (validation de l'extension, de la taille et de la signature de fichier).
+- Les originaux sont conservés dans **IndexedDB** sur l'appareil. Ils ne sont pas téléversés vers WarLike Server.
+- Les PDF s'ouvrent dans le lecteur intégré au navigateur, avec navigation par numéro de page demandé. Une navigation directement dans le lecteur PDF intégré peut ne pas être détectée par le site.
+- Les EPUB sont rendus par **epub.js 0.3.93** et **JSZip 3.10.1** (CDN versionnés) ; les scripts intégrés dans les EPUB ne sont pas autorisés par l'application. Le moteur EPUB nécessite un accès à ces bibliothèques au chargement.
+- La position EPUB (CFI) est sauvegardée localement quand elle est disponible. Les fonctions de lecture PDF/EPUB doivent encore être testées en navigateur, sur mobile et avec des fichiers réels.
+- [Ma lecture](ma-lecture.html) permet d'**exporter et restaurer** les progressions des manuscrits, des saisons, des romans et les signets/annotations via un JSON `warlike-ebook-reading-backup-v2`. Le transfert entre deux appareils est manuel.
+- **Important :** les livres PDF/EPUB importés et leurs positions locales ne sont pas inclus dans cette sauvegarde JSON ; le lecteur ne chiffre pas IndexedDB. Ce n'est pas une bibliothèque liée à un compte ni un système de synchronisation cloud.
+- Ne déposer que des fichiers autorisés et conserver une copie des originaux. Les livres EPUB non fiables peuvent contenir du contenu dangereux ; ne pas activer les scripts embarqués, et vérifier les règles CSP avant un déploiement public.
+
+### Tests V3
+
+```sh
+node --check personal-books.js
+node --check personal-library.js
+node --check reading-backup.js
+node --test tests/personal-library.test.mjs
+```
+
+Validation browser indispensable : stockage IndexedDB, import/export, quota, PDF et EPUB réels, mobile, absence de requêtes réseau contenant les données de lecture.
