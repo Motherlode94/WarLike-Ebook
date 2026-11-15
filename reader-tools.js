@@ -55,7 +55,8 @@ export function mountReaderTools({mode,content}){
  const title=make('h3','Mon carnet de lecture');
  const buttons=make('div',undefined,'warlike-tool-actions');
  const bookmark=make('button','☆ Signet'),highlight=make('button','Surligner la sélection'),addNote=make('button','Annoter la sélection');
- for(const b of [bookmark,highlight,addNote]){b.type='button';buttons.append(b)}
+ const theme=make('button','☾ Mode nuit');theme.type='button';theme.setAttribute('aria-pressed','false');
+ for(const b of [bookmark,highlight,addNote,theme]){b.type='button';buttons.append(b)}
  const notes=make('div',undefined,'warlike-tool-list'),status=make('p','Sélectionne un passage dans le texte pour le surligner ou l’annoter.','warlike-tool-status');status.setAttribute('role','status');
  const noteBox=make('textarea',undefined,'warlike-note-input');noteBox.placeholder='Ta note personnelle (1500 caractères maximum)';noteBox.maxLength=1500;noteBox.rows=3;
  const saveNote=make('button','Enregistrer la note');saveNote.type='button';saveNote.hidden=true;noteBox.hidden=true;
@@ -101,6 +102,10 @@ export function mountReaderTools({mode,content}){
  highlight.addEventListener('click',()=>{const quote=getQuote();if(!quote){status.textContent='Sélectionne un passage du texte (500 caractères maximum).';return}add('highlight',quote)});
  addNote.addEventListener('click',()=>{pendingQuote=getQuote();if(!pendingQuote){status.textContent='Sélectionne un passage du texte avant de l’annoter.';return}heading.hidden=false;heading.textContent='Passage : '+pendingQuote.slice(0,120);noteBox.hidden=false;saveNote.hidden=false;noteBox.focus()});
  saveNote.addEventListener('click',()=>{const text=noteBox.value.trim();if(!text){status.textContent='Renseigne une note.';return}add('note',pendingQuote,text);pendingQuote='';noteBox.value='';noteBox.hidden=true;saveNote.hidden=true;heading.hidden=true});
+ const NIGHT_KEY='warlike:reader-tools:night';
+ function applyTheme(dark){document.body.classList.toggle('warlike-reader-night',dark);theme.textContent=dark?'☀ Mode clair':'☾ Mode nuit';theme.setAttribute('aria-pressed',String(dark))}
+ let dark=false;try{dark=localStorage.getItem(NIGHT_KEY)==='true'}catch{}applyTheme(dark);
+ theme.addEventListener('click',()=>{dark=!dark;applyTheme(dark);try{localStorage.setItem(NIGHT_KEY,String(dark))}catch{status.textContent='Mode appliqué, mais préférence non enregistrée.'}});
  document.addEventListener('warlike:reading-change',()=>{pendingQuote='';noteBox.hidden=true;saveNote.hidden=true;heading.hidden=true;render()});
  render();
 }
