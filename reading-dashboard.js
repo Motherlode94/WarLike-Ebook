@@ -1,3 +1,4 @@
+import {encryptReadingBackup,restoreEncryptedBackup} from './encrypted-reading-backup.js';
 import {createBackup,restoreBackup} from './reading-backup.js';
 import {loadEntries,bookmarkUrl} from './reader-tools.js';
 // WarLike Ebook — local reading dashboard. This module never changes manuscript content.
@@ -114,6 +115,35 @@ if(typeof document!=='undefined'){
  document.getElementById('kind')?.addEventListener('change',render);
  document.getElementById('export')?.addEventListener('click',exportProgress);
  document.getElementById('clear')?.addEventListener('click',clearProgress);
+ const secureStatus=document.getElementById('secureStatus');
+ const backupPassword=document.getElementById('backupPassword');
+ const exportEncrypted=document.getElementById('exportEncrypted');
+ exportEncrypted?.addEventListener('click',async()=>{
+  if(exportEncrypted.disabled)return;exportEncrypted.disabled=true;
+  try{
+   const password=backupPassword.value;
+   const envelope=await encryptReadingBackup(password);
+   const blob=new Blob([JSON.stringify(envelope,null,2)],{type:'application/json'});
+   const url=URL.createObjectURL(blob);
+   const link=document.createElement('a');link.href=url;link.download='warlike-ebook-sauvegarde-chiffree.json';link.click();
+   setTimeout(()=>URL.revokeObjectURL(url),3000);
+   secureStatus.textContent='Sauvegarde chiffrée créée. Conserve ta phrase secrète en lieu sûr.';
+  }catch(error){secureStatus.textContent='Export chiffré impossible : '+error.message}
+  finally{backupPassword.value='';exportEncrypted.disabled=false}
+ });
+ document.getElementById('importEncrypted')?.addEventListener('change',async event=>{
+  const file=event.target.files?.[0];if(!file)return;
+  try{
+   if(file.size>1500000)throw Error('Fichier supérieur à 1,5 Mo.');
+   const password=backupPassword.value;
+   const document=JSON.parse(await file.text());
+   if(!window.confirm('Remplacer les progressions et notes présentes par celles de cette sauvegarde chiffrée ?'))return;
+   const restored=await restoreEncryptedBackup(document,password);
+   secureStatus.textContent=restored+' données restaurées. Les fichiers PDF et EPUB doivent être importés séparément.';
+   render();renderMarks();
+  }catch(error){secureStatus.textContent='Restauration chiffrée impossible : '+error.message}
+  finally{backupPassword.value='';event.target.value=''}
+ });
  document.getElementById('exportBackup')?.addEventListener('click',()=>{
   try{
    const data=JSON.stringify(createBackup(),null,2);
