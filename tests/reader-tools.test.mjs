@@ -32,6 +32,7 @@ test('stored notes reject malformed storage and large entries are bounded',()=>{
  assert.equal(note.quote.length,500);
  assert.equal(note.note.length,1500);
 });
+test('reading dashboard links saved marks',()=>{const html=readFileSync(new URL('../ma-lecture.html',import.meta.url),'utf8');const js=readFileSync(new URL('../reading-dashboard.js',import.meta.url),'utf8');assert.ok(html.includes('id="readerMarks"'));assert.match(js,/renderMarks/);assert.match(js,/bookmarkUrl/)});
 test('three source readers include notebook and change announcements',()=>{
  for(const file of ['reader.html','saisons.html','nouveaux-romans.html']){
   const html=readFileSync(new URL('../'+file,import.meta.url),'utf8');
