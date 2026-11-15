@@ -11,7 +11,7 @@
 </style>
 <link rel="stylesheet" href="./design-system/warlike-foundation.css?v=1.1">
 <link rel="stylesheet" href="./design-system/warlike-shell.css?v=1.1">
-<link rel="stylesheet" href="./reader-tools.css"></head>
+<link rel="stylesheet" href="./reader-tools.css"><link rel="stylesheet" href="./character-portraits.css"></head>
 <body>
 <header><div class="bar"><a href="./index.html#bibliotheque">← Bibliothèque</a><a href="./saisons.html" id="seasons-link" style="color:var(--gold);text-decoration:none">Saisons & épisodes</a><h1 id="title">Lecteur WarLike Ebook</h1><a id="pdf" hidden target="_blank" rel="noopener">Ouvrir le PDF ↗</a></div><a href="./ma-lecture.html" style="display:inline-flex;align-items:center;gap:6px;border:1px solid currentColor;border-radius:9px;padding:8px 12px;font-weight:700;text-decoration:none">📖 Ma lecture</a></header>
 <main class="wrap">
@@ -22,9 +22,11 @@
 <button id="go" type="button" disabled>Aller</button><button id="next" type="button" disabled>Suivante →</button>
 <button id="smaller" type="button" aria-label="Réduire la taille du texte">A−</button><button id="larger" type="button" aria-label="Agrandir la taille du texte">A+</button>
 </div>
+<div id="book-characters" class="page" style="min-height:0;margin-bottom:16px;padding:18px 24px" aria-label="Portraits des personnages" hidden></div>
 <article class="page" id="content" tabindex="-1">Chargement du livre…</article>
 <p class="note">Lecture adaptée au téléphone et à l’ordinateur. La dernière page lue est enregistrée sur cet appareil. Le PDF conserve la mise en page originale.</p>
 </main>
+<script src="./character-portraits.js"></script>
 <script>
 'use strict';
 const catalog={
@@ -55,7 +57,7 @@ $('smaller').addEventListener('click',()=>resize(-2));$('larger').addEventListen
 document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.key==='ArrowRight'&&current<pages.length)move(current+1);if(e.key==='ArrowLeft'&&current>1)move(current-1)});
 async function init(){
  if(!book){$('status').textContent='Livre introuvable.';$('status').classList.add('error');$('content').textContent='Retourne à la bibliothèque pour choisir un livre.';return}
- document.title=book.title+' · WarLike Ebook';$('title').textContent=book.title;const seasonLink=$('seasons-link');seasonLink.href='./saisons.html?livre='+encodeURIComponent(bookId)+(new URLSearchParams(location.search).get('chapitre')?'&chapitre='+encodeURIComponent(new URLSearchParams(location.search).get('chapitre')):'');
+ const faces=$('book-characters');faces.hidden=false;window.WarLikeCharacterPortraits?.render(bookId,faces);document.title=book.title+' · WarLike Ebook';$('title').textContent=book.title;const seasonLink=$('seasons-link');seasonLink.href='./saisons.html?livre='+encodeURIComponent(bookId)+(new URLSearchParams(location.search).get('chapitre')?'&chapitre='+encodeURIComponent(new URLSearchParams(location.search).get('chapitre')):'');
  $('pdf').href='./assets/books/'+book.file+'.pdf';$('pdf').hidden=false;
  try{
   const response=await fetch('./assets/books/'+book.file+'.json');
