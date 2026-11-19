@@ -2,7 +2,7 @@ import {STORE_KEY,cleanEntry} from './reader-tools.js';
 export const BACKUP_SCHEMA='warlike-ebook-reading-backup-v2';
 export const PROGRESS_KEYS=[
  ...['ligne','jours','toi','dieu','ombres','heures','archives','neon'].map(id=>'warlike:chapters:'+id),
- ...['brume','valdorne','arodan'].map(id=>'warlike-reading-'+id),
+ ...['brume','valdorne','arodan','seven'].map(id=>'warlike-reading-'+id),
  ...['ombres','toi','dieu'].map(id=>'warlike-ebook:page:'+id),
  'warlike-ebook:font-size','warlike-reading-font','warlike-reading-theme','warlike:reader-tools:night',
  STORE_KEY
@@ -21,7 +21,7 @@ export function validateBackup(document){
    result[key]=JSON.stringify(safe);
   }else if(key.startsWith('warlike:chapters:')){
    let chapters;try{chapters=JSON.parse(value)}catch{throw Error('Progression de saison invalide')};
-   if(!Array.isArray(chapters)||chapters.length>20||chapters.some(v=>!Number.isInteger(v)||v<1||v>20))throw Error('Chapitres de saison invalides');
+   if(!Array.isArray(chapters)||chapters.length>50||chapters.some(v=>!Number.isInteger(v)||v<1||v>50))throw Error('Chapitres de saison invalides');
    result[key]=JSON.stringify([...new Set(chapters)]);
   }else if(key.startsWith('warlike-reading-')&&key!=='warlike-reading-font'&&key!=='warlike-reading-theme'){
    const n=Number(value);if(!Number.isInteger(n)||n<0||n>49)throw Error('Index de chapitre invalide');result[key]=String(n);

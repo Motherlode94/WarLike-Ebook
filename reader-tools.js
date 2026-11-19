@@ -1,3 +1,4 @@
+import {mountReadAloud} from './read-aloud.js';
 // WarLike Ebook: local, source-preserving reader marks.
 export const STORE_KEY='warlike:reader-tools:v1';
 const LIMIT=300;
@@ -23,7 +24,7 @@ export function saveEntries(entries,storage=globalThis.localStorage){
 export function makeKey(item){return [item.kind,item.book,item.position].join(':')}
 export function entryMatches(entry,context){return entry.kind===context.kind&&entry.book===context.book&&entry.position===context.position}
 export function bookmarkUrl(entry){
- const page=entry.kind==='pdf'?'reader.html':entry.kind==='season'?'saisons.html':'nouveaux-romans.html';
+ const page=entry.book==='seven'?'seven-livre.html':entry.kind==='pdf'?'reader.html':entry.kind==='season'?'saisons.html':'nouveaux-romans.html';
  const query=new URLSearchParams({livre:entry.book,[entry.kind==='pdf'?'page':'chapitre']:String(entry.position)});
  return './'+page+'?'+query.toString();
 }
@@ -51,6 +52,7 @@ function putHighlight(container,quote){
 }
 export function mountReaderTools({mode,content}){
  if(!content)return;
+ mountReadAloud({content,getText:()=>{const paragraphs=[...content.querySelectorAll('p')];return paragraphs.length?paragraphs.map(p=>p.textContent).join('\n\n'):content.textContent}});
  const panel=make('aside',undefined,'warlike-reading-tools');panel.setAttribute('aria-label','Signets et annotations');
  const title=make('h3','Mon carnet de lecture');
  const buttons=make('div',undefined,'warlike-tool-actions');

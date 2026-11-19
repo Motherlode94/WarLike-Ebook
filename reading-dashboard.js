@@ -9,6 +9,7 @@ export const SEASONS=[
  ['archives','Les Archives du Silence','Policier / Mystère'],['neon','Les Fantômes de Néon','Cyberpunk']
 ];
 export const NOVELS=[
+ ['seven','WarLike SEVEN — Les voix derrière la lumière','Science-fiction / Musique'],
  ['brume','Les Veilleurs de Brume','Mystère surnaturel'],
  ['valdorne','Les Héritiers de Valdorne','Thriller adolescent'],
  ['arodan','Arodan — Le Sang des Libres','Épopée antique et révolte']
@@ -19,8 +20,8 @@ export const PDFS=[
  ['dieu','Le Dieu Oublié · chapitres I à X']
 ];
 export const CATALOG=[
- ...SEASONS.map(([id,title,genre])=>({kind:'season',id,title,genre,total:20,href:'./saisons.html?livre='+id})),
- ...NOVELS.map(([id,title,genre])=>({kind:'novel',id,title,genre,total:50,href:'./nouveaux-romans.html?livre='+id})),
+ ...SEASONS.map(([id,title,genre])=>({kind:'season',id,title,genre,total:50,href:'./saisons.html?livre='+id})),
+ ...NOVELS.map(([id,title,genre])=>({kind:'novel',id,title,genre,total:50,href:id==='seven'?'./seven-livre.html':'./nouveaux-romans.html?livre='+id})),
  ...PDFS.map(([id,title])=>({kind:'pdf',id,title,genre:'Manuscrit / PDF',total:0,href:'./reader.html?livre='+id}))
 ];
 const safeStorage={
@@ -57,7 +58,7 @@ export function resumeUrl(item,progress){
 }
 function element(tag,content,cls){const e=document.createElement(tag);if(content!==undefined)e.textContent=String(content);if(cls)e.className=cls;return e}
 function makeCard(item,progress){
- const article=element('article',undefined,'card');article.append(element('span',item.kind==='season'?'Saison de 20 chapitres':item.kind==='novel'?'Saga de 50 chapitres':'Pages de manuscrit','type'));
+ const article=element('article',undefined,'card');article.append(element('span',item.kind==='season'?'Saison de 50 chapitres':item.kind==='novel'?'Saga de 50 chapitres':'Pages de manuscrit','type'));
  article.append(element('h3',item.title),element('p',item.genre));
  const desc=progress.started?(item.kind==='pdf'?'Dernière page : '+progress.position:progress.seen+' / '+item.total+' chapitres consultés ou atteints'):'Pas encore commencé';
  article.append(element('p',desc));

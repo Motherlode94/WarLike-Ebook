@@ -11,47 +11,107 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     },
     {
       "number": 2,
       "title": "Les mémoires volées",
       "chapters": [
-        5,
         6,
         7,
-        8
+        8,
+        9,
+        10
       ]
     },
     {
       "number": 3,
-      "title": "Sous le niveau zéro",
+      "title": "La ville déconnectée",
       "chapters": [
-        9,
-        10,
         11,
-        12
+        12,
+        13,
+        14,
+        15
       ]
     },
     {
       "number": 4,
-      "title": "La ville déconnectée",
+      "title": "Les sœurs retrouvées",
       "chapters": [
-        13,
-        14,
-        15,
-        16
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Les fantômes retrouvent un nom",
-      "chapters": [
+        16,
         17,
         18,
         19,
         20
+      ]
+    },
+    {
+      "number": 5,
+      "title": "La présence louée",
+      "chapters": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Le Liseron",
+      "chapters": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Les portes du port",
+      "chapters": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Les profils arrêtés",
+      "chapters": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Les jours rendus",
+      "chapters": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Une voix libre",
+      "chapters": [
+        46,
+        47,
+        48,
+        49,
+        50
       ]
     }
   ],
@@ -195,9 +255,249 @@
       "type": "text",
       "text": "Sera raconta peu à peu ce qu'elle avait vécu. Elle avait tenté de dénoncer les corrections mémorielles depuis l'intérieur, puis été placée dans un programme qui contrôlait ses communications. Des alliés l'avaient aidée à sortir, mais elle s'était cachée après avoir découvert qu'une copie de sa voix circulait encore dans le réseau.\n\nElle ne demandait pas que tout soit oublié. Elle voulait témoigner officiellement, puis décider elle-même de l'exposition de son histoire.\n\nNaïa lui parla d'Alma, d'Idris, de Tarek et des familles qui avaient perdu des pans de mémoire. Sera demanda à rencontrer le collectif, mais refusa qu'on fasse d'elle un symbole unique.\n\nLes deux sœurs marchèrent longtemps au bord de la mer. Au loin, Nacre-9 brillait comme un circuit imprimé posé contre le ciel. Ses tours étaient toujours là, ses écrans aussi. La ville n'avait pas changé en une nuit.\n\nLes premières procédures avaient cependant rendu visibles des actes que Synapse croyait pouvoir cacher indéfiniment. Des patients récupéraient leurs dossiers. Des citoyens demandaient une copie de leurs données. Des institutions apprenaient à ne plus traiter une décision algorithmique comme une vérité sans appel.\n\nNaïa retourna à son travail de coursière, mais choisit désormais les contrats qui respectaient la vie privée de leurs destinataires. Elle livrait parfois des lettres sur papier, parfois des disques isolés, parfois simplement un livre prêté par Alma.\n\nUn soir de pluie artificielle, elle reçut un appel de Sera. La voix était un peu fatiguée, imparfaite, libre de raccrocher.\n\n— Tu rentres bientôt ? demanda sa sœur.\n\nNaïa regarda les voies lumineuses qui traversaient la ville.\n\n— Oui. J'arrive.\n\nAu-dessus d'elle, les publicités continuaient de promettre des vies sans erreurs. Naïa n'avait plus besoin qu'on lui offre cela. Elle voulait seulement une vie dont les souvenirs, même douloureux, lui appartiendraient.",
       "status": "published"
+    },
+    {
+      "number": 21,
+      "title": "La livraison déjà reçue",
+      "type": "text",
+      "text": "Naïa livra une enveloppe dans la tour des Marées. Le destinataire la regarda comme on regarde une erreur d’affichage : elle était déjà venue une heure plus tôt. Il lui montra la confirmation avec son visage, sa voix et une signature parfaitement tracée.\n\nElle avait passé cette heure chez Alma. Aucun souvenir ne lui manquait.\n\nDans l’ascenseur, elle coupa les publicités de sa visière. La ville continua de lui renvoyer son propre portrait sur les écrans du contrat.\n\nIdris examina le reçu. Les données avaient été validées par une filiale de Synapse désormais placée sous contrôle. Un ancien service fonctionnait encore, mais il ne corrigeait plus seulement les souvenirs. Il fabriquait des présences.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 22,
+      "title": "Le second salaire",
+      "type": "text",
+      "text": "Le compte professionnel de Naïa affichait un paiement qu’elle n’avait jamais demandé. La livraison était liée à un paquet différent, remis au même étage. Elle signala l’anomalie avant de déplacer la somme.\n\nTarek connaissait deux coursiers confrontés au même problème. Leurs doubles avaient accepté des trajets impossibles pendant qu’ils dormaient. Les clients réclamaient désormais des remboursements.\n\nIls se retrouvèrent au marché de Givre, sous une bâche qui arrêtait mal la pluie artificielle. Une livreuse montra ses mains couvertes de cicatrices : la validation de son double ne portait aucune de ces marques.\n\nNaïa photographia les reçus avec leur accord. Si quelqu’un louait leur identité, il comptait sur la fatigue et la honte pour qu’ils règlent seuls la facture.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 23,
+      "title": "La voix qui vend le retour",
+      "type": "text",
+      "text": "Sera entendit sa voix dans une publicité pour un service de mémoire réparée. Elle promettait aux familles de « retrouver ce qui leur appartenait ». La phrase avait été assemblée avec des extraits d’avant sa fuite.\n\nNaïa voulut faire couper l’écran. Sera lui demanda d’attendre la fin pour conserver la référence de diffusion.\n\nElles rentrèrent sans parler. Dans la cuisine, Sera rejoua sa propre phrase sur un appareil isolé. Elle n’en reconnaissait pas le ton. La voix semblait appartenir à une femme qui n’avait jamais hésité avant de répondre.\n\n« Je veux témoigner », dit-elle. « Mais je ne veux pas passer le reste de ma vie à démentir quelqu’un qui ne se fatigue jamais. »",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 24,
+      "title": "La boutique sans visages",
+      "type": "text",
+      "text": "Alma connaissait un réparateur qui refusait les écrans de reconnaissance. Dans sa boutique, les miroirs étaient ordinaires et les prix écrits au feutre.\n\nL’homme, Enoch, examina les reçus des coursiers. Ils portaient une couche de validation issue d’un ancien marché de simulations. Des identités avaient servi à tester des livraisons; les profils circulaient maintenant dans des services réels.\n\n« On a déplacé la barrière », dit-il. « Les essais ont commencé à signer à votre place. »\n\nIl ne proposa aucun effacement miracle. Il pouvait aider à distinguer les événements produits par les personnes de ceux générés par les profils.\n\nNaïa lui demanda combien cela coûtait. Enoch désigna la fuite au plafond. Il avait surtout besoin qu’on l’aide à déplacer ses livres avant la prochaine pluie.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 25,
+      "title": "La carte pliée",
+      "type": "text",
+      "text": "Le premier destinataire remit enfin l’enveloppe supplémentaire reçue par erreur. À l’intérieur se trouvait une carte du port, imprimée sur un papier dont les plis formaient un trajet.\n\nAucune donnée personnelle n’y figurait. Au dos, une phrase indiquait : « Ne cherchez pas votre double dans la ville qui vous regarde. »\n\nIdris n’aima pas le message. Quelqu’un savait qu’ils enquêtaient et voulait choisir leur direction.\n\nIls comparèrent néanmoins la carte aux anciennes installations portuaires. Un terminal flottant avait été retiré des plans publics après sa vente à une société de services mémoriels.\n\nSera reconnut le nom du terminal : le Liseron. Elle l’avait entendu avant sa fuite, dans une conversation qu’elle avait cru oublier. Cette fois, elle nota aussi ce dont elle n’était pas certaine.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 26,
+      "title": "Le contrat de Tarek",
+      "type": "text",
+      "text": "Tarek reçut une livraison très bien payée vers le port. Le trajet traversait une zone où les contrôles avaient été renforcés. Le client demandait qu’il laisse son interface de validation active pendant toute l’approche.\n\nIl montra le contrat à Naïa. L’offre utilisait le même modèle que les reçus des doubles.\n\nIls n’acceptèrent pas la mission. Tarek demanda des précisions par le canal normal et conserva la réponse, qui disparut quelques minutes plus tard du compte client. Idris avait déjà enregistré la référence utile.\n\nEn sortant du marché, Naïa aperçut son propre visage sur un écran de borne. « Livraison en cours », annonçait-il.\n\nSon double venait d’accepter à leur place le trajet qu’ils avaient refusé. Une sirène commença à hurler près du port.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 27,
+      "title": "Le barrage des drones",
+      "type": "text",
+      "text": "Les drones de sécurité arrêtèrent Tarek avant la passerelle. Leur système le plaçait dans un véhicule recherché, à plusieurs rues de là. Il obéit aux consignes pendant que Naïa appelait l’avocate du collectif.\n\nUn mouvement de foule fit tomber une barrière. Tarek reçut un choc à la jambe. Les drones reculèrent sans corriger leur accusation.\n\nNaïa resta près de lui jusqu’à l’arrivée des secours. Elle aurait voulu courir vers le terminal, poursuivre l’indice avant qu’il disparaisse. Le regard de Tarek la retint plus sûrement qu’un ordre.\n\nLe soir, le collectif disposait d’images montrant l’incohérence des localisations. Il possédait aussi un blessé réel, que personne ne remettrait debout en supprimant simplement un événement erroné de l’historique.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 28,
+      "title": "Le nom de Myr",
+      "type": "text",
+      "text": "L’avocate obtint la suspension temporaire des validations litigieuses concernant les coursiers identifiés. Les faux trajets ne disparurent pas, mais cessèrent de déclencher automatiquement de nouvelles sanctions pour ce groupe.\n\nIdris remonta la chaîne des prestataires jusqu’à Myr, une ancienne architecte de Synapse. Elle dirigeait désormais un service prétendant stabiliser les identités après les pannes de mémoire.\n\nSera connaissait son visage. Myr avait assisté à un entretien pendant son enfermement et parlé d’elle comme d’un « modèle particulièrement cohérent ».\n\nNaïa demanda si elle voulait la revoir. Sera répondit non. Puis elle demanda à déposer ce souvenir devant l’équipe qui suivait déjà son dossier.\n\nElle ne devait pas retourner sur un bateau pour que sa parole soit prise au sérieux.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 29,
+      "title": "Le passager d’Alma",
+      "type": "text",
+      "text": "Alma accueillit un homme qui ne se rappelait plus son adresse, mais pouvait décrire exactement l’odeur de l’escalier. Son profil de logement avait été attribué à une autre présence numérique.\n\nNaïa l’accompagna dans le quartier qu’il reconnaissait. Une voisine lui ouvrit sans consulter son implant. Elle lui demanda où il était passé pendant les trois derniers jours.\n\nL’homme pleura sur le palier. Le système ne lui avait pas retiré tous ses souvenirs; il avait convaincu les portes qu’il n’habitait plus chez lui.\n\nAlma lui trouva un endroit où dormir le temps des démarches. Le collectif ajouta son cas aux autres avec son accord.\n\nLe soir, Naïa retira sa visière pour monter chez elle. Elle voulait savoir qui lui dirait bonjour avant que la serrure prononce son nom.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 30,
+      "title": "La proposition du Liseron",
+      "type": "text",
+      "text": "Myr demanda une rencontre dans un lieu public. Naïa vint avec Idris et avertit le collectif. Le café du port possédait des vitres épaisses où la pluie formait des circuits lumineux.\n\nMyr présenta ses profils comme une protection contre les vies interrompues. Un coursier pouvait continuer à gagner pendant une hospitalisation. Une famille pouvait conserver une présence après un deuil.\n\n« Nous n’avons rien demandé de cela », répondit Naïa.\n\nMyr admit que les anciennes autorisations étaient trop générales. Elle proposa de corriger leurs seuls dossiers si le collectif cessait de gêner le service.\n\nIdris lui demanda ce qu’il adviendrait des personnes incapables de prouver l’existence du problème. Elle regarda la mer avant de répondre. C’était une pause assez longue pour que Naïa refuse l’offre.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 31,
+      "title": "Le souvenir proposé",
+      "type": "text",
+      "text": "Avant de partir, Myr remit une référence concernant Sera. Le service conservait des fragments d’une période que la jeune femme n’arrivait pas à raconter. Elle pourrait les consulter si elle acceptait une nouvelle évaluation.\n\nSera lut la proposition sans s’asseoir. Retrouver ces journées l’avait obsédée pendant des mois. Elle détestait qu’on les lui présente maintenant comme un geste de bonne volonté.\n\nL’avocate demanda l’accès au dossier par la voie déjà ouverte, sans visite isolée ni nouvel accord vague. Myr ne répondit pas immédiatement.\n\nNaïa voulut dire à sa sœur qu’elle n’avait pas besoin de tout savoir. Elle se retint. Le désir de retrouver sa mémoire appartenait à Sera, tout comme la décision de ne pas payer n’importe quel prix pour elle.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 32,
+      "title": "Le carnet du port",
+      "type": "text",
+      "text": "Un ancien technicien du Liseron contacta Alma. Il avait envoyé la carte pliée parce qu’il ne savait pas qui croire. Elle lui proposa de raconter ce qu’il connaissait sans promettre de le protéger de toutes les conséquences.\n\nLe terminal conservait les profils sur une infrastructure séparée. Les preuves des premières réutilisations y étaient encore stockées. Une fermeture prochaine devait déplacer les archives vers un lieu non annoncé.\n\nIl apporta des références de contrats, des dates et des horaires de transfert. Idris compara les éléments déjà vérifiables avant de les transmettre à l’avocate.\n\nNaïa regarda les photographies du bateau. Les gens qu’elle cherchait n’étaient peut-être pas à bord. Leurs noms, eux, pouvaient y disparaître une deuxième fois.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 33,
+      "title": "La nuit de la barge",
+      "type": "text",
+      "text": "Le transfert commença plus tôt que prévu. Une barge quitta le quai avec des conteneurs techniques pendant que les autorités examinaient la demande de conservation.\n\nNaïa et Alma observaient depuis la promenade publique. Elles transmirent les marques visibles et l’heure du départ. Tarek, encore immobilisé, coordonnait les témoins depuis le marché.\n\nPuis une panne frappa le quartier portuaire. Les lumières des pontons s’éteignirent. Des passagers se retrouvèrent sur une passerelle qui s’était verrouillée automatiquement.\n\nNaïa quitta son point d’observation pour aider à dégager l’accès avec le personnel présent. La barge s’éloignait.\n\nIdris la vit hésiter. « Les preuves ne tomberont pas dans l’eau en criant », dit-il. Elle rangea sa visière et prit l’extrémité de la rampe avec les autres.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 34,
+      "title": "La voix sur le quai",
+      "type": "text",
+      "text": "Dans le noir, le téléphone de Naïa diffusa la voix de Sera. Elle disait être retenue près du terminal et demandait qu’on vienne seule. Naïa sentit son corps répondre avant sa pensée.\n\nElle appela sa sœur par un autre moyen. Sera était chez Alma, avec deux personnes du collectif. Elles se parlèrent directement pendant que le faux message continuait à se répéter.\n\nNaïa s’assit sur une caisse, incapable de reprendre immédiatement son souffle. Idris conserva la référence sans lui faire réécouter la voix.\n\nLe message témoignait d’une tentative de les détourner de leurs démarches et du quai. Il ne leur dirait pas à lui seul qui l’avait envoyé.\n\nSera resta en ligne jusqu’à ce que Naïa puisse retourner aider sur la passerelle. Sa vraie voix savait attendre sans recommencer la même phrase.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 35,
+      "title": "Les portes manuelles",
+      "type": "text",
+      "text": "Le personnel ouvrit enfin une issue manuelle. Naïa accompagna une vieille femme qui refusait de lâcher sa valise. À l’intérieur, deux boîtes de photographies pesaient davantage que ses vêtements.\n\nAu-dessus du quai, les écrans continuèrent d’afficher des instructions devenues fausses. Alma demanda qu’on les coupe pendant l’évacuation. Les agents présents utilisèrent des panneaux et des voix ordinaires.\n\nQuand le courant revint, la barge avait été retenue en aval pour les vérifications autorisées. L’avocate confirma que les archives visées faisaient désormais l’objet d’une mesure de conservation.\n\nNaïa reçut la nouvelle en tenant toujours la valise. Elle la rendit à la femme avant de lire le message une seconde fois. Ce soir-là, elle avait réussi à ne pas abandonner un corps pour poursuivre une image.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 36,
+      "title": "Le cœur froid du bateau",
+      "type": "text",
+      "text": "L’examen autorisé du Liseron se fit avec des spécialistes indépendants. Idris participa à l’identification des références qu’il connaissait; Naïa resta hors des zones techniques.\n\nLe terminal ressemblait à une bibliothèque sans tables : rangées de modules, éclairage blanc, ventilateurs obstinés. Rien n’y évoquait les vies promises par la publicité.\n\nLes archives montraient comment les profils de simulation avaient été connectés à des services réels. Des avertissements internes distinguaient les identités consenties des réutilisations litigieuses. Certains avaient été ignorés lors du lancement.\n\nMyr demanda à présenter ses explications par l’intermédiaire de son conseil. Le collectif obtint surtout que les données ne soient pas déplacées ou modifiées sans contrôle.\n\nEn rentrant, Idris garda ses mains dans ses poches. Il avait longtemps imaginé que la vérité possédait une chaleur reconnaissable. Elle pouvait aussi tenir dans une salle glacée.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 37,
+      "title": "Les personnes derrière les profils",
+      "type": "text",
+      "text": "Le premier inventaire révéla des profils créés pour des essais, d’autres vendus avec des autorisations limitées et d’autres encore assemblés à partir de données dont les titulaires n’avaient pas été consultés.\n\nAlma refusa une publication générale des noms. Les personnes concernées devaient pouvoir apprendre ce qui existait sans le découvrir sur un écran de place publique.\n\nNaïa aida les coursiers à retrouver les références de leurs propres trajets. Tarek avait aménagé un coin du marché avec des chaises et une prise qui fonctionnait une fois sur deux.\n\nUne femme demanda si son double était « coupable ». Idris expliqua ce qu’ils pouvaient établir sur le service et les décisions de ceux qui l’exploitaient. Le profil ne constituait pas une autre coursière ayant secrètement choisi de lui voler sa vie.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 38,
+      "title": "Les jours rendus à Sera",
+      "type": "text",
+      "text": "Sera reçut enfin une copie du dossier conservé par le service. Des fragments correspondaient à ses souvenirs; d’autres semblaient être des reconstructions. Les spécialistes les signalèrent comme tels au lieu de les lui présenter comme un passé retrouvé.\n\nElle en consulta peu la première fois. Naïa attendait dans la pièce voisine, prête à partir si sa sœur le souhaitait.\n\nAu bout de vingt minutes, Sera sortit avec une seule photographie. Elle y reconnaissait une fenêtre et les chaussures d’une personne qui l’avait aidée.\n\n« Je veux commencer par retrouver son nom », dit-elle.\n\nElles rentrèrent sans poursuivre l’écoute. Le dossier resterait disponible. Sera n’avait plus à accepter qu’un service décide du moment où elle devait tout revoir.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 39,
+      "title": "Le marché de la mémoire",
+      "type": "text",
+      "text": "Myr déclara que certains clients avaient réellement désiré conserver un profil d’un proche. Les témoignages recueillis le confirmèrent. Une femme utilisait un enregistrement interactif de son père pour écouter les histoires qu’il avait approuvées avant sa mort.\n\nElle redoutait que tout soit supprimé avec les services frauduleux. Alma l’invita à venir parler au collectif. La question ne pouvait pas être résolue en prétendant que tous les usages se ressemblaient.\n\nSera écouta la femme sans comparer leurs douleurs. Elle demanda que les copies cessent de produire des paroles nouvelles sous le nom de personnes qui ne les avaient jamais choisies.\n\nNaïa regarda les deux femmes chercher les mots. La ville leur avait vendu des réponses trop simples. Elles étaient en train de reprendre le droit d’avoir des demandes différentes.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 40,
+      "title": "Le dossier des retours",
+      "type": "text",
+      "text": "Les premiers faux trajets furent marqués comme contestés puis rectifiés lorsque les vérifications le permettaient. Les coursiers récupérèrent progressivement leurs comptes. Les pertes de travail et les blessures de Tarek restaient à traiter.\n\nNaïa retourna livrer dans la tour des Marées. Le destinataire s’excusa de l’avoir regardée comme une fraudeuse. Elle accepta ses excuses sans minimiser les heures passées à prouver sa présence ailleurs.\n\nCette fois, il vérifia avec elle le contenu et la référence du colis avant de signer.\n\nDans l’ascenseur, aucun autre visage ne s’interposa sur son contrat. Elle n’éprouva pas de triomphe, seulement le soulagement de terminer une course sans avoir à contredire une version plus lisse d’elle-même.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 41,
+      "title": "Les lumières de Givre",
+      "type": "text",
+      "text": "Le marché organisa une soirée pour payer les réparations du stand de Tarek. Enoch apporta une lampe ancienne dont la lumière ne modifiait pas les visages.\n\nSera vint une heure, puis resta davantage. Elle aida Alma à servir des boissons et corrigea quelqu’un qui la remerciait pour une phrase prononcée dans la publicité. L’homme s’excusa; la conversation put continuer ailleurs.\n\nNaïa dansa avec une livreuse dont elle ne connaissait auparavant que le numéro professionnel. Leurs chaussures glissaient sur un sol réparé à plusieurs endroits.\n\nAu-dessus des bâches, Nacre-9 brillait comme toujours. La ville n’avait pas appris à être juste en une procédure. Mais ce soir, plusieurs de ses habitants se voyaient sans commencer par lire les données que les écrans affichaient sur eux.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 42,
+      "title": "La femme de la fenêtre",
+      "type": "text",
+      "text": "La personne qui avait aidé Sera à fuir s’appelait Lio. Elle travaillait dans une clinique et avait changé de service depuis. Elle accepta une rencontre dans un jardin public.\n\nSera reconnut ses chaussures avant son visage. Lio ne lui demanda pas de se souvenir de tout. Elle raconta ce qu’elle avait fait, les risques qu’elle avait compris et ceux qu’elle n’avait découverts qu’après.\n\nNaïa resta à distance avec deux cafés devenus froids. Sa sœur revint en pleurant, mais ne souhaita pas partir immédiatement.\n\nElles s’assirent sur un banc et regardèrent un enfant poursuivre un ballon. La mémoire rendue ne contenait pas seulement la violence subie. Elle permettait aussi de retrouver quelqu’un qui avait ouvert une porte au bon moment.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 43,
+      "title": "L’avertissement d’Idris",
+      "type": "text",
+      "text": "Idris révéla avoir autrefois relu une partie des documents préparatoires du service de Myr. Il avait formulé des réserves, puis accepté une mission différente sans vérifier la suite.\n\nIl montra au collectif les éléments qu’il possédait. Naïa sentit monter une colère familière : combien de personnes avaient quitté une pièce en laissant d’autres y rester ?\n\nElle lui demanda pourquoi il ne l’avait pas dit plus tôt. Il répondit sans se présenter comme une victime de son propre silence.\n\nL’avocate distingua son rôle connu des décisions encore à examiner. Le collectif garderait ses informations, mais répartirait autrement les accès et les responsabilités.\n\nLe soir, Idris resta pour ranger les chaises. Naïa l’aida sans lui offrir immédiatement la conversation qu’il espérait. Leur confiance aussi demanderait des faits nouveaux.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 44,
+      "title": "Le visage refusé",
+      "type": "text",
+      "text": "Une plateforme proposa à Sera une série documentaire utilisant une restitution de son ancien visage. Le projet prétendait rendre son histoire plus accessible.\n\nElle demanda pourquoi son visage actuel ne suffisait pas. La réponse parla d’archives, d’émotion et de reconnaissance immédiate. Elle ferma le document avant la dernière page.\n\nNaïa lui proposa une promenade. Elles traversèrent les quartiers hauts où les vitrines remplaçaient les passants par des silhouettes plus jeunes. Sera s’arrêta devant l’une d’elles, puis rit de voir ses chaussures corrigées.\n\n« Elles sont vraiment abîmées », admit-elle.\n\nElles en achetèrent une paire qu’elle choisit elle-même. Le documentaire ne se ferait pas sous cette forme. Sa vie, elle, pouvait encore contenir l’achat banal d’un objet neuf.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 45,
+      "title": "Le profil éteint",
+      "type": "text",
+      "text": "Le service confirma la désactivation du profil utilisé sous le nom de Naïa. Les éléments nécessaires aux procédures seraient conservés dans un cadre distinct. Aucun nouveau trajet ne devait être accepté par cette copie.\n\nElle lut l’avis avec Idris. Les formulations étaient enfin assez précises pour qu’elle sache ce qui avait changé et ce qui restait à vérifier.\n\nElle demanda à voir la dernière image du profil, puis renonça. Elle connaissait déjà son visage. Elle n’avait pas besoin d’assister à la disparition d’un montage pour croire qu’elle existait.\n\nEn sortant, son terminal reçut une vraie commande. Une vieille femme voulait envoyer un livre au marché de Givre. Naïa accepta le trajet après avoir lu le prix, le lieu et le nom de la destinataire.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 46,
+      "title": "La ville qui compte encore",
+      "type": "text",
+      "text": "Les habitants déconnectés continuaient à rencontrer des portes closes. Le cas du passager d’Alma fut corrigé avant ceux de plusieurs autres. Il revint aider aux permanences au lieu de disparaître avec sa solution personnelle.\n\nNaïa transportait des copies papier entre les quartiers lorsque les demandes numériques tournaient en boucle. Le travail lui semblait lent. Alma lui rappela qu’une heure de marche pouvait éviter à quelqu’un plusieurs jours d’attente silencieuse.\n\nTarek recommença à se déplacer avec une canne. Il protesta contre la chaise qu’on lui réservait systématiquement, puis la demanda au bout de vingt minutes.\n\nLe collectif rit avec lui. La ville ne se résumait pas à ses correctifs techniques. Elle se construisait aussi dans la possibilité de changer d’avis sans perdre sa place.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 47,
+      "title": "Le dossier du père",
+      "type": "text",
+      "text": "Sera retrouva dans les fragments récupérés une voix de leur père. L’enregistrement avait été fait avant sa mort, dans une cuisine où l’on entendait une casserole.\n\nElles le firent examiner pour comprendre ce qui était original et ce qui avait pu être modifié. La partie confirmée était très courte. Il leur demandait simplement de venir manger.\n\nNaïa aurait voulu une phrase capable d’éclairer toute son enfance. Elle reçut une invitation banale, coupée par un rire hors champ.\n\nSera l’écouta une seule fois ce soir-là. Elles décidèrent de conserver cette version avec les informations sur sa provenance.\n\nPuis elles préparèrent un repas. La voix ne leur tint pas compagnie pendant qu’elles mangeaient. Elles avaient envie de s’entendre, elles.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 48,
+      "title": "Les coursiers du matin",
+      "type": "text",
+      "text": "Les coursiers adoptèrent une permanence commune au marché. Chacun pouvait signaler un trajet douteux, emprunter une batterie ou laisser un message à une personne dont le compte ne fonctionnait plus.\n\nLe panneau ne prétendait pas tout résoudre. On y trouvait des heures, des noms de personnes présentes et les limites de l’aide possible.\n\nNaïa arriva tôt pour réparer une fixation avec Tarek. Ils se disputèrent sur le meilleur outil, puis appelèrent Enoch, qui vint avec un tournevis plus petit.\n\nLa pluie artificielle commença en retard ce matin-là. Plusieurs marchands levèrent les yeux, surpris d’avoir encore les mains sèches.\n\nNaïa regarda la ville attendre un phénomène qu’elle commandait elle-même. Elle espéra qu’un jour cette habitude ne lui semblerait plus naturelle.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 49,
+      "title": "Les souvenirs qu’on ne livre pas",
+      "type": "text",
+      "text": "Un client demanda à Naïa de transporter une archive contenant des souvenirs intimes d’une personne qui n’avait pas autorisé leur cession. Le contrat promettait une forte prime et prétendait que la livraison était déjà approuvée.\n\nElle refusa et conserva la référence pour la signaler au service compétent. Puis elle prit une course moins bien payée vers une école.\n\nDans son sac, le colis pesait peu : des carnets, des crayons et un livre réparé par Alma. À l’arrivée, une enseignante vérifia le contenu avec elle.\n\nUn enfant lui demanda si son métier consistait à retrouver les choses perdues. Elle réfléchit avant de répondre.\n\n« Parfois. Surtout à faire arriver ce qu’on m’a réellement confié. »\n\nIl hocha la tête comme si cette précision lui suffisait.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 50,
+      "title": "Une voix qui peut raccrocher",
+      "type": "text",
+      "text": "Naïa rentra par les voies basses. Les néons se reflétaient dans les flaques, mais elle n’avait plus besoin de suivre chaque reflet de son visage. Son terminal comptait les courses de la journée, toutes accomplies par elle.\n\nSera appela pour demander du pain. Sa voix était fatiguée, un peu enrouée. Naïa s’arrêta devant une boulangerie et lui demanda ce qu’elle voulait d’autre.\n\n« Rentre. On trouvera le reste. »\n\nElle raccrocha avant sa sœur, libre de terminer la conversation parce qu’elles savaient où se retrouver.\n\nLes dossiers continueraient. Myr devrait répondre de ses décisions et les habitants réclameraient encore les corrections qu’on leur devait. Nacre-9 conserverait longtemps des portes qu’aucun beau discours n’ouvrirait.\n\nMais, derrière celle de leur appartement, Sera choisissait sa musique. Naïa entra avec le pain, retira sa visière et la posa face contre table. Sa sœur leva les yeux. Aucune reconnaissance automatique n’était nécessaire pour que la soirée commence.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
     }
   ],
-  "extraNote": "Histoire cyberpunk de 20 chapitres, 5 épisodes, avec une conclusion à la recherche de Sera et au premier conflit contre Synapse. Texte web, pas encore de PDF.",
+  "extraNote": "Édition web en 50 chapitres courts et 10 épisodes. Les 20 chapitres initiaux et les scènes complémentaires sont conservés ; les chapitres 21 à 50 prolongent le récit. Les PDF historiques conservent leur contenu initial.",
   "bonusScenes": [
     {
       "chapter": 1,
@@ -220,5 +520,6 @@
       "text": "Interlude situé : Après la restitution des premiers dossiers.\n\nNaïa trouva l’enregistrement dans un répertoire que leur mère avait nommé sans méthode : « Sera, premier jour ». Elle demanda à sa sœur si elle souhaitait l’ouvrir. Sera répondit oui, puis arrêta la lecture au bout de quelques secondes pour reprendre son souffle.\n\nÀ l’image, une main cherchait le bouton de mise au point. Aucun des visages n’était parfaitement net. Elles refusèrent ensemble l’option de restauration automatique qui proposait de compléter les détails manquants.\n\nAlma les attendait plus tard pour classer le dossier d’un patient décédé avant la restitution de ses souvenirs. Sa famille demandait une copie des fichiers, pas une imitation capable de parler en son nom. Naïa vérifia les autorisations et débrancha le module de conversation associé au transfert.\n\nChez elles, Sera choisit de conserver la vidéo imparfaite dans un espace privé. Elle était vivante, présente, capable de refuser. Naïa lui demanda simplement ce qu’elle voulait manger.",
       "timeline": "Après la restitution des premiers dossiers"
     }
-  ]
+  ],
+  "edition": "Novembre 2026 · 50 chapitres courts"
 }

@@ -20,7 +20,7 @@ test('reading backup retains only whitelisted keys and notes',()=>{
 test('rejects malformed or unknown backup keys and out-of-bounds values',()=>{
  assert.throws(()=>validateBackup({schema:BACKUP_SCHEMA,data:{password:'x'}}),/non autorisé/);
  assert.throws(()=>validateBackup({schema:BACKUP_SCHEMA,data:{'warlike-reading-brume':'88'}}),/Index/);
- assert.throws(()=>validateBackup({schema:BACKUP_SCHEMA,data:{'warlike:chapters:heures':'[1,21]'}}),/invalides/);
+ assert.throws(()=>validateBackup({schema:BACKUP_SCHEMA,data:{'warlike:chapters:heures':'[1,51]'}}),/invalides/);
  assert.throws(()=>validateBackup({schema:BACKUP_SCHEMA,data:{'warlike:reader-tools:v1':'[{"type":"note","kind":"pdf","book":"../../","position":1,"quote":"hey"}]'}}),/malformée/);
  assert.ok(PROGRESS_KEYS.includes('warlike:reader-tools:v1'));
 });
@@ -37,4 +37,9 @@ test('V3 pages and links are present',async()=>{
  const dashboard=readFileSync(new URL('../ma-lecture.html',import.meta.url),'utf8');
  assert.ok(dashboard.includes('id="importBackup"'));
  assert.ok(dashboard.includes('mes-livres.html'));
+});
+
+test('backup round-trips new season chapters and SEVEN using existing schema',()=>{
+ const source=fakeStore();source.setItem('warlike:chapters:heures','[1,20,21,50]');source.setItem('warlike-reading-seven','49');
+ const target=fakeStore();restoreBackup(createBackup(source),target);assert.equal(target.getItem('warlike:chapters:heures'),'[1,20,21,50]');assert.equal(target.getItem('warlike-reading-seven'),'49');
 });
