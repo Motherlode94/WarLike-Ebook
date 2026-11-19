@@ -11,47 +11,107 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     },
     {
       "number": 2,
-      "title": "Les disparus",
+      "title": "Les voix anciennes",
       "chapters": [
-        5,
         6,
         7,
-        8
+        8,
+        9,
+        10
       ]
     },
     {
       "number": 3,
-      "title": "Ce qui répond",
+      "title": "La porte des échos",
       "chapters": [
-        9,
-        10,
         11,
-        12
+        12,
+        13,
+        14,
+        15
       ]
     },
     {
       "number": 4,
-      "title": "La salle d’écoute",
+      "title": "Ceux qui restent",
       "chapters": [
-        13,
-        14,
-        15,
-        16
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Le dernier appel",
-      "chapters": [
+        16,
         17,
         18,
         19,
         20
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Le quatrième coup",
+      "chapters": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "number": 6,
+      "title": "La salle qui apprend",
+      "chapters": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Les objets de 1989",
+      "chapters": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "number": 8,
+      "title": "La chambre débranchée",
+      "chapters": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Ce qui demeure",
+      "chapters": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "number": 10,
+      "title": "La fenêtre entrouverte",
+      "chapters": [
+        46,
+        47,
+        48,
+        49,
+        50
       ]
     }
   ],
@@ -195,9 +255,249 @@
       "type": "text",
       "text": "Une semaine plus tard, Valcombe retrouva une routine fragile. Les robinets coulaient normalement, la salle d'écoute fut mise sous protection et la mairie organisa des permanences pour les familles. Les noms des victimes avaient désormais une place dans le registre public.\n\nIris décida de rester quelques mois. Salomé lui proposa un bureau au service des archives, où elles pourraient numériser les cassettes sans les diffuser sans contexte. Abel accepta de témoigner officiellement, puis de se retirer de l'enquête. Il avait assez longtemps confondu garder le silence et porter seul le poids du passé.\n\nLa maison Vernet ne fut pas détruite. Iris fit retirer les planches des fenêtres et nettoyer le jardin. Elle conserva le mur de la cave, marqué et documenté, jusqu'à ce que les spécialistes puissent intervenir sans danger.\n\nUn soir, elle trouva sur le bureau de Noé un dessin d'enfant qu'elle n'avait pas remarqué : deux silhouettes devant une porte, l'une tendant la main vers l'autre. Au-dessous, une phrase maladroite : « Tu peux rentrer sans me chercher. »\n\nElle s'assit, la feuille serrée contre elle. Elle ne savait pas si Noé avait survécu quelques heures ou plusieurs années. Elle savait seulement qu'il avait laissé des mots pour empêcher sa sœur de répéter son erreur.\n\nÀ minuit, elle ferma les fenêtres. À 2 h 17, les trois coups résonnèrent une dernière fois dans les tuyaux. Une voix prononça son prénom. Puis une deuxième fois.\n\nIris resta silencieuse. Le troisième appel ne vint pas.\n\nAu matin, elle accrocha le dessin dans son bureau, à côté de la liste des trente-sept noms. Les morts avaient droit à leur histoire. Les vivants, au droit de continuer la leur.\n\nAu fond de la carrière, quelque chose respirait encore. Mais pour cette première saison, Valcombe avait enfin appris à ne plus lui offrir de voix.",
       "status": "published"
+    },
+    {
+      "number": 21,
+      "title": "Le quatrième coup",
+      "type": "text",
+      "text": "Iris classait les nouvelles cassettes lorsqu’un quatrième coup résonna dans le radiateur. Les trois premiers avaient été espacés comme toujours. Celui-ci arriva plus tard, presque timide.\n\nElle ne répondit pas. Dans la pièce voisine, Salomé leva la tête au même instant. Elles comparèrent leurs montres et notèrent l’heure : dix-sept heures douze.\n\nLa présence n’attendait plus la nuit.\n\nJeanne vérifia l’enregistrement depuis une copie. Le quatrième bruit ne venait pas du conduit où le microphone était placé. Il avait été capté derrière l’appareil, du côté des deux femmes.\n\nIris retourna sa chaise. Le mur portait une tache humide à la hauteur exacte de sa nuque.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 22,
+      "title": "L’appartement de Jeanne",
+      "type": "text",
+      "text": "Jeanne vivait loin des galeries, dans un immeuble récent. Elle y avait installé son matériel d’analyse après l’incident du radiateur. À vingt-trois heures, son casque diffusa trois coups entre deux fichiers qui n’en contenaient aucun.\n\nElle le retira immédiatement. Le son continua dans la petite oreillette posée sur la table.\n\nAu téléphone, Salomé lui demanda de quitter la pièce et de ne plus relancer les pistes. Jeanne passa la nuit chez une amie. Elle n’emporta que son manteau.\n\nLe matin, elles retrouvèrent une trace d’eau sous le pied de sa chaise. L’appartement était sec partout ailleurs. Quelque chose avait suivi un enregistrement, sans qu’aucun tuyau relie ce lieu à la carrière.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 23,
+      "title": "La copie d’Abel",
+      "type": "text",
+      "text": "Abel reconnut le boîtier du microphone avant d’écouter le récit de Jeanne. Il appartenait au matériel utilisé dans la salle d’écoute en 1989. Il l’avait réparé avec des pièces trouvées près des anciennes pompes.\n\nJeanne voulut savoir pourquoi il ne l’avait pas dit. Le vieil homme regarda ses mains : il l’avait oublié comme on oublie l’origine d’un tournevis.\n\nIls isolèrent l’appareil, sans conclure que les copies numériques étaient elles-mêmes contaminées. Jeanne avait entendu les coups pendant que le microphone restait branché à sa console.\n\nIris sentit un soulagement bref. Puis Abel demanda où se trouvait le second appareil. Il en avait réparé deux. Celui de la mairie avait été prêté pour une fête d’école.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 24,
+      "title": "Le spectacle interrompu",
+      "type": "text",
+      "text": "La répétition de l’école commençait par une lecture collective. Salomé arriva avant l’ouverture de la salle et demanda qu’on débranche le vieux matériel. L’enseignante la regarda sans comprendre, puis vit le visage d’Abel derrière elle.\n\nLes enfants sortirent dans la cour. Mathis demanda à Iris s’il fallait encore éviter les gens qui appelaient depuis le noir.\n\n« Tu peux toujours chercher un adulte que tu vois », répondit-elle.\n\nDans la salle vide, le microphone était déjà coupé. Une voix d’enfant continuait pourtant de lire la phrase suivante. Elle ne passait pas par les haut-parleurs.\n\nL’enseignante prit la main de Mathis et recula. Derrière le rideau, quelque chose prononça son prénom avec la voix exacte de sa mère.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 25,
+      "title": "L’homme qui avait répondu",
+      "type": "text",
+      "text": "Le gardien de l’école admit avoir parlé au microphone avant l’arrivée des enfants. Il avait entendu sa femme morte lui demander si la salle était prête. Il avait répondu qu’il l’attendait.\n\nIl ne voulait pas qu’on le traite comme un danger. Salomé lui proposa de rester avec un proche dans une maison sans ancien matériel, le temps de comprendre ce qui se passait.\n\nIris connaissait cette honte : avoir reconnu une voix avant de se rappeler qu’elle ne prouvait rien. Elle lui dit qu’il n’était pas le premier et qu’ils avaient besoin de savoir ce qu’il avait réellement entendu.\n\nDans le couloir, une porte s’ouvrit toute seule sur un placard vide. Au fond, un manteau de femme gouttait sur le carrelage.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 26,
+      "title": "Le manteau sec",
+      "type": "text",
+      "text": "Le manteau disparut avant l’arrivée des secours. Le gardien le reconnut sur une photographie : sa femme le portait l’année précédant sa mort. Aucun vêtement semblable ne figurait dans les objets de l’école.\n\nJeanne compara les récits des témoins. Tous avaient vu une étoffe sombre; lui seul décrivait les boutons et la doublure. La présence prenait-elle aussi des détails dans ceux qui la regardaient ?\n\nIris refusa qu’on provoque une nouvelle apparition pour vérifier. Ils documenteraient ce qui survenait sans ajouter d’invitation.\n\nCette nuit-là, elle rêva de Noé vêtu du manteau. Au réveil, elle trouva sa fenêtre fermée et le parquet sec. Elle nota le rêve dans une autre colonne. La peur aussi fabriquait des images.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 27,
+      "title": "Les deux appareils",
+      "type": "text",
+      "text": "Le premier microphone avait été retiré sans nouveau bruit. Le second résistait davantage : depuis la réponse du gardien, chaque tentative de déplacement faisait apparaître de l’eau dans la salle.\n\nAbel montra les marques gravées sous les pieds des boîtiers. Ils provenaient d’une installation fixée entre deux chambres de résonance. Séparés, les appareils avaient continué à servir de portes d’écoute.\n\n« Tu savais qu’ils venaient de là », dit Iris.\n\n« Je ne savais pas ce qu’ils pouvaient faire ici. »\n\nElle entendit la différence sans l’accepter comme excuse. Abel prit une feuille et commença l’inventaire de toutes les pièces qu’il avait sorties de la carrière depuis trente-sept ans. La liste occupa trois pages.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 28,
+      "title": "Les horloges d’Abel",
+      "type": "text",
+      "text": "Dans la cabane, les montres arrêtées ne marquaient pas toutes 2 h 17. Certaines indiquaient l’heure à laquelle leur propriétaire avait disparu. Abel les avait conservées sans oser les rendre.\n\nIris ouvrit un tiroir et trouva un bracelet qu’elle avait déjà vu au poignet de son frère. Elle ne le toucha pas immédiatement.\n\nAbel expliqua où il l’avait découvert, près d’un siphon, des années après la disparition. Il l’avait caché par peur de ce qu’elle lui demanderait.\n\nElle sortit prendre l’air. Salomé resta près de la porte, assez loin pour qu’Iris ne se sente pas retenue.\n\nLorsqu’elle revint, elle demanda un sachet, une étiquette et un témoignage précis. Elle ne prononça pas le prénom de Noé devant les radios démontées.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 29,
+      "title": "La porte repeinte",
+      "type": "text",
+      "text": "Le maire fit fermer l’école et accueillir les classes dans une autre salle. Une entreprise devait intervenir sur les installations anciennes. Avant tout travail, Jeanne demanda un relevé des objets et des sons constatés.\n\nÀ l’intérieur, une porte fraîchement repeinte portait une poignée qui n’existait pas la veille. Le plan du bâtiment indiquait un mur plein.\n\nIris observa le seuil depuis l’entrée. De l’autre côté, une chaise racla le sol. Une voix de garçon demanda si elle avait gardé son dessin.\n\nElle recula sans répondre. Le gardien, resté dehors, se mit soudain à pleurer. Sa femme venait de lui poser exactement la même question depuis le téléphone éteint qu’il tenait dans sa poche.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 30,
+      "title": "La salle qui apprend",
+      "type": "text",
+      "text": "Les apparitions suivaient le gardien lorsqu’il s’endormait. À son réveil, elles semblaient perdre leur précision. Jeanne proposa de noter les heures de sommeil et les manifestations, sans l’exposer davantage.\n\nIl passa la nuit accompagné dans une chambre préparée par les secours. Aucune voix ne fut diffusée. Personne ne lui demanda de penser à sa femme pour observer le résultat.\n\nÀ trois heures, Iris vit la poignée d’une porte tourner lentement. La porte ne s’ouvrit pas. Le gardien dormait derrière une cloison différente.\n\nLa présence apprenait à exploiter une réponse déjà donnée. Le silence protégeait ceux qui n’avaient pas répondu; il ne suffisait pas à délivrer celui qu’elle avait reconnu.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 31,
+      "title": "Le prénom du gardien",
+      "type": "text",
+      "text": "Le gardien s’appelait Marc. Iris s’en rendit compte en lisant le formulaire d’accueil : depuis trois jours, elle le désignait surtout par son erreur.\n\nElle alla lui demander ce qu’il voulait pour le lendemain. Il parla de sa maison, de son chien et du pain à acheter. Sa femme n’occupa que la dernière phrase.\n\nDans la pièce voisine, Salomé entendit les coups commencer puis s’interrompre. Marc parlait à une personne visible de choses que la présence n’avait pas appelées.\n\nJeanne refusa d’y voir déjà un remède. Iris n’en avait pas besoin pour continuer la conversation. Elle proposa qu’un voisin s’occupe du chien. Marc donna son nom et demanda qu’on n’oublie pas la boîte de biscuits sur l’étagère.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 32,
+      "title": "Le carnet du médecin",
+      "type": "text",
+      "text": "Un carnet du médecin de 1989 décrivait trois personnes ayant répondu puis cessé d’entendre les appels. Elles avaient toutes quitté la zone, mais une seule avait ensuite accepté de raconter son expérience.\n\nLa femme vivait toujours dans une commune voisine. Elle demanda qu’on vienne sans appareil d’enregistrement.\n\nElle se souvenait d’une présence qui l’appelait avec la voix de sa fille. Les appels avaient diminué lorsqu’elle avait appris à dire à quelqu’un d’autre ce qui arrivait, sans répondre à la chose elle-même.\n\n« Le plus difficile, c’était d’accepter que je n’avais pas besoin de lui prouver que je l’aimais. »\n\nIris rentra avec des notes prises à la main. Pour la première fois, le passé contenait aussi l’histoire de quelqu’un qui avait survécu.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 33,
+      "title": "La visite du voisin",
+      "type": "text",
+      "text": "Le voisin de Marc apporta une photographie du chien endormi sur le canapé. Marc la regarda longtemps. Sa femme l’appela depuis la salle de bains au même moment.\n\nIl se leva d’un bond, puis s’arrêta devant le visage du voisin.\n\n« Elle recommence », dit-il.\n\nLes mots ne s’adressaient pas à la voix. La porte resta fermée. Marc décrivit ce qu’il entendait jusqu’à ce que le son se réduise à un souffle.\n\nIris n’applaudit pas. Elle avait vu l’effort sur ses mains. Elle lui demanda s’il souhaitait rester assis avec eux.\n\nPlus tard, le voisin raconta une anecdote que sa femme aurait détesté entendre en public. Marc rit, puis pleura. Aucun coup ne répondit dans les murs.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 34,
+      "title": "La marche dans les tuyaux",
+      "type": "text",
+      "text": "L’école vide résonna de pas pendant toute une matinée. Les témoins les entendaient courir du premier étage au sous-sol, alors que personne n’était entré.\n\nL’équipe venue sécuriser le lieu resta à l’extérieur. Une caméra fixe montra le couloir sans silhouette. Sur la bande sonore, plusieurs voix répétaient les premières paroles du spectacle annulé.\n\nJeanne coupa le retour pour que personne ne se mette à compléter les phrases. Ils conservèrent l’enregistrement sans le rediffuser.\n\nAbel reconnut le trajet : il reproduisait celui qui reliait les deux chambres de résonance sous l’église. La présence tentait de reconstruire une géographie ancienne dans un bâtiment nouveau. Il fallait séparer les objets avant qu’un autre lieu commence à lui servir de corps.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 35,
+      "title": "Le vide entre les chambres",
+      "type": "text",
+      "text": "Les plans de 1989 montraient un vide technique entre les deux chambres. On y accédait depuis une galerie haute, sans ouvrir la porte des échos. Les dispositifs de transmission pouvaient être démontés depuis cet endroit.\n\nLe service des eaux et les secours préparèrent l’intervention. Iris voulut descendre. Salomé lui demanda ce qu’elle ferait de plus que les techniciens.\n\nElle répondit d’abord qu’elle connaissait les voix. Puis elle comprit que cette connaissance était précisément ce qui risquait de l’immobiliser au mauvais moment.\n\nAbel remit les plans et resta lui aussi dehors. Ils seraient utiles pour reconnaître les pièces ramenées.\n\nLe soir, Iris rentra dans la maison Vernet. Elle passa devant la cave sans ouvrir. Elle pouvait tenir à Noé sans retourner chaque jour au seuil où il avait disparu.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 36,
+      "title": "Le jour trop clair",
+      "type": "text",
+      "text": "L’intervention commença sous un soleil qui rendait le village presque indécent de tranquillité. Des enfants jouaient dans la cour provisoire de l’école. Une tondeuse démarra près de l’église.\n\nIris attendait avec Salomé lorsque la radio des secours émit un souffle. Le responsable confirma aussitôt que personne ne parlait depuis le sous-sol. Ils changèrent de canal selon la procédure prévue.\n\nDans le silence suivant, Iris entendit son propre rire d’enfant sortir d’une bouche d’égout.\n\nElle posa les deux mains sur la table. Salomé la regarda jusqu’à ce qu’elle puisse dire ce qui venait de se passer.\n\nSous la terre, les techniciens atteignirent le vide central. Ils y trouvèrent un faisceau de câbles, des membranes métalliques et une porte couverte de traces de doigts tournées vers l’extérieur.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 37,
+      "title": "Les fils dans le mur",
+      "type": "text",
+      "text": "Le premier faisceau fut coupé après confirmation que les installations utiles étaient isolées. Dans l’école, le microphone produisit un son bref. Une fissure apparut sur son socle.\n\nLe second câble refusa de sortir de la pierre. Les images montrèrent une matière sombre autour des fils, souple comme une racine. Personne ne tenta de l’arracher à mains nues.\n\nAbel identifia une dérivation sur le plan. Elle passait sous la chambre où les anciens avaient écouté les morts. Les techniciens modifièrent leur approche et préparèrent l’outil nécessaire.\n\nPendant l’attente, un appel arriva sur le téléphone d’Iris. Son écran affichait « Noé ». Elle laissa sonner et montra l’écran à Salomé. Le numéro, lui, n’existait pas.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 38,
+      "title": "La voix sans prénom",
+      "type": "text",
+      "text": "À la seconde coupure, les appels perdirent leurs noms. Ils se transformèrent en phrases inachevées : « Tu sais bien… », « Ouvre, je… », « Si seulement… »\n\nMarc les entendit encore depuis sa chambre. Il décrivit chaque fragment à son voisin, puis demanda qu’on lui parle de l’extérieur. Le chien avait renversé le pot de fleurs de l’entrée. Ce détail lui arracha un sourire épuisé.\n\nÀ l’école, les pas s’espacèrent. La porte repeinte redevint une surface plane, mais la poignée resta fixée dans le mur.\n\nIris regarda la photographie sans l’agrandir. La présence n’était pas seulement une voix à démentir. Elle trouvait des formes dans les attentes qu’on lui laissait remplir. Aujourd’hui, elle rencontrait des personnes qui regardaient aussi ailleurs.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 39,
+      "title": "Le dernier câble",
+      "type": "text",
+      "text": "Le dernier câble aboutissait à une plaque sans inscription. Les techniciens attendirent la confirmation d’Abel. Le vieil homme reconnut l’assemblage qu’il avait aidé à poser en 1989.\n\nIl raconta sa fonction exacte, les essais, les modifications réalisées après l’accident. Sa voix tremblait. Iris nota les mots sans lui demander de s’arrêter dès qu’ils devenaient douloureux.\n\nLa plaque fut désolidarisée du mur. Dans le retour muet de la caméra, une ombre sembla passer derrière un technicien. Ils ne reculèrent qu’après avoir sécurisé l’outil et confirmèrent leur position à l’équipe.\n\nPuis le sol cessa de vibrer.\n\nAu-dessus d’eux, l’horloge de la place continua de compter les secondes. Pour la première fois depuis des jours, aucune montre de la cabane d’Abel ne se remit à battre.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 40,
+      "title": "L’eau qui ne parle pas",
+      "type": "text",
+      "text": "Les appareils de l’école furent retirés dans des contenants séparés. Aucune fuite ne suivit leur déplacement. L’équipe contrôla les murs avant d’autoriser quiconque à rentrer.\n\nIris attendit le soir pour ouvrir un robinet chez elle. L’eau coula normalement. Elle regarda longtemps le jet sans y chercher une syllabe.\n\nSalomé prépara du thé. Elles le burent près de la fenêtre, dans une pièce dont aucun meuble n’avait bougé. Iris réalisa qu’elle avait vécu plusieurs semaines en gardant toujours un pied prêt à reculer.\n\n« Tu peux dormir ici », lui proposa Salomé.\n\nElle accepta. À deux heures dix-sept, elles étaient encore éveillées. Le silence ne leur offrit pas de preuve définitive. Il leur accorda seulement une nuit qu’elles n’eurent pas à défendre.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 41,
+      "title": "La poignée du mur",
+      "type": "text",
+      "text": "La poignée impossible fut déposée par l’équipe de sécurité. Derrière elle, le plâtre portait l’empreinte d’une main trop longue. Le maire voulut faire repeindre immédiatement.\n\nJeanne demanda d’attendre la documentation du lieu. L’école pourrait rouvrir ailleurs le temps nécessaire. Les familles avaient besoin de comprendre pourquoi on leur disait désormais qu’aucune voix ne venait du bâtiment.\n\nIris accompagna l’enseignante dans sa salle. Les livres des enfants étaient restés ouverts sur les tables. Mathis avait dessiné une porte avec une fenêtre.\n\nElle referma les cahiers avant de les transporter. Le dessin n’était pas un avertissement à interpréter. Un enfant avait essayé de rendre une porte moins effrayante. Elle le laissa à la même page pour qu’il puisse le retrouver.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 42,
+      "title": "Le chien de Marc",
+      "type": "text",
+      "text": "Marc rentra chez lui avec son voisin. Son chien lui sauta dessus et renversa la gamelle d’eau. Il resta figé devant la flaque avant de se baisser pour l’essuyer.\n\nPendant une semaine, quelqu’un vint chaque soir. Il entendait encore parfois la voix de sa femme dans un bruit de vaisselle ou une émission trop basse. Ces instants n’étaient pas accompagnés des coups ni des traces observées auparavant.\n\nIl les nota et en parla sans revenir vers les appareils. Jeanne distingua les faits constatés des impressions qu’ils continueraient à suivre.\n\nIris passa lui rendre le manteau véritable de sa femme, retrouvé dans un placard avec son accord. Il était sec, usé aux manches, bien moins beau que l’apparition. Marc le serra contre lui sans ouvrir la porte d’aucun autre lieu.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 43,
+      "title": "Le bracelet de Noé",
+      "type": "text",
+      "text": "L’examen du bracelet ne permettait pas de dater sa présence dans la galerie. Iris reçut le résultat avec la déception ancienne, celle d’une réponse assez précise pour limiter l’espoir sans terminer la recherche.\n\nElle demanda à conserver l’objet une fois les vérifications achevées. Salomé lui trouva une petite boîte dont la fermeture ne grinçait pas.\n\nLe soir, Iris la posa près du dessin de son frère. Elle se rappela une promenade où il avait perdu ce bracelet puis accusé le chien. Ils n’avaient pas eu de chien. C’était le genre de mensonge qui les faisait rire tous les deux.\n\nLe souvenir lui vint sans cassette, sans tuyau, sans invitation. Elle put le laisser repartir quand elle voulut dormir.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 44,
+      "title": "Les trente-sept sièges",
+      "type": "text",
+      "text": "Pour la nouvelle cérémonie, les familles choisirent des sièges ordinaires et une lumière de jour. Aucun enregistrement provenant de la carrière ne serait diffusé. Ceux qui le souhaitaient apporteraient leurs propres souvenirs.\n\nUne femme raconta une recette ratée. Un homme montra une photographie floue. D’autres ne dirent rien. Les noms furent lus sans demander au silence de répondre.\n\nIris regarda Abel assis au dernier rang. Il témoignerait plus tard dans la procédure sur l’accident et les objets déplacés. Sa présence ne demandait pas qu’on le pardonne ce jour-là.\n\nAu terme de la cérémonie, les familles rangèrent les chaises ensemble. Il en resta trente-sept sur le chariot, toutes identiques. Les personnes qu’elles représentaient, elles, avaient retrouvé des histoires différentes.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 45,
+      "title": "Le conseil d’Abel",
+      "type": "text",
+      "text": "Abel proposa de détruire tout ce qui provenait des galeries. Jeanne lui demanda comment ils sauraient ensuite distinguer une pièce encore active d’un objet ordinaire. Il reconnut que la peur lui faisait choisir la solution la plus rapide.\n\nIls confièrent les éléments à une équipe disposant d’un lieu adapté, avec leur provenance documentée. Aucun ne fut remis en circulation ou conservé comme souvenir personnel.\n\nIris rapporta chez lui une radio récente. Il pouvait écouter les informations sans réparer les appareils de 1989.\n\nIl la remercia, puis demanda si elle reviendrait un jour prendre un café. Elle répondit qu’elle ne savait pas. Cette honnêteté lui coûta davantage qu’un refus. Il l’accepta et lui indiqua le chemin le moins boueux pour rentrer.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 46,
+      "title": "Le dessin de Mathis",
+      "type": "text",
+      "text": "Mathis récupéra son dessin dans la salle provisoire. Il demanda à Iris si les portes pouvaient vraiment marcher. Elle lui répondit que certaines choses observées n’étaient pas encore comprises, mais que les adultes continuaient à s’en occuper.\n\nIl réfléchit, puis dessina une maison plus grande à côté de la première. Il avait surtout besoin de place pour les fenêtres.\n\nSa grand-mère attendait dehors. Elle montra à Iris les chaussures neuves achetées pour la rentrée. Ils parlèrent de pointures, du car scolaire et du jardin qui avait gelé.\n\nQuand ils partirent, Iris resta devant la cour. La vie ordinaire n’effaçait pas les questions. Elle leur retirait peu à peu le droit de décider de chaque conversation.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 47,
+      "title": "La chambre de Noé",
+      "type": "text",
+      "text": "Iris ouvrit enfin les cartons de la chambre. Salomé l’aidait à trier les objets qu’elle voulait garder et ceux dont elle n’avait pas besoin pour se souvenir.\n\nUn ballon dégonflé, des cahiers, une pierre ramenée d’un voyage. Rien ne parla. La poussière avait une odeur de papier et de bois, pas celle de la carrière.\n\nAu fond d’un tiroir, elle trouva une lettre adressée à personne. Noé y racontait une journée d’école où il s’était senti seul. Elle la lut sans y chercher une clé pour les galeries.\n\nSon frère avait existé avant sa disparition. Il avait eu des journées ennuyeuses et des chagrins qu’elle n’avait pas connus. Elle rangea la lettre avec les choses qu’elle garderait pour lui, pas pour l’enquête.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 48,
+      "title": "La nuit ailleurs",
+      "type": "text",
+      "text": "Iris passa une nuit chez une amie hors de Valcombe. Le radiateur claqua en refroidissant. Elle se redressa dans le lit, le cœur affolé, puis attendit les autres signes.\n\nIl n’y en eut aucun.\n\nAu matin, elle raconta sa peur. Son amie ne se moqua pas et ne voulut pas transformer le bruit en phénomène mystérieux. Elles déjeunèrent avec la fenêtre ouverte sur une rue déjà animée.\n\nSur le chemin du retour, Iris comprit qu’elle pourrait quitter Valcombe sans abandonner Noé. Elle pourrait aussi y rester sans lui promettre de le retrouver.\n\nElle appela Salomé depuis la gare et lui proposa de dîner dehors. Aucun sujet ne devait être réglé avant le dessert.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 49,
+      "title": "Le registre des jours calmes",
+      "type": "text",
+      "text": "Jeanne tint un registre des contrôles et des manifestations absentes. Les semaines sans bruit y avaient autant de place que les nuits inquiétantes. Le réseau d’eau réparé faisait toujours l’objet de visites régulières.\n\nLe maire demanda quand ils pourraient annoncer que tout était terminé. Jeanne refusa une certitude qu’aucun examen ne permettait. Elle pouvait annoncer les travaux accomplis et l’absence de nouveaux faits constatés depuis lors.\n\nIris lut le communiqué avant sa diffusion. La dernière phrase invitait les habitants à signaler les phénomènes sans descendre ni répondre seuls.\n\nElle ne parla pas de victoire. Elle parla d’une école rouverte, d’un homme rentré chez lui et d’une ville qui ne cachait plus ses questions sous les pierres.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 50,
+      "title": "La fenêtre entrouverte",
+      "type": "text",
+      "text": "Au début de l’été, Iris ouvrit la fenêtre de la maison Vernet. L’air portait les bruits du marché et une cloche remise en service. Sur le bureau, le dessin de Noé tenait près d’une photographie où ils riaient tous les deux.\n\nSalomé l’attendait dehors. Elles devaient porter des livres à l’école avant de prendre le car pour une journée en ville. Iris vérifia la porte une fois, puis rangea la clé.\n\nÀ deux heures dix-sept cette nuit-là, la maison resta silencieuse. Elle ne l’entendit pas : elle dormait ailleurs.\n\nDans la carrière fermée, les eaux profondes continuaient peut-être de se déplacer autour des galeries. On les surveillerait. On conserverait les noms, les preuves et les récits sans demander aux morts de venir confirmer qu’on les aimait.\n\nLe matin, Iris se réveilla devant une fenêtre qu’elle ne connaissait pas encore. Pendant quelques secondes, avant de se rappeler où elle était, elle n’eut pas peur. Elle garda cet instant avec elle en descendant rejoindre Salomé.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
     }
   ],
-  "extraNote": "Saison 1 complète au format web : 20 chapitres narratifs, 5 épisodes. Aucun PDF n'est encore publié pour ce nouveau livre.",
+  "extraNote": "Édition web en 50 chapitres courts et 10 épisodes. Les 20 chapitres initiaux et les scènes complémentaires sont conservés ; les chapitres 21 à 50 prolongent le récit. Les PDF historiques conservent leur contenu initial.",
   "bonusScenes": [
     {
       "chapter": 1,
@@ -220,5 +520,6 @@
       "text": "Interlude situé : Après la fermeture de la salle d’écoute.\n\nAux archives, Iris trouva une copie de l’acte de naissance de Noé. L’heure inscrite lui parut soudain plus précieuse que toutes les voix sorties des tuyaux. Elle pouvait au moins attester ce commencement. Salomé lui apporta une chemise de protection sans essayer de commenter.\n\nDans le dossier suivant, une famille autorisait le dépôt d’un avis de décès ancien. Iris prit contact avec elle pour vérifier l’identité : elle refusait désormais de confondre disparition, mort attestée et supposition.\n\nLe jour même, une employée de la mairie revint présenter son bébé. On baissa les voix dans le bureau ; puis l’enfant se mit à pleurer et personne ne sut immédiatement pourquoi. Iris sourit à la jeune mère avant de lui rendre la petite couverture tombée de la poussette.\n\nÀ la fermeture, elle inscrivit sous le nom de son frère : « Sort inconnu. » Cette formule lui faisait mal. Elle la conserva pourtant. Elle ne donnerait pas à la maison le pouvoir de rédiger son histoire à sa place.",
       "timeline": "Après la fermeture de la salle d’écoute"
     }
-  ]
+  ],
+  "edition": "Novembre 2026 · 50 chapitres courts"
 }

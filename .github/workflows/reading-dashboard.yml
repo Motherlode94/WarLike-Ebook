@@ -16,12 +16,13 @@ jobs:
         run: |
           node --check reading-dashboard.js
           node --check reader-tools.js
+          node --check read-aloud.js
           node --check personal-books.js
           node --check personal-library.js
           node --check reading-backup.js
           node --check encrypted-reading-backup.js
       - name: Test reading models and backups
-        run: node --test tests/reading-dashboard.test.mjs tests/reader-tools.test.mjs tests/personal-library.test.mjs tests/encrypted-reading-backup.test.mjs
+        run: node --test tests/*.test.mjs
       - name: Verify EPUB/PDF reader entry points
         run: |
           test -s ma-lecture.html

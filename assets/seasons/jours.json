@@ -11,47 +11,107 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     },
     {
       "number": 2,
-      "title": "La confiance",
+      "title": "Trouver sa place",
       "chapters": [
-        5,
         6,
         7,
-        8
+        8,
+        9,
+        10
       ]
     },
     {
       "number": 3,
-      "title": "Le quotidien",
+      "title": "Les choix du quotidien",
       "chapters": [
-        9,
-        10,
         11,
-        12
+        12,
+        13,
+        14,
+        15
       ]
     },
     {
       "number": 4,
-      "title": "Ce qui nous éprouve",
+      "title": "Revenir",
       "chapters": [
-        13,
-        14,
-        15,
-        16
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Ce que l’on choisit",
-      "chapters": [
+        16,
         17,
         18,
         19,
         20
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Une place à soi",
+      "chapters": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "number": 6,
+      "title": "L’absence et le retour",
+      "chapters": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Habiter ensemble",
+      "chapters": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "number": 8,
+      "title": "La maison choisie",
+      "chapters": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Les paroles anciennes",
+      "chapters": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "number": 10,
+      "title": "La fenêtre du matin",
+      "chapters": [
+        46,
+        47,
+        48,
+        49,
+        50
       ]
     }
   ],
@@ -61,56 +121,64 @@
       "title": "I — Le retour",
       "type": "legacy",
       "url": "livres/les-jours-interdits.html#ch1",
-      "status": "published"
+      "status": "published",
+      "readingText": "À trente-deux ans, Adèle avait appris à quitter les lieux avant qu'ils ne deviennent des souvenirs. C'était du moins ce qu'elle racontait à ses amis. La vérité était moins élégante : elle partait lorsqu'une relation lui demandait d'être honnête.\n\nLe soir où elle revint à Bordeaux, la pluie frappait les vitres de la gare. Elle avait quitté la ville sept ans plus tôt, après une séparation brutale, et ne comptait y rester que quinze jours. Sa mère venait de subir une opération et avait besoin d'aide.\n\nDans le hall, un homme attendait près du panneau des arrivées. Adèle le reconnut avant même qu'il tourne la tête.\n\nSamuel.\n\nIl avait trente-quatre ans désormais, des cheveux un peu plus courts et cette façon de se tenir immobile au milieu de la foule. Ils avaient vécu ensemble pendant trois ans. Elle l'avait aimé avec une intensité qui l'avait effrayée.\n\n— Ta mère m'a demandé de venir, dit-il.\n\nAdèle posa sa valise.\n\n— Elle ne t'a pas dit que j'avais un téléphone ?\n\n— Elle a dit que tu refuserais que je vienne si elle te prévenait.\n\nCette réponse lui arracha un sourire malgré elle.\n\nLa route jusqu'à l'appartement fut presque silencieuse. Samuel conduisait prudemment. Elle regardait les façades, le reflet des feux de signalisation sur l'asphalte, les commerces qui avaient changé de nom.\n\n— Tu habites toujours ici ?\n\n— Oui.\n\n— Tu travailles toujours à l'hôpital ?\n\n— Oui.\n\n— Tu réponds toujours en un seul mot ?\n\n— Quand les questions permettent de le faire.\n\nCette fois, elle rit franchement.\n\nSa mère dormait lorsque Samuel la déposa. Il l'aida à monter ses sacs, vérifia que les courses étaient rangées et s'apprêta à partir.\n\n— Samuel.\n\nIl se retourna.\n\nElle voulait lui demander s'il lui en voulait encore. Elle voulait aussi lui demander s'il était heureux. Aucune des deux questions ne lui paraissait juste devant une porte entrouverte.\n\n— Merci d'être venu.\n\n— Prends soin d'elle.\n\nLa porte se referma.\n\nAdèle resta longtemps dans le couloir, une main sur la poignée. Elle s'aperçut que certains sentiments n'attendaient pas une invitation pour revenir."
     },
     {
       "number": 2,
       "title": "II — Les limites",
       "type": "legacy",
       "url": "livres/les-jours-interdits.html#ch2",
-      "status": "published"
+      "status": "published",
+      "readingText": "Les premiers jours, Adèle ne vit Samuel qu'à travers de courts messages destinés à sa mère. Il demandait si la fièvre avait baissé, si les rendez-vous étaient confirmés, si les médicaments avaient été livrés. Il n'évoquait jamais leur passé.\n\nUn vendredi soir, sa mère lui demanda de récupérer un dossier à l'hôpital. Samuel termina son service au même moment. Ils descendirent ensemble un escalier désert, le bruit de leurs pas ponctuant une conversation maladroite.\n\n— Tu vois quelqu'un ? demanda finalement Adèle.\n\nIl s'arrêta sur le palier.\n\n— Non. Et toi ?\n\n— Non.\n\nIl hocha la tête, sans y lire davantage qu'une information.\n\n— Je ne t'ai pas demandé ça pour...\n\n— Je sais.\n\nElle comprit qu'il connaissait encore trop bien ses hésitations.\n\nIls allèrent boire un café dans un établissement ouvert tard. La conversation dériva vers leurs métiers, les voyages, les amis perdus de vue. Puis Adèle parla de la soirée de leur rupture, celle dont elle avait soigneusement supprimé les détails en racontant leur histoire.\n\n— J'ai dit que je ne voulais pas vivre avec toi alors que je venais de signer un contrat à Paris.\n\n— Tu as dit que tu ne m'avais jamais vraiment aimé.\n\nElle baissa les yeux.\n\n— C'était faux.\n\n— Je m'en suis douté plus tard. Ça ne l'a pas rendu moins douloureux.\n\nIl n'était pas en colère. Son calme était même plus difficile à supporter qu'un reproche.\n\n— J'avais peur de dépendre de toi, dit-elle.\n\n— Tu avais le droit d'avoir peur. Pas de me laisser croire que tout était inventé.\n\nAdèle ne tenta pas de se défendre. Il lui fallut plusieurs minutes pour trouver des mots qui ne ressemblaient pas à une excuse fabriquée.\n\n— Je suis désolée. Je t'ai blessé pour éviter de me montrer vulnérable.\n\nSamuel la regarda enfin.\n\n— Merci de le dire.\n\nLorsqu'ils quittèrent le café, la ville était presque vide. Devant sa voiture, il s'approcha d'elle. Elle sentit sa main effleurer la sienne, puis s'arrêter.\n\n— Je ne veux pas que nous recommencions quelque chose simplement parce que tu es de retour, dit-il.\n\n— Moi non plus.\n\nIls se tinrent quelques secondes très proches, assez pour percevoir leur attirance, pas assez pour la transformer en décision.\n\nAdèle rentra seule. Cette limite, posée sans colère, lui sembla pour la première fois une forme de respect."
     },
     {
       "number": 3,
       "title": "III — Une nuit sans promesse",
       "type": "legacy",
       "url": "livres/les-jours-interdits.html#ch3",
-      "status": "published"
+      "status": "published",
+      "readingText": "La convalescence de sa mère avançait. Adèle aurait bientôt pu repartir à Paris. Elle avait pourtant commencé à redécouvrir Bordeaux avec un plaisir qu'elle ne s'expliquait pas : les quais au soleil, les librairies ouvertes le dimanche, les places où elle croisait des visages qu'elle avait connus.\n\nSamuel l'invita à dîner un samedi. Il précisa qu'il ne s'agissait pas de réécrire leur passé, seulement de passer une soirée ensemble.\n\nIls cuisinèrent dans son appartement, comme autrefois, mais sans retrouver les vieux automatismes. Samuel demanda ce qu'elle aimait aujourd'hui. Adèle découvrit qu'elle ne connaissait presque rien de l'homme qu'il était devenu.\n\nIls parlèrent longtemps. Il lui raconta les gardes de nuit, les erreurs qui lui avaient appris l'humilité, son père malade. Elle parla de son travail à Paris, des relations qui s'étaient arrêtées à la première difficulté et de la solitude qu'elle avait fini par appeler indépendance.\n\nUn disque tournait doucement. Au milieu d'une chanson, Samuel lui proposa de danser. Adèle accepta. Ils bougèrent sans rythme précis entre la table et la fenêtre.\n\n— Tu es sûre ? demanda-t-il quand elle leva le visage vers lui.\n\n— Oui.\n\nIls s'embrassèrent. Ce n'était pas une promesse de vie commune ni la réparation magique de sept années. C'était un choix partagé, fait par deux adultes capables de dire oui, mais aussi de s'arrêter.\n\nPlus tard, ils passèrent la nuit ensemble, à l'abri du tumulte de leurs interrogations. Au matin, la lumière révélait l'appartement sans le rendre différent. Les verres étaient encore sur la table. Une casserole attendait dans l'évier.\n\nAdèle se réveilla avant lui. Elle sentit monter l'envie familière de partir discrètement, de laisser une note et de se protéger d'une conversation difficile.\n\nElle n'en fit rien.\n\nElle prépara du café et attendit qu'il se lève.\n\n— Qu'est-ce qu'on fait maintenant ? demanda Samuel.\n\nAdèle posa sa tasse.\n\n— On ne fait pas semblant que tout est réglé. Je vis à Paris. Tu vis ici. Et nous ne nous connaissons plus comme avant.\n\nIl sourit légèrement.\n\n— Ça ressemble à un début de réponse honnête.\n\n— C'est peut-être notre seule chance.\n\nIls passèrent encore une heure à parler de ce qu'ils souhaitaient et de ce qu'ils ne promettaient pas. Rien ne fut résolu en une matinée. Mais aucune question ne resta volontairement cachée."
     },
     {
       "number": 4,
       "title": "IV — Le choix",
       "type": "legacy",
       "url": "livres/les-jours-interdits.html#ch4",
-      "status": "published"
+      "status": "published",
+      "readingText": "Le dernier jour de son séjour, Adèle accompagna sa mère à un contrôle médical. Les résultats étaient rassurants. Sur le chemin du retour, sa mère s'arrêta devant une fleuriste et choisit des tulipes jaunes.\n\n— Tu vas repartir ? demanda-t-elle.\n\n— Oui. J'ai un travail qui m'attend.\n\n— Je ne parlais pas de Paris.\n\nAdèle comprit. Elle n'avait pas besoin de répondre immédiatement.\n\nLe soir, elle retrouva Samuel sur les quais. Les bateaux avançaient lentement sur la Garonne, leurs feux traçant de longues lignes sur l'eau. Il avait les mains dans les poches. Elle avait pris soin de ne pas préparer de grand discours.\n\n— Je repars demain, dit-elle.\n\n— Je sais.\n\n— Je ne vais pas te demander de m'attendre.\n\n— Je ne te le proposerais pas.\n\nElle respira profondément.\n\n— Mais j'aimerais essayer quelque chose avec toi. Pas reprendre notre histoire où elle s'est arrêtée. En commencer une autre. À notre âge, avec nos vies et nos défauts actuels.\n\nSamuel mit du temps à répondre.\n\n— J'en ai envie aussi. Mais il faudra faire mieux que de belles paroles.\n\n— Je le sais.\n\nIls évoquèrent des choses pratiques : les trajets, les appels, les semaines où aucun des deux ne pourrait se libérer, les désaccords qu'il faudrait aborder avant qu'ils deviennent des silences. Ils décidèrent de se revoir un mois plus tard, puis de décider ensemble de la suite.\n\nIl n'y eut ni demande grandiose, ni certitude irréaliste. Seulement deux personnes qui choisissaient de ne pas fuir une relation avant de l'avoir vécue.\n\nÀ la gare, le lendemain, Samuel porta sa valise jusqu'au quai. Quand le train fut annoncé, Adèle l'embrassa et monta à bord.\n\nÀ travers la vitre, elle le vit rester sur le quai. Elle ressentit la tristesse légère des départs, mais pas cette panique qui lui dictait autrefois de couper les liens.\n\nSon téléphone vibra.\n\n« Arrive bien. Appelle-moi quand tu seras chez toi. »\n\nElle répondit : « Je le ferai. »\n\nPuis elle ajouta, après quelques secondes : « Et je reviendrai. »\n\nPour la première fois depuis des années, cette phrase n'était ni une consolation ni une manière de retarder un adieu.\n\nC'était un engagement à sa mesure, fragile et réel.\n\nLe train quitta la gare. Adèle regarda la ville s'éloigner et sourit. Elle n'avait plus besoin de disparaître pour se sentir libre."
     },
     {
       "number": 5,
       "title": "V — Les kilomètres",
       "type": "legacy",
       "url": "livres/les-jours-interdits.html#ch5",
-      "status": "published"
+      "status": "published",
+      "readingText": "Un mois plus tard, Adèle retrouva Samuel sur le quai de la gare de Bordeaux. Ils avaient tenu leur engagement : s'appeler sans transformer chaque silence en preuve de désamour, se raconter les jours ordinaires et prévoir les visites sans attendre que l'autre devine.\n\nC'était plus difficile qu'elle ne l'avait imaginé.\n\nÀ Paris, Adèle dirigeait un petit service de création et travaillait souvent tard. Samuel assurait des gardes irrégulières à l'hôpital. Leurs conversations avaient parfois lieu dans un couloir, entre deux réunions, ou à sept heures du matin lorsque l'un se réveillait et que l'autre n'avait pas encore dormi.\n\nTrois jours avant son départ, Samuel avait annulé un dîner prévu à Paris. Une urgence médicale l'avait retenu au travail. Adèle avait répondu : « Bien sûr, je comprends. » Puis elle n'avait plus écrit pendant vingt heures.\n\n— Tu étais en colère ? demanda Samuel lorsqu'ils s'assirent dans un café.\n\n— Oui.\n\n— À cause de mon service ?\n\n— Pas seulement. J'avais organisé mon week-end autour de nous. Quand tu as annulé, j'ai eu l'impression de redevenir une option.\n\nSamuel prit le temps de répondre.\n\n— J'aurais dû t'appeler, pas seulement envoyer un message. Mais je ne peux pas te promettre que mon travail ne bouleversera jamais nos projets.\n\n— Je sais. Et moi, je ne peux pas continuer à me taire dès que je suis blessée.\n\nCette fois, la conversation ne s'arrêta pas à une réconciliation. Ils ouvrirent leurs calendriers. Ils choisirent deux week-ends possibles et acceptèrent qu'une visite puisse parfois être reportée. Adèle lui proposa aussi de découvrir Paris autrement que comme une destination où dormir.\n\nLa soirée se poursuivit dans un restaurant bruyant près du fleuve. Samuel raconta une histoire absurde sur un patient qui refusait de se séparer de son perroquet. Adèle rit jusqu'aux larmes.\n\nPlus tard, ils rentrèrent ensemble. En fermant la porte, elle s'aperçut qu'elle n'était pas venue chercher la perfection. Elle était venue apprendre à supporter l'imprévisible sans se protéger derrière une fuite.\n\nDans la chambre, Samuel l'embrassa doucement. Ils se retrouvèrent avec le désir de ceux qui s'étaient manqués, mais aussi avec la confiance née de leurs paroles difficiles.\n\nLe lendemain, elle se réveilla contre son épaule et ne pensa pas à son train avant de penser à lui.\n\nCe n'était peut-être qu'une petite victoire. Elle était suffisamment nouvelle pour qu'Adèle la remarque."
     },
     {
       "number": 6,
       "title": "VI — L'ombre du passé",
       "type": "legacy",
       "url": "livres/les-jours-interdits.html#ch6",
-      "status": "published"
+      "status": "published",
+      "readingText": "La première fois qu'Adèle croisa Camille, elle ne comprit pas immédiatement qui elle était. Samuel les présenta devant la terrasse d'une librairie : Camille, une ancienne compagne, et Adèle, une femme qu'il revoyait depuis quelques mois.\n\nCamille était chaleureuse et semblait sincèrement heureuse de le retrouver. Elle demanda des nouvelles de son travail, puis parla d'un voyage qu'ils avaient autrefois envisagé ensemble. Rien dans l'échange n'était déplacé. Pourtant, Adèle sentit son visage se fermer.\n\nUne heure plus tard, elle reprocha à Samuel de ne pas l'avoir prévenue.\n\n— Je ne savais pas qu'elle serait là, répondit-il.\n\n— Tu aurais pu me dire que vous étiez restés proches.\n\n— Nous ne le sommes pas. Nous nous saluons quand nous nous croisons.\n\nAdèle entendit le ton de sa propre voix. Sept années auparavant, elle aurait transformé cette gêne en accusation définitive ou serait partie avant le dessert.\n\n— Je suis jalouse, admit-elle.\n\nSamuel la regarda avec surprise.\n\n— De Camille ?\n\n— De la version de toi qui a existé sans moi. Je crois que je voudrais connaître ces années sans avoir à les imaginer.\n\nIl s'assit à côté d'elle.\n\n— Je pourrais te les raconter. Mais il faut que tu acceptes que je n'ai pas cessé de vivre quand tu es partie.\n\nLes mots lui firent mal parce qu'ils étaient justes.\n\nElle lui parla alors d'Antoine, un homme avec lequel elle avait partagé deux années à Paris. Leur relation s'était terminée sans drame, mais elle avait longtemps évité d'en parler pour ne pas compliquer ses retrouvailles avec Samuel.\n\n— Je n'ai pas besoin de connaître chaque détail, dit-il. Je veux surtout savoir ce que tu en as appris.\n\nAdèle réfléchit.\n\n— Que j'ai tendance à quitter la conversation quand j'ai peur de perdre ma liberté. Même lorsqu'on ne me demande pas de la sacrifier.\n\nSamuel ne chercha pas à la rassurer par une promesse impossible. Il lui demanda ce dont elle avait besoin dans ces moments. Elle répondit qu'un peu de temps l'aidait, à condition de dire quand elle reviendrait parler.\n\nIls instaurèrent un accord simple : aucune dispute ne devait être close par une disparition. L'un pouvait demander une pause, mais pas effacer l'autre.\n\nLe soir, Camille leur envoya un message collectif pour recommander une exposition. Adèle le lut sans chercher un sous-entendu. Elle répondit poliment.\n\nCe petit geste ne fit pas disparaître toutes ses insécurités. Il prouva seulement qu'elle pouvait choisir de ne pas leur obéir."
     },
     {
       "number": 7,
       "title": "VII — Une place dans ma vie",
       "type": "legacy",
       "url": "livres/les-jours-interdits.html#ch7",
-      "status": "published"
+      "status": "published",
+      "readingText": "Quand Samuel vint à Paris, Adèle l'accueillit chez elle sans cacher les signes de sa vie indépendante : les dossiers empilés sur son bureau, les plantes oubliées près de la fenêtre, le vélo dans l'entrée et les livres qui débordaient des étagères.\n\nElle lui avait auparavant montré surtout des hôtels et des restaurants. Cette fois, elle voulait qu'il voie où elle habitait vraiment.\n\nSamuel passa le samedi à découvrir son quartier. Ils achetèrent du pain, visitèrent un marché, puis rejoignirent deux de ses amis pour dîner. La soirée fut agréable jusqu'à ce que l'un d'eux demande, sur le ton de la plaisanterie, lequel des deux finirait par déménager.\n\nLa question resta suspendue entre eux.\n\nSur le chemin du retour, Samuel demanda si elle avait déjà envisagé de revenir vivre à Bordeaux.\n\n— Pas pour l'instant, répondit-elle. Mon travail est ici. Et ma vie aussi.\n\n— La mienne est là-bas.\n\nIls marchèrent un moment sans parler. Dans la vitrine d'une pharmacie, Adèle aperçut leur reflet : deux adultes qui s'aimaient peut-être, mais dont les existences ne se superposaient pas.\n\n— Je ne veux pas te demander de sacrifier ton métier, dit Samuel.\n\n— Et je ne veux pas que tu considères Paris comme un détour avant la vraie vie.\n\nIls s'arrêtèrent sur un pont piéton. En dessous, les voitures glissaient dans la lumière des réverbères.\n\n— On peut aussi décider de ne pas résoudre aujourd'hui une question qui concerne les années à venir, proposa-t-elle.\n\nSamuel hocha la tête, mais il avait besoin d'une limite.\n\n— Je veux simplement être certain que nous parlons d'un avenir possible, pas d'une relation maintenue parce qu'elle est belle pendant les week-ends.\n\nAdèle comprit que cette demande n'était pas une menace. Elle était une invitation à être précise.\n\n— J'envisage un avenir avec toi, dit-elle. Je n'en connais pas encore l'adresse.\n\nIls rentrèrent chez elle. Sur le canapé, Adèle posa ses pieds sur les genoux de Samuel et lui raconta un projet professionnel qu'elle hésitait à accepter. Il l'écouta sans transformer chaque opportunité parisienne en rivalité.\n\nLe lendemain, Samuel prépara le petit déjeuner pendant qu'elle répondait à un appel urgent. En revenant, elle trouva sur la table deux tasses et une note : « J'ai appris où tu ranges le café. C'est déjà une place. »\n\nElle sourit, puis glissa la note dans un livre.\n\nCe n'était pas une solution au problème de la distance. Mais c'était une manière de construire du quotidien sans exiger que l'un disparaisse de sa propre vie."
     },
     {
       "number": 8,
       "title": "VIII — Ce que l’on choisit",
       "type": "legacy",
       "url": "livres/les-jours-interdits.html#ch8",
-      "status": "published"
+      "status": "published",
+      "readingText": "Six mois après leurs retrouvailles, Adèle reçut une proposition de mutation interne. Son entreprise souhaitait lui confier la direction d'une équipe implantée à Bordeaux, tout en lui permettant de travailler régulièrement à Paris.\n\nElle lut le message trois fois avant d'en parler à Samuel.\n\nUne autre Adèle aurait considéré cette proposition comme un signe du destin. Elle aurait annoncé un déménagement, attendu un sourire immense, puis reproché à l'autre de ne pas se montrer suffisamment reconnaissant.\n\nCette fois, elle commença par se demander ce qu'elle voulait pour elle-même.\n\nLe poste l'intéressait. Il lui offrirait de nouvelles responsabilités et une équipe à constituer. Il la rapprocherait de sa mère, qui avait retrouvé de l'autonomie mais appréciait leurs visites. Et il rendrait sa relation avec Samuel plus simple, sans la garantir.\n\nIls discutèrent longuement un dimanche après-midi. Samuel posa des questions sur ses conditions de travail, ses collègues, son autonomie. Il ne lui demanda pas de répondre immédiatement.\n\n— Tu n'as pas peur que je refuse ? dit-elle.\n\n— Si. Mais je préfère que tu refuses un emploi qui ne te convient pas plutôt que de venir ici en m'en voulant dans deux ans.\n\nAdèle sentit sa gorge se serrer. Elle lui prit la main.\n\n— J'ai envie d'essayer. Pour le travail, pour ma mère, et pour nous. Pas seulement pour nous.\n\nIls convinrent qu'elle louerait d'abord un appartement à son nom. Ils continueraient à se voir sans transformer le déménagement en obligation de cohabiter. Samuel voulait qu'ils apprennent à vivre dans la même ville avant de décider de vivre sous le même toit.\n\nTrois mois plus tard, Adèle arriva à Bordeaux avec six cartons, une valise et son vélo toujours cabossé. Samuel l'aida à monter les affaires au troisième étage. Ils se disputèrent brièvement sur la place d'une bibliothèque, puis éclatèrent de rire en réalisant qu'elle était trop large pour le mur prévu.\n\nEn fin de journée, ils commandèrent à manger et s'assirent par terre au milieu des cartons.\n\n— Tu es revenue, dit Samuel.\n\n— Oui. Mais je ne suis pas revenue à notre ancienne histoire.\n\n— Je sais.\n\nElle posa sa tête sur son épaule. Dehors, la ville bruissait. Des passants parlaient sur le trottoir, une voiture cherchait une place, quelqu'un fermait des volets.\n\nIl n'y avait pas de musique qui annonçait une fin heureuse définitive. Il y avait un appartement à aménager, des horaires compliqués, des habitudes à inventer et des conversations qu'ils devraient continuer à avoir.\n\nAdèle comprenait désormais que le désir pouvait ouvrir une porte, mais ne suffisait pas à construire une maison. Ce qui compterait serait la manière dont ils se parleraient lorsque la fatigue, les désaccords ou la peur reviendraient.\n\nSamuel se leva pour chercher des assiettes. Elle ouvrit le premier carton et y trouva un vieux carnet de voyages. Sur la première page, une phrase écrite sept ans plus tôt : « Ne jamais dépendre de personne. »\n\nElle la relut un moment puis, sans la raturer, ajouta dessous :\n\n« Choisir quelqu'un n'est pas se perdre. »\n\nElle referma le carnet. Le dîner était arrivé. Une nouvelle vie, imparfaite et réelle, pouvait commencer."
     },
     {
       "number": 9,
@@ -195,6 +263,246 @@
       "type": "text",
       "text": "Le jour anniversaire, Adèle et Samuel reprirent le même chemin qu’un an plus tôt, le long de la Garonne. Il pleuvait légèrement. Les pavés reflétaient les lampadaires et l’eau semblait noire sous les ponts.\n\nIls parlèrent de leurs échecs, sans transformer la soirée en bilan scolaire. Samuel reconnut qu’il s’était parfois fermé par peur d’être de nouveau abandonné. Adèle reconnut qu’elle avait encore le réflexe de préparer sa fuite lorsqu’elle se sentait jugée.\n\n— Et pourtant, nous sommes là, dit-il.\n\n— Oui. Nous avons appris à revenir.\n\nIls entrèrent dans un petit restaurant où personne ne connaissait leur histoire. Ils mangèrent lentement, parlèrent de voyages possibles et des livres qu’ils n’avaient pas terminés. Après le dîner, ils rentrèrent chez Adèle.\n\nElle posa sur la table la vieille photographie et la nouvelle. Puis elle ajouta un troisième objet : un carnet vierge.\n\n— Pas pour écrire des règles, dit-elle. Pour noter ce qu’on voudra faire ensemble.\n\nSamuel ouvrit la première page. Il écrivit : « Continuer à se parler. » Adèle ajouta : « Même lorsque c’est difficile. »\n\nIls restèrent enlacés près de la fenêtre. La nuit leur appartenait, avec la douceur d’une intimité choisie librement. Demain, les gardes, les réunions et les questions pratiques reviendraient. Ils ne savaient pas tout de leur avenir.\n\nMais ils avaient cessé de confondre aimer et retenir.\n\nLa première saison de leur seconde histoire pouvait s’achever là : non sur une promesse impossible, mais sur deux personnes qui se choisissaient encore, en connaissance de cause.",
       "status": "published"
+    },
+    {
+      "number": 21,
+      "title": "Le carnet resté ouvert",
+      "type": "text",
+      "text": "Le carnet vierge resta sur la table trois jours. Samuel avait écrit « Continuer à se parler ». Adèle, après avoir ajouté sa phrase, n’y touchait plus. Le quatrième matin, elle dessina une fenêtre trop étroite et écrivit : « Aller quelque part sans vérifier l’heure du retour. »\n\nSamuel lut la page en rentrant de garde. Il proposa le bassin d’Arcachon. Elle répondit qu’elle pensait à une promenade sans programme.\n\nIls rirent de leur première difficulté : même la liberté devenait un rendez-vous à organiser. Le dimanche, ils sortirent avec une seule décision, celle de tourner à gauche au bout de la rue. La pluie les ramena dans un café inconnu.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 22,
+      "title": "Le café des autres",
+      "type": "text",
+      "text": "Dans le café, Adèle trouva un livre oublié sur une chaise. Une enveloppe glissée entre les pages portait seulement un prénom. Samuel proposa de le laisser au comptoir. Elle préféra attendre quelques minutes pour voir si quelqu’un revenait.\n\n« Tu attends souvent les autres ? » demanda-t-il.\n\nElle pensa aux trains quittés trop tôt, aux messages auxquels elle avait répondu trop tard. Elle n’avait pas envie de transformer ce dimanche en confession.\n\nUne femme revint chercher le livre. Elle les remercia sans raconter son histoire. Adèle regarda Samuel retenir une question.\n\nIls finirent leur café. Ce qu’ils ne savaient pas de cette femme lui parut soudain une chose qu’ils pouvaient laisser tranquille.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 23,
+      "title": "L’étagère du bas",
+      "type": "text",
+      "text": "Samuel déposa quelques affaires chez Adèle : une chemise, une brosse à dents et un roman qu’il ne terminait jamais. Elle lui libéra une étagère, puis se surprit à déplacer ses propres livres pour la surveiller du coin de l’œil.\n\nIl le remarqua et demanda s’il allait trop vite. Adèle répondit non, puis corrigea : elle ne savait pas encore ce que cet espace lui faisait.\n\nIls laissèrent les choses là pendant une semaine. Le mardi suivant, Samuel retrouva sa chemise pliée sur le lit. Il crut qu’elle voulait la lui rendre. Elle venait seulement de faire une lessive.\n\nLe malentendu dura une minute. Ils le racontèrent pendant tout le dîner.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 24,
+      "title": "Le samedi d’Élise",
+      "type": "text",
+      "text": "Élise demanda à Samuel de garder son appartement pendant des travaux. Elle devait aussi y récupérer des meubles de leur enfance. Adèle proposa de venir aider et passa la matinée à regretter sa proposition.\n\nDevant une armoire impossible à descendre, Élise lui tendit un tournevis. Elles démontèrent les portes pendant que Samuel cherchait une corde dans sa voiture.\n\n« Je ne savais pas si je pouvais compter sur toi », dit Élise.\n\nAdèle continua de dévisser. Elle aurait voulu répondre par une promesse immense. Elle se contenta de demander quelle partie il restait à porter.\n\nÀ midi, elles mangèrent des sandwichs sur le parquet. Samuel arriva avec sa corde, inutile depuis une heure. Elles rirent toutes les deux.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 25,
+      "title": "La réunion manquée",
+      "type": "text",
+      "text": "Adèle arriva en retard à une présentation importante après avoir conduit sa mère à un rendez-vous déplacé au dernier moment. Son responsable lui reprocha surtout de ne pas avoir prévenu. Elle passa la soirée à refaire la conversation.\n\nSamuel lui donna d’abord une liste de solutions. Elle posa sa fourchette.\n\n« Tu peux être avec moi sans organiser ma journée de demain ? »\n\nIl resta vexé quelques secondes, puis s’excusa d’avoir répondu trop vite. Ils réchauffèrent le repas.\n\nPlus tard, Adèle reconnut qu’elle n’avait effectivement averti personne. Le reproche l’avait blessée parce qu’il touchait une faute réelle. Samuel lui prit la main. Elle n’avait pas besoin qu’il la déclare innocente pour se sentir moins seule.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 26,
+      "title": "Le nom de la ville",
+      "type": "text",
+      "text": "L’ancienne responsable parisienne invita Adèle à intervenir deux jours sur un projet. Cette fois, il n’était question ni de promotion ni de déménagement. Adèle accepta avant de se demander comment Samuel le prendrait.\n\nElle le lui annonça au téléphone. Il demanda les dates et lui souhaita une bonne intervention. La simplicité de sa réaction la contraria presque.\n\n« Tu n’es pas déçu ? »\n\n« On ne s’est pas retrouvés pour que tu ne prennes plus le train. »\n\nÀ la gare, elle acheta un carnet plus petit. Dans le premier, resté à Bordeaux, Samuel ajouta une ligne : « L’attendre sans lui reprocher son voyage. » Il lui montra la page à son retour, avec un sourire qui la fit rougir.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 27,
+      "title": "Deux nuits à Paris",
+      "type": "text",
+      "text": "La chambre d’hôtel donnait sur une cour sans bruit. Adèle y rentra après une journée réussie et sentit brusquement le manque de Samuel. Elle composa son numéro puis se rappela qu’il travaillait.\n\nElle lui envoya un message, posa le téléphone et sortit dîner seule. Autour d’elle, les conversations se mêlaient au bruit des assiettes. Elle retrouva une liberté qu’elle avait crue incompatible avec le désir de rentrer.\n\nSamuel rappela plus tard, entre deux urgences. Ils parlèrent cinq minutes. Elle ne lui fit pas payer les heures précédentes.\n\nAvant de dormir, Adèle écrivit qu’une absence pouvait être supportable et douloureuse à la fois. Elle n’avait plus besoin de choisir un seul mot pour lui donner le droit d’exister.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 28,
+      "title": "Le retour sans valise",
+      "type": "text",
+      "text": "Samuel vint la chercher à la gare. Sa valise, elle, était restée à Paris après une erreur de chargement. Adèle énumérait les démarches quand il l’embrassa sur le front.\n\n« On peut être contents de se voir avant de chercher le numéro du service ? »\n\nElle se mit à rire puis pleura sans l’avoir prévu. La fatigue la rendait moins habile à cacher ce qui l’émouvait.\n\nIls rentrèrent avec son seul sac à main. Samuel lui prêta un tee-shirt trop grand. Ils commandèrent un repas qu’aucun n’avait envie de cuisiner.\n\nLa valise revint deux jours plus tard. Adèle oublia de ranger le tee-shirt. Elle aimait le trouver là, sans avoir encore décidé ce que cela annonçait.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 29,
+      "title": "La plante de sa mère",
+      "type": "text",
+      "text": "Sa mère apporta une plante et un pot qui jurait avec tous les meubles. Adèle la plaça près de la fenêtre, où Samuel posait habituellement son sac.\n\n« Vous habitez ensemble, maintenant ? » demanda sa mère.\n\nAdèle répondit trop vite que non. Samuel baissa les yeux sur son café. La conversation continua, mais la question resta dans la pièce après le départ de leur visiteuse.\n\nIl expliqua qu’il ne voulait pas s’installer sans qu’ils en parlent. Elle lui dit qu’elle ne voulait plus devoir nier ce qu’elle était heureuse de construire.\n\nIls ne décidèrent pas d’un emménagement. Ils cessèrent seulement d’appeler ses affaires « des affaires de passage ». Samuel déplaça son sac pour laisser de la lumière à la plante.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 30,
+      "title": "La salle d’attente",
+      "type": "text",
+      "text": "Un contrôle supplémentaire fut demandé pour la mère d’Adèle. Les résultats nécessiteraient plusieurs jours. Dans la salle d’attente, Adèle regardait sa mère feuilleter un magazine trop ancien.\n\nSamuel proposa de les rejoindre à la sortie. Sa présence apaisa Adèle, puis l’irrita : elle avait peur de transformer chaque difficulté en appel au même homme.\n\n« Je peux aussi appeler Élise », dit-elle en rentrant.\n\nSamuel approuva. Il semblait soulagé qu’elle ne l’interprète plus comme un abandon.\n\nLe soir, Élise resta une heure au téléphone. Elles parlèrent d’autre chose pendant les dix dernières minutes. Adèle retrouva le goût d’une inquiétude partagée sans qu’elle occupe toute la maison. Sa mère l’appela pour demander si la plante recevait assez d’eau.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 31,
+      "title": "La fatigue de Samuel",
+      "type": "text",
+      "text": "Samuel s’endormit au milieu d’un film qu’il avait choisi. Adèle le réveilla trop brusquement, vexée d’avoir organisé la soirée pour rien. Il se leva avec une colère qu’elle ne lui connaissait pas.\n\n« Je ne fais pas exprès d’être épuisé. »\n\nElle ouvrit la bouche pour répondre puis vit ses mains trembler légèrement. Il venait d’enchaîner plusieurs journées difficiles à l’hôpital.\n\nIls arrêtèrent le film. Samuel alla dormir chez lui, sans que ce départ devienne une rupture. Adèle resta seule avec la déception qu’elle avait eu le droit d’éprouver et la manière injuste dont elle l’avait exprimée.\n\nLe lendemain, elle lui apporta un repas et des excuses précises. Il lui demanda de rester manger quand il aurait enfin dormi.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 32,
+      "title": "La table trop longue",
+      "type": "text",
+      "text": "Le repas de famille comptait deux invités supplémentaires. La tante de Samuel demanda quand ils comptaient « enfin se décider ». Adèle sentit la main de Samuel se raidir près de la sienne.\n\nElle répondit qu’ils se décidaient déjà sur beaucoup de choses. La tante voulut plaisanter. Élise changea de sujet en renversant volontairement une corbeille de pain.\n\nDans la cuisine, Adèle la remercia. Élise haussa les épaules : elle connaissait la phrase, on la lui servait aussi.\n\nSur le chemin du retour, Samuel demanda si l’idée de vivre ensemble lui faisait toujours peur. Adèle répondit oui. Puis elle ajouta que l’envie commençait à prendre davantage de place. Ils marchèrent moins vite jusqu’à sa porte.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 33,
+      "title": "Le carnet des dépenses",
+      "type": "text",
+      "text": "Ils tentèrent d’imaginer un logement commun et se disputèrent d’abord sur un chiffre. Samuel proposait de diviser chaque dépense en deux. Adèle craignait que leurs revenus différents rendent cette égalité plus lourde pour l’un que pour l’autre.\n\nLa discussion se tendit autour d’un tableau beaucoup trop compliqué. Ils refermèrent l’ordinateur et sortirent acheter du pain.\n\nEn revenant, Samuel expliqua qu’il avait peur d’être dépendant. Adèle avoua qu’elle redoutait de devoir demander la permission d’acheter quelque chose pour elle.\n\nIls reprirent les calculs avec ces peurs sur la table. La solution ne ressemblait à celle d’aucun de leurs amis. Ils la trouvèrent pourtant assez claire pour essayer de vivre avec.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 34,
+      "title": "Le premier appartement",
+      "type": "text",
+      "text": "L’appartement visité avait une terrasse et une odeur d’humidité. L’agent parla surtout de la terrasse. Samuel regarda les prises électriques; Adèle cherchait une pièce dont elle pourrait fermer la porte pour travailler.\n\nDehors, ils découvrirent qu’aucun ne voulait y vivre. Chacun avait cru que l’autre était déjà convaincu.\n\nIls éclatèrent de rire sous une gouttière qui fuyait. Samuel proposa d’arrêter les visites pour la journée. Adèle accepta avec un soulagement disproportionné.\n\nAu café voisin, ils dessinèrent ce qu’ils espéraient trouver : de la lumière, un coin calme et une cuisine où deux personnes ne seraient pas obligées de se pousser.\n\nLa terrasse disparut de la liste. Ils n’en avaient jamais vraiment parlé auparavant.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 35,
+      "title": "La clé qui revient",
+      "type": "text",
+      "text": "Samuel retrouva un double de clé donné avant leur ancienne séparation. Il le posa devant Adèle sans savoir s’il devait le lui rendre. Le métal avait noirci dans une boîte à outils.\n\nElle le reconnut aussitôt. Pendant des années, elle avait imaginé qu’il l’avait jeté avec le reste. Il expliqua qu’il avait seulement oublié la boîte.\n\nCette vérité ordinaire la blessa un peu, puis la fit sourire. Leur passé n’avait pas été conservé dans les mêmes gestes.\n\nIls rapportèrent la clé au propriétaire de l’ancien appartement, qui la prit avec étonnement. En sortant, Samuel demanda s’ils avaient vraiment traversé la ville pour cela.\n\nAdèle lui prit le bras. « Oui. Et maintenant on peut aller ailleurs. »",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 36,
+      "title": "La réponse de sa mère",
+      "type": "text",
+      "text": "Les résultats de sa mère imposaient un suivi, mais pas l’urgence qu’Adèle avait imaginée. Elle écouta les explications, nota les rendez-vous et sortit avec les jambes trop légères.\n\nSa mère voulut rentrer seule. Adèle protesta. La vieille femme lui demanda si elle comptait profiter de son inquiétude pour lui retirer toutes ses habitudes.\n\nElles se fâchèrent devant l’arrêt de bus. Puis Adèle reconnut qu’elle avait eu peur. Sa mère lui toucha la joue sans promettre de ne plus jamais l’inquiéter.\n\nLe soir, Samuel trouva Adèle en larmes devant un repas froid. Il ne demanda pas pourquoi elle pleurait après une bonne nouvelle. Il s’assit près d’elle et attendit qu’elle puisse manger.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 37,
+      "title": "La chambre de travail",
+      "type": "text",
+      "text": "Le deuxième appartement comportait une petite pièce donnant sur un mur. Adèle s’y tint seule pendant la visite. Samuel l’appela depuis la cuisine pour lui montrer une étagère bancale.\n\nElle lui demanda s’il accepterait qu’elle travaille derrière une porte fermée. Il répondit oui, puis demanda s’il pourrait garder un coin pour ses livres dans le salon.\n\nIls continuèrent la visite avec moins de gêne. La lumière était belle, les fenêtres fermaient mal et le loyer demandait de revoir leurs calculs.\n\nIls ne signèrent rien ce jour-là. Le soir, chacun envoya à l’autre la même photographie : la petite pièce presque vide. Adèle écrivit qu’elle s’y était imaginée le matin. Samuel répondit qu’il l’avait imaginée y revenir.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 38,
+      "title": "Le carton de trop",
+      "type": "text",
+      "text": "Adèle annonça son départ à son propriétaire. Elle passa ensuite une soirée à regretter une décision qu’elle voulait toujours. Samuel arriva avec des cartons et la trouva assise sur le parquet.\n\n« Tu peux encore changer d’avis », dit-il.\n\nElle lui demanda de ne pas lui offrir une sortie chaque fois qu’elle aurait peur. Elle avait aussi besoin qu’il l’aide à traverser les hésitations d’un choix réel.\n\nIls plièrent les premiers cartons ensemble. Dans l’un d’eux, Adèle mit le carnet bleu des années de séparation. Samuel ne demanda pas à le lire.\n\nPlus tard, elle écrivit sur une boîte : « À ouvrir lentement. » Il y rangea leurs photographies. La même consigne convenait aux deux.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 39,
+      "title": "La dernière nuit seule",
+      "type": "text",
+      "text": "La dernière nuit dans son appartement, Adèle dormit sur un matelas sans cadre. Elle avait demandé à rester seule. Vers deux heures, elle alluma sa lampe et regarda les marques laissées par les cadres.\n\nElle n’était ni abandonnée ni menacée. Elle avait pourtant le cœur serré. Ce logement l’avait accueillie quand elle ne savait pas encore rester.\n\nSamuel lui envoya un message bref : « Les clés sont prêtes. Bonne nuit. » Elle répondit avec la photographie du mur nu.\n\nAu matin, elle nettoya la dernière étagère puis attendit les déménageurs dehors. Sa mère arriva avec un thermos. Elles burent le café sur les marches avant que le premier camion tourne dans la rue.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 40,
+      "title": "La cuisine étroite",
+      "type": "text",
+      "text": "Le nouvel appartement possédait une cuisine plus étroite qu’ils ne l’avaient imaginé. Samuel ouvrit un tiroir au moment où Adèle essayait de passer. Le premier désaccord porta sur les tasses.\n\nIls étaient épuisés. Aucun ne savait où se trouvaient les couverts. Adèle se mit à rire si fort que Samuel crut d’abord qu’elle pleurait.\n\nIls mangèrent avec deux fourchettes empruntées à Élise, assis sur des caisses. La plante de sa mère occupait déjà la meilleure fenêtre.\n\nSamuel proposa de remettre le rangement au lendemain. Adèle éteignit la lumière de la cuisine. Ils se couchèrent au milieu de leurs affaires, sans appeler ce désordre un signe sur leur avenir. C’était simplement leur premier soir.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 41,
+      "title": "Le bruit des clés",
+      "type": "text",
+      "text": "Samuel rentrait tard et posait ses clés dans une coupelle qui réveillait Adèle. Elle ne dit rien pendant une semaine, puis lui reprocha un soir de ne jamais faire attention.\n\nIl montra la paire de chaussures contre laquelle il avait trébuché. Elles appartenaient à Adèle. Leur silence devint assez ridicule pour qu’ils le remarquent ensemble.\n\nIls déplacèrent la coupelle et ajoutèrent un petit tapis dans l’entrée. Puis ils parlèrent des horaires qui bouleversaient leurs journées.\n\nAdèle ne trouva pas immédiatement le sommeil le lendemain. Elle entendit pourtant la porte se fermer doucement. Ce geste ne réparait pas une vie entière. Il rendait la nuit un peu plus habitable, et c’était ce qu’elle avait réellement demandé.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 42,
+      "title": "Le dossier sur la table",
+      "type": "text",
+      "text": "Adèle prépara une proposition professionnelle qui demanderait plusieurs semaines de déplacements ponctuels. Elle laissa le dossier sur la table et attendit que Samuel en parle.\n\nDeux jours passèrent. Il croyait qu’elle ne souhaitait pas encore le montrer. Elle croyait qu’il préférait ignorer le sujet.\n\nQuand ils comprirent le malentendu, aucun ne trouva cela amusant. Ils avaient encore cette manière ancienne de charger le silence de phrases qu’aucun n’avait dites.\n\nSamuel lut le projet pendant qu’elle préparait du thé. Il posa des questions pratiques, puis lui dit ce qui l’enthousiasmait. Elle accepta enfin de lui demander aussi ce qui l’inquiétait. Ils avaient une table assez grande pour les deux réponses.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 43,
+      "title": "La ville en son absence",
+      "type": "text",
+      "text": "Adèle partit quatre jours. Samuel reçut Élise à dîner et brûla un plat qu’il réussissait d’habitude. Sa sœur ouvrit les fenêtres en riant.\n\nIl avoua qu’il n’avait plus l’habitude de l’appartement sans Adèle. Élise lui demanda ce qu’il avait envie d’y faire pour lui. Il regarda ses livres encore dans un carton.\n\nLe lendemain, il monta l’étagère du salon et termina enfin le roman commencé depuis des mois. Il envoya à Adèle une photographie du dernier chapitre, sans lui demander quand elle rentrerait.\n\nÀ son retour, elle trouva la pièce changée par une présence qui n’était pas suspendue à la sienne. Elle posa sa valise et lui demanda de lui raconter le livre.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 44,
+      "title": "Le dîner raté",
+      "type": "text",
+      "text": "Ils invitèrent leur famille pour le premier vrai dîner. La table était trop courte et le dessert s’effondra au moment d’être servi. Adèle s’excusa jusqu’à ce que sa mère lui prenne le plat des mains.\n\n« Il se mangera plus facilement comme ça. »\n\nSamuel avait oublié une bouteille au congélateur. Élise découvrit l’erreur en cherchant de la glace. La soirée devint beaucoup moins élégante que les photographies qu’Adèle avait imaginées.\n\nAprès le départ des invités, elle trouva un mot de sa mère sous un verre : « On était bien chez vous. »\n\nSamuel le lut avec elle. Le mot « chez vous » ne leur fit pas peur ce soir-là. Ils le laissèrent sur le réfrigérateur entre deux rendez-vous ordinaires.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 45,
+      "title": "La phrase de l’ancien quai",
+      "type": "text",
+      "text": "Au bord de la Garonne, Samuel évoqua leur première séparation avec une précision qu’Adèle ne connaissait pas. Il avait attendu un appel sur un quai pendant plusieurs heures. Elle croyait qu’il était déjà parti.\n\nIls s’arrêtèrent. Adèle chercha dans ses souvenirs et retrouva le message jamais envoyé, enregistré puis effacé. Le regret lui donna l’impression de manquer d’air.\n\n« Je ne te raconte pas ça pour que tu paies encore », dit-il.\n\nElle le savait, mais demanda quand même ce qu’il avait fait ensuite. Il raconta son retour, le repas qu’il n’avait pas mangé et l’appel d’Élise.\n\nIls rentrèrent sans conclure. Pour une fois, le passé avait obtenu assez de place pour être entendu sans décider de la soirée suivante.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 46,
+      "title": "Le jour sans projet",
+      "type": "text",
+      "text": "Un dimanche, Adèle se réveilla avant Samuel et n’éprouva aucune envie de remplir la journée. Elle resta près de la fenêtre avec un livre qu’elle n’ouvrit pas.\n\nIl la rejoignit et demanda ce qu’ils feraient. Elle répondit qu’elle aimerait rester là. Il alla chercher une couverture.\n\nIls parlèrent peu. À midi, une amie appela Adèle et l’invita dehors. Elle accepta. Samuel préféra continuer son livre.\n\nEn fermant la porte, elle sentit une joie calme : leur dimanche ne venait pas d’échouer parce qu’il se séparait en deux. Le soir, elle rentra avec une pâtisserie et une histoire drôle. Il lui avait gardé une place près de la fenêtre, sans l’avoir attendue pour vivre sa journée.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 47,
+      "title": "Le toit de la gare",
+      "type": "text",
+      "text": "Une fuite d’eau immobilisa les trains le jour où Adèle devait rentrer. Elle informa Samuel avant de chercher une autre solution. Il ne pouvait pas venir : il commençait sa garde.\n\nElle attendit plusieurs heures dans une gare bruyante. La vieille peur revint avec la fatigue, puis passa sans qu’elle lui donne une accusation à porter.\n\nQuand le train arriva enfin, Samuel lui envoya l’adresse d’un taxi déjà réservé avec son accord. Elle s’endormit presque pendant le trajet.\n\nÀ la maison, il avait laissé une assiette et un mot. Elle mangea seule, émue par une présence qui n’exigeait pas le corps de l’autre au même endroit. Au matin, ce fut elle qui entendit ses clés revenir doucement dans l’entrée.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 48,
+      "title": "Une question sans public",
+      "type": "text",
+      "text": "Samuel posa sa question un soir où rien n’était prévu. Il voulait savoir comment Adèle imaginait les années suivantes. Elle regarda le carnet ouvert entre eux.\n\nIls parlèrent de mariage, de travail, de famille, de choses désirées et de celles dont ils n’étaient pas certains. Aucun n’avait envie d’une réponse fabriquée pour rassurer l’autre avant la fin du repas.\n\nAdèle demanda du temps pour une question précise. Samuel accepta et lui dit ce qu’il espérait lui-même. Cela rendait l’attente plus honnête et plus difficile.\n\nIls allèrent ensuite laver les assiettes. La conversation continuait à petites phrases entre deux verres. Leur avenir ne s’était pas décidé. Il avait enfin cessé d’être un sujet qu’ils contournaient.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 49,
+      "title": "Le carnet presque rempli",
+      "type": "text",
+      "text": "Adèle relut les premières pages du carnet. Certaines envies avaient été réalisées, d’autres barrées et quelques-unes lui semblaient venir de personnes qu’ils n’étaient plus. Elle ajouta une date à côté de la première promenade sans programme.\n\nSamuel retrouva la photographie de leur dernier dîner raté. Il voulut la coller en travers d’une page. Elle protesta, puis lui donna les ciseaux.\n\nIls laissèrent plusieurs feuilles blanches à la fin. Adèle posa sa tête sur son épaule et lui dit qu’elle désirait construire une vie avec lui, même si elle ne pouvait pas promettre de ne plus jamais avoir peur.\n\nIl l’embrassa lentement. Aucun des deux n’ajouta une phrase pour rendre ce moment plus grand qu’il ne l’était déjà.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 50,
+      "title": "La fenêtre du matin",
+      "type": "text",
+      "text": "Le matin de leur deuxième anniversaire de retrouvailles, Samuel oublia le pain. Adèle le retrouva devant la fenêtre, un café à la main, regardant la lumière sur les toits.\n\nElle passa ses bras autour de lui. Il reconnut son oubli avant qu’elle parle. Elle rit et proposa de descendre ensemble.\n\nDans l’entrée, ils croisèrent le carnet laissé ouvert sur une page neuve. Samuel y écrivit : « Acheter du pain. » Adèle ajouta : « Revenir. »\n\nIls sortirent sans fermer la conversation commencée des mois auparavant. Leurs emplois les fatiguaient encore, leurs mères les inquiétaient parfois et certaines phrases demandaient deux essais avant de devenir justes.\n\nMais le logement avait une place pour chacun de leurs livres, leurs silences et leurs retours. Quand ils remontèrent l’escalier, Adèle prit les clés dans son sac. Elle ouvrit la porte, posa le pain sur la table et appela Samuel pour qu’il vienne manger pendant que le café était chaud.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
     }
   ],
   "bonusScenes": [
@@ -219,5 +527,7 @@
       "text": "Interlude situé : Après le premier anniversaire des retrouvailles.\n\nAdèle reçut l’appel à la sortie du travail. Madeleine, une ancienne voisine qui lui avait autrefois gardé ses clés, était morte dans son sommeil. Elle resta devant la porte automatique jusqu’à ce que Samuel lui demande où elle souhaitait aller.\n\nChez Madeleine, la fille de la défunte leur remit une enveloppe : les lettres qu’Adèle avait envoyées pendant ses années d’absence. Rien n’y avait été jeté. Adèle demanda à aider au tri, puis dut s’arrêter au bout de quelques minutes.\n\nUne semaine plus tard, une amie leur présenta son nouveau-né. Samuel attendit qu’on lui propose de le prendre. Sur le chemin du retour, Adèle parla de Madeleine et du berceau installé près de la fenêtre.\n\n— Est-ce que tu voudrais un enfant ? demanda-t-elle.\n\nIls marchèrent longtemps avant de répondre. La naissance d’un autre ne décidait pas de leur couple, mais elle leur avait donné une question qu’ils pouvaient enfin aborder ensemble.",
       "timeline": "Après le premier anniversaire des retrouvailles"
     }
-  ]
+  ],
+  "extraNote": "Édition web en 50 chapitres courts et 10 épisodes. Les 20 chapitres initiaux et les scènes complémentaires sont conservés ; les chapitres 21 à 50 prolongent le récit. Les PDF historiques conservent leur contenu initial.",
+  "edition": "Novembre 2026 · 50 chapitres courts"
 }

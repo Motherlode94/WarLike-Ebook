@@ -3,13 +3,13 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {CATALOG,SEASONS,NOVELS,PDFS,getProgress,normalizeChapter,resumeUrl} from '../reading-dashboard.js';
 test('dashboard represents all existing collections without fictional publication counts',()=>{
- assert.equal(SEASONS.length,8);assert.equal(NOVELS.length,3);assert.equal(PDFS.length,3);assert.equal(CATALOG.length,14);
+ assert.equal(SEASONS.length,8);assert.equal(NOVELS.length,4);assert.equal(PDFS.length,3);assert.equal(CATALOG.length,15);
  assert.equal(CATALOG.find(b=>b.id==='valdorne').title,'Les Héritiers de Valdorne');
  assert.equal(CATALOG.find(b=>b.id==='arodan').title,'Arodan — Le Sang des Libres');
 });
 test('season handles duplicate, invalid and out of order chapter numbers',()=>{
  const book=CATALOG.find(b=>b.kind==='season'&&b.id==='heures');
- const data=new Map([['warlike:chapters:heures','[2,2,19,0,"x",35,1]']]);
+ const data=new Map([['warlike:chapters:heures','[2,2,19,0,"x",51,1]']]);
  const progress=getProgress(book,key=>data.get(key)??null);
  assert.equal(progress.seen,3);assert.equal(progress.position,19);assert.equal(progress.next,20);
  assert.equal(resumeUrl(book,progress),'./saisons.html?livre=heures&chapitre=20');
@@ -34,3 +34,10 @@ test('HTML has all interactive dashboard hooks',()=>{
  assert.equal(normalizeChapter(0,20),null);
  assert.equal(normalizeChapter(21,20),null);
 });
+
+ test('expanded seasons resume at 50 and previous progress stays readable',()=>{
+ const item=CATALOG.find(b=>b.kind==='season'&&b.id==='jours');assert.equal(item.total,50);
+ assert.equal(getProgress(item,()=>JSON.stringify(Array.from({length:20},(_,i)=>i+1))).finished,false);
+ const progress=getProgress(item,()=>JSON.stringify(Array.from({length:50},(_,i)=>i+1)));assert.equal(progress.finished,true);assert.equal(progress.next,50);
+ const seven=CATALOG.find(b=>b.id==='seven');assert.equal(resumeUrl(seven,getProgress(seven,()=> '49')),'./seven-livre.html?chapitre=50');
+ });

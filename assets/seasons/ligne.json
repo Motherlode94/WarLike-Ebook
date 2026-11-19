@@ -6,52 +6,112 @@
   "episodes": [
     {
       "number": 1,
-      "title": "Le siège",
+      "title": "Le passage",
       "chapters": [
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     },
     {
       "number": 2,
       "title": "Les absents",
       "chapters": [
-        5,
         6,
         7,
-        8
+        8,
+        9,
+        10
       ]
     },
     {
       "number": 3,
-      "title": "Les archives cachées",
+      "title": "La parole retrouvée",
       "chapters": [
-        9,
-        10,
         11,
-        12
+        12,
+        13,
+        14,
+        15
       ]
     },
     {
       "number": 4,
-      "title": "La parole des familles",
-      "chapters": [
-        13,
-        14,
-        15,
-        16
-      ]
-    },
-    {
-      "number": 5,
       "title": "La dernière ligne",
       "chapters": [
+        16,
         17,
         18,
         19,
         20
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Le premier hiver",
+      "chapters": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "number": 6,
+      "title": "L’autre rive",
+      "chapters": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Ce qui tient au chaud",
+      "chapters": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "number": 8,
+      "title": "La nuit du dégel",
+      "chapters": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Reconstruire ensemble",
+      "chapters": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "number": 10,
+      "title": "La ligne du matin",
+      "chapters": [
+        46,
+        47,
+        48,
+        49,
+        50
       ]
     }
   ],
@@ -61,56 +121,64 @@
       "title": "I — Le pont",
       "type": "legacy",
       "url": "livres/la-derniere-ligne.html#ch1",
-      "status": "published"
+      "status": "published",
+      "readingText": "À l'aube du quarante-troisième jour, le pont de Sarne tenait encore. Il n'en restait que deux travées, une chaussée crevassée et les carcasses de trois camions, mais on pouvait passer à pied. C'était suffisant pour les familles qui fuyaient la ville, et c'était pour cette raison que le capitaine Elias Mavoko avait refusé l'ordre de destruction.\n\n— La colonne ennemie arrivera avant midi, dit la sergente Nora Venn.\n\nElle tenait la radio sous son manteau pour la protéger de la pluie. À vingt-six ans, elle avait appris à économiser ses paroles. Depuis le début du siège, les détails superflus étaient devenus une forme de gaspillage.\n\n— Combien de civils au nord ?\n\n— Deux cents, peut-être trois. L'école en a accueilli d'autres cette nuit.\n\nElias regarda la route qui descendait vers le fleuve. Un homme poussait une bicyclette chargée de couvertures. Une vieille femme marchait pieds nus dans l'eau froide. Au milieu d'eux avançait une fille au manteau jaune, accrochée à la main d'un garçon plus petit.\n\nLa radio grésilla. Le commandement ordonnait une nouvelle fois de faire sauter le pont avant dix heures.\n\n— Répondez que l'évacuation est en cours, dit Elias.\n\n— C'est déjà ce que j'ai dit hier.\n\n— Alors ils reconnaîtront notre voix.\n\nNora eut un sourire bref, qui disparut lorsqu'une détonation secoua les immeubles de la rive est. Un pan de façade s'effondra dans un nuage de poussière. Les gens accélérèrent, non parce qu'ils avaient trouvé des forces, mais parce que la peur sait emprunter celles du lendemain.\n\nElias avait connu ce fleuve avant la guerre. Il y venait pêcher avec son père, qui répétait que l'eau ne choisissait pas de camp. Aujourd'hui, les deux rives avaient des uniformes différents et le fleuve transportait les mêmes débris.\n\nIl demanda à son mécanicien, Idriss, de déplacer le camion abandonné qui bouchait l'accès. Idriss fit tourner le moteur trois fois avant qu'il ne démarre. Quand l'engin roula sur le côté, les réfugiés applaudirent faiblement, comme si l'on venait d'ouvrir une porte au milieu d'un incendie.\n\nÀ neuf heures, un jeune soldat apporta une carte marquée de flèches rouges. Il voulait savoir où placer les explosifs. Elias replia la carte et la posa sous une pierre.\n\n— Nous n'en sommes pas là.\n\nLe garçon fronça les sourcils.\n\n— Mais les ordres...\n\n— Les ordres ne traverseront pas avec ces familles.\n\nCe n'était pas une déclaration héroïque. Elias avait simplement vu une femme trop âgée pour courir s'arrêter au milieu du pont afin de reprendre son souffle. Il savait qu'un mot lancé depuis un bureau pouvait la tuer aussi sûrement qu'un obus.\n\nÀ neuf heures quarante, la petite fille au manteau jaune arriva devant lui. Son frère avait perdu une chaussure.\n\n— On nous a dit que vous fermiez le pont.\n\n— Pas encore.\n\n— Vous nous laisserez passer ?\n\nIl regarda les pieds ensanglantés du garçon puis prit la paire de bottes de rechange accrochée à son sac. Elles étaient beaucoup trop grandes. Il les serra avec deux bandes de tissu.\n\n— Courez jusqu'à la maison au toit bleu. Ensuite, marchez. Vous aurez besoin de vos jambes demain.\n\nLa fillette hocha la tête. Elle ne le remercia pas. Il n'en attendait rien. À cette heure, chacun gardait ses derniers mots pour ceux qu'il aimait.\n\nQuand ils disparurent sur la rive nord, Nora annonça qu'il restait encore soixante-sept personnes à évacuer.\n\nLe pont trembla sous une nouvelle explosion.\n\n— Nous allons manquer de temps, dit-elle.\n\nElias ne répondit pas. Il regardait déjà le quartier de l'école."
     },
     {
       "number": 2,
       "title": "II — L'école",
       "type": "legacy",
       "url": "livres/la-derniere-ligne.html#ch2",
-      "status": "published"
+      "status": "published",
+      "readingText": "L'école Saint-Aune avait été transformée en refuge. Les pupitres servaient de lits, les cahiers de cales pour empêcher les portes de battre, et les dessins d'enfants recouvraient toujours les murs. Un soleil maladroit souriait au-dessus d'un tableau noir où quelqu'un avait écrit : « Revenez demain. »\n\nLorsque Nora entra dans le gymnase, personne ne demanda d'abord si les combats approchaient. Ils demandèrent s'il y avait de l'eau.\n\nUne institutrice, Madame Belan, lui montra les réserves : trois bidons, une caisse de médicaments et deux boîtes de biscuits. Il y avait quatre-vingt-neuf personnes, dont vingt-trois enfants.\n\n— Le convoi doit partir maintenant, dit Nora.\n\n— Nous avons deux malades qui ne peuvent pas marcher.\n\nNora fit venir Idriss avec une camionnette. Le véhicule n'avait plus de porte arrière et une roue perdait de l'air, mais il roulait encore. Ils installèrent les blessés sur des matelas et demandèrent aux adultes capables de marcher de former une file à l'extérieur.\n\nUn adolescent restait assis près de la fenêtre, les poings serrés. Il s'appelait Pavel, et son père se trouvait dans un quartier dont on n'avait plus de nouvelles.\n\n— Je reste.\n\n— Pourquoi ?\n\n— Il va revenir ici.\n\nNora aurait voulu pouvoir lui promettre qu'il reviendrait. À la place, elle lui tendit une enveloppe.\n\n— Écris où tu vas. Nous la laisserons sur le bureau du directeur. S'il revient, il saura comment te chercher.\n\nPavel écrivit lentement, en appuyant si fort qu'il déchira presque le papier. Puis il se leva.\n\nDans la cour, Elias organisait la sortie par groupes. Il avait décidé de faire passer les civils avant les véhicules militaires. Certains soldats protestaient, regardant les collines où une fumée noire commençait à monter.\n\n— On sera coincés de l'autre côté, dit l'un d'eux.\n\n— Alors nous partirons à pied, répondit Elias.\n\nUne nouvelle communication du commandement exigea qu'il confirme l'exécution de l'ordre. L'officier de liaison énuméra les conséquences possibles de sa désobéissance, d'abord avec impatience, puis avec colère.\n\nElias laissa passer la tirade.\n\n— Je suis sur place, dit-il. Vous aurez mon rapport et mes coordonnées après l'évacuation.\n\nIl coupa la transmission.\n\nNora l'observait depuis le portail.\n\n— Ils vous traduiront en cour martiale.\n\n— Peut-être.\n\n— Vous y avez pensé ?\n\n— Tous les jours depuis le début du siège.\n\nIl lui montra les fenêtres de l'école.\n\n— Mais pas autant qu'à ceux qui dorment là-dedans.\n\nLe premier camion arriva au pont à dix heures vingt. On entendait désormais des rafales au sud. Le ciel semblait plus bas, plein de fumée et de pluie.\n\nMadame Belan monta dans le dernier véhicule avec une boîte en métal contenant les registres de ses élèves. Nora lui demanda pourquoi elle emportait des papiers alors qu'il fallait abandonner des lits.\n\n— Pour qu'ils aient encore des noms, dit l'institutrice.\n\nCes mots accompagnèrent Nora pendant tout le trajet jusqu'au pont."
     },
     {
       "number": 3,
       "title": "III — L'ordre",
       "type": "legacy",
       "url": "livres/la-derniere-ligne.html#ch3",
-      "status": "published"
+      "status": "published",
+      "readingText": "À onze heures douze, un obus frappa l'entrée sud du pont. Les éclats déchirèrent la chaussée et un camion s'immobilisa en travers de la route. Pendant quelques secondes, plus personne ne bougea. Puis les cris commencèrent.\n\nIdriss descendit le premier. Il vérifia le conducteur et ouvrit la cabine. L'homme était vivant, assommé par le choc. Deux soldats poussèrent le véhicule jusqu'à dégager un passage étroit.\n\nNora reçut sur la radio un message du poste avancé : les unités ennemies étaient visibles au rond-point, à moins de deux kilomètres. Personne ne pouvait garantir qu'elles accepteraient un corridor humanitaire.\n\n— Les dernières familles sont à trois cents mètres, annonça-t-elle.\n\nElias monta sur une glissière de sécurité pour les voir. Un vieillard marchait au bras d'une jeune femme. Derrière eux, Pavel transportait la boîte des registres scolaires. L'institutrice aidait les deux blessés à rejoindre la camionnette.\n\nUn véhicule blindé apparut au bout de l'avenue.\n\nLa tension se cristallisa. Quelques soldats levèrent leurs armes. Elias ordonna de tenir les positions défensives et de ne pas tirer sur une cible non identifiée comme hostile. La frontière entre prudence et panique était devenue plus mince que la rambarde du pont.\n\nLe véhicule s'arrêta. Un drapeau blanc apparut par une trappe.\n\nUn homme sans casque en sortit, les mains ouvertes. Il se présenta comme lieutenant Sokol et demanda à parler à celui qui commandait le passage.\n\nElias s'avança jusqu'au milieu de la route, seul.\n\n— Vous avez ordre de détruire ce pont, dit Sokol.\n\n— Vous aussi, probablement.\n\n— Nous voulons les civils hors de la ville. Mais les tirs reprendront si votre artillerie nous vise.\n\n— Il n'y a pas d'artillerie ici. Seulement des gens qui essaient de partir.\n\nSokol baissa les yeux vers le pont endommagé.\n\n— Je peux retenir mes hommes quinze minutes. Pas davantage.\n\nElias sentit le poids de cette durée. Quinze minutes ne suffisaient pas à sauver une ville. Elles pouvaient pourtant suffire pour une vieille femme, une maîtresse d'école et vingt-trois enfants.\n\n— Alors nous ferons vite.\n\nSokol repartit vers le rond-point. Aucun accord n'avait été signé. Aucun commandement ne l'avait approuvé. C'était un pari fragile entre deux hommes qui risquaient chacun de perdre leur poste, leur liberté ou leur vie.\n\nLes civils traversèrent. Pavel courut les derniers mètres avec la boîte serrée contre lui. Madame Belan s'arrêta au milieu du pont pour compter ses élèves une dernière fois.\n\nTous y étaient.\n\nNora regarda sa montre. Il restait trois minutes avant l'expiration de la trêve improvisée. Elias avait enfin placé des charges sous la travée sud pour empêcher le passage de véhicules lourds après leur repli.\n\n— On peut partir, dit-elle.\n\n— Idriss ?\n\n— Déjà sur la rive nord. Il nous attend.\n\nElias contempla la ville une dernière fois. Une fenêtre du quartier bas brillait dans la fumée. Il ne savait pas si c'était un feu ou le soleil.\n\nIls coururent.\n\nÀ l'instant où la première détonation détruisit la travée, ils avaient rejoint les dernières familles. La chaussée s'effondra dans l'eau, emportant avec elle les carcasses de camions. Les deux rives furent séparées par un vide noir.\n\nElias sentit sa poitrine se serrer. Il venait de couper la route vers sa propre maison.\n\nMais personne ne se trouvait plus sur le pont."
     },
     {
       "number": 4,
       "title": "IV — Les noms",
       "type": "legacy",
       "url": "livres/la-derniere-ligne.html#ch4",
-      "status": "published"
+      "status": "published",
+      "readingText": "Trois mois plus tard, Elias fut convoqué devant une commission militaire. Les combats avaient cessé autour de Sarne, mais la ville restait en partie inhabitable. Les journaux parlaient de victoire ou de défaite selon le drapeau imprimé en première page. Elias n'employait aucun de ces mots.\n\nL'accusation lut la chronologie de ses décisions : retard dans l'exécution d'un ordre, négociation non autorisée avec un officier adverse, destruction partielle d'une infrastructure stratégique.\n\n— Avez-vous quelque chose à ajouter ? demanda le président de la commission.\n\nElias prit dans sa poche une feuille pliée. Il l'avait reçue la veille. C'était une liste écrite à la main, accompagnée de signatures maladroites.\n\n— Oui.\n\nIl la posa sur la table.\n\n— Voici les noms de ceux qui sont sortis de Sarne par le pont.\n\nLa salle resta silencieuse. Le président examina la première page. Au bas de la liste, on reconnaissait l'écriture de Madame Belan. Elle avait tenu à distinguer les enfants des adultes, et avait ajouté à côté de chacun l'endroit où il se trouvait désormais.\n\nLa commission débattit pendant deux jours. Elle conclut qu'Elias avait désobéi à un ordre direct, mais reconnut que son initiative avait permis l'évacuation de nombreux civils. Il perdit son commandement. Il ne fut pas emprisonné.\n\nNora l'attendait à la sortie, adossée à une voiture cabossée.\n\n— Vous êtes libre ?\n\n— Apparemment.\n\n— Et maintenant ?\n\nElias regarda la ville derrière les casernes. Les rues avaient repris leur bruit de marché. Les enfants traversaient les passages piétons comme si les routes avaient toujours été faites pour cela.\n\n— Je retourne à Sarne.\n\nLa reconstruction y avançait lentement. Sur la rive nord, des ouvriers dressaient les piliers d'un nouveau pont. À côté du chantier, l'école Saint-Aune avait ouvert dans deux bâtiments préfabriqués. Madame Belan y enseignait déjà.\n\nLorsque Elias entra, Pavel le reconnut immédiatement. Il avait grandi. Son père n'était jamais revenu, mais l'adolescent avait retrouvé une tante à quelques heures de route.\n\n— Vous avez gardé vos bottes ? demanda Pavel.\n\n— Quelles bottes ?\n\n— Celles que vous avez données à la petite fille.\n\nElias sourit. Il expliqua qu'il ne s'agissait pas des siennes mais d'une paire de rechange.\n\nPavel désigna une étagère. Les bottes y étaient posées, nettoyées, avec une étiquette : « Pour le prochain qui doit traverser. »\n\nCe soir-là, Elias marcha jusqu'au fleuve. Le pont n'était encore qu'une succession de poutres et de cordages de chantier. Il vit des ouvriers mesurer la largeur de l'eau, des enfants lancer des cailloux depuis la rive et une femme appeler son mari pour le dîner.\n\nLa guerre avait laissé des ruines et des absences que personne ne réparerait complètement.\n\nMais au-dessus du fleuve, on bâtissait à nouveau un chemin.\n\nElias resta jusqu'à la tombée de la nuit. Il n'attendait aucun applaudissement. Il regardait simplement une route revenir."
     },
     {
       "number": 5,
       "title": "V — La rive absente",
       "type": "legacy",
       "url": "livres/la-derniere-ligne.html#ch5",
-      "status": "published"
+      "status": "published",
+      "readingText": "Au printemps, le pont de Sarne avait retrouvé ses piliers, mais pas encore sa chaussée. Pour rejoindre l'autre rive, on empruntait une barge qui traversait seulement par temps calme. Elias y monta avec un sac de vêtements et une boîte d'outils. Il avait accepté de travailler avec les équipes civiles chargées des réparations.\n\nLe contremaître, Leïla Senn, ne lui réserva aucun accueil particulier. Elle lui montra une poutre fendue, un carnet de mesures et une rangée de boulons.\n\n— On m'a dit que vous commandiez des hommes.\n\n— Avant.\n\n— Ici, vous allez surtout m'écouter.\n\nIl acquiesça. La franchise de Leïla lui plut davantage que les regards appuyés que certains passants lui adressaient encore. La moitié le traitait en héros, l'autre moitié lui reprochait d'avoir détruit le dernier passage routier. Elias savait qu'aucun de ces deux récits ne contenait toute la vérité.\n\nNora vint le retrouver au chantier deux semaines plus tard. Elle ne portait plus d'uniforme. Son engagement avait pris fin, et elle travaillait désormais à identifier les personnes disparues. Elle déposait les listes au centre d'accueil, comparait les déclarations et appelait les hôpitaux. Elle n'avait retrouvé ni certitude ni repos.\n\n— L'école a reçu une lettre, dit-elle. Elle vient du lieutenant Sokol.\n\nElias se raidit. Ils n'avaient pas échangé un mot depuis la trêve du pont.\n\nLa lettre était courte. Elle annonçait qu'une partie des archives militaires de la rive sud avait été récupérée dans un poste abandonné. On y trouvait des listes de détenus et des indications sur des évacuations forcées. Sokol proposait une rencontre, dans un bâtiment surveillé par des observateurs civils.\n\n— Ça peut être un piège, dit Elias.\n\n— Ça peut être la première information utile depuis des mois, répondit Nora.\n\nLe soir même, Elias marcha jusqu'à l'école Saint-Aune. Madame Belan venait de terminer la classe. Les élèves avaient peint un pont sur une grande feuille de papier. Chaque travée portait le nom d'une personne qu'ils voulaient retrouver.\n\nIl s'arrêta devant celui de Pavel. Un nom figurait dans la peinture, en lettres maladroites : Tomas, son père.\n\n— Il le cherche toujours ? demanda Elias.\n\n— Tous les jours. Mais il commence à comprendre qu'on peut vivre en attendant une réponse, et pas seulement attendre pour vivre.\n\nCette phrase le suivit pendant son retour. Dans sa chambre, il posa la lettre sur la table. Son instinct de soldat lui soufflait de se méfier de toute promesse venue de l'autre rive. Sa mémoire, elle, lui rappelait les quinze minutes que Sokol avait offertes aux réfugiés.\n\nIl décrocha son téléphone et appela Nora.\n\n— Je viendrai. Mais nous n'irons pas seuls.\n\n— Je pensais exactement la même chose.\n\nIls convinrent de faire accompagner la rencontre par l'institutrice et un représentant du centre de secours, qui consigneraient les documents remis. Elias ne voulait pas négocier des vies comme on négocie une frontière.\n\nEn fermant la fenêtre, il aperçut les lumières du chantier. Sous les projecteurs, Leïla et ses ouvriers continuaient de fixer les premières pièces de la travée centrale.\n\nUn pont pouvait relier des routes. Il lui restait à apprendre comment réparer ce qu'aucune machine ne savait mesurer."
     },
     {
       "number": 6,
       "title": "VI — Le registre des absents",
       "type": "legacy",
       "url": "livres/la-derniere-ligne.html#ch6",
-      "status": "published"
+      "status": "published",
+      "readingText": "La rencontre eut lieu dans une ancienne maison des douanes. La pièce sentait le plâtre humide. Deux tables avaient été rapprochées, et une horloge murale avançait de cinq minutes.\n\nSokol entra sans arme visible. Il avait perdu du poids depuis le siège. À sa droite marchait une femme portant une chemise cartonnée remplie de documents. Elle se présenta comme Irina Vel, responsable d'un service d'archives provisoire.\n\n— Nous ne demandons aucun échange, précisa-t-elle. Les noms doivent être remis aux familles.\n\nNora photographia chaque page avant de la classer. Elias observa Sokol, qui semblait plus âgé qu'au milieu du pont.\n\n— Pourquoi maintenant ?\n\n— Parce que les archives ont été déplacées trois fois. Parce que des personnes voulaient les détruire. Et parce que, si nous attendons le bon moment, il n'arrivera jamais.\n\nSur les feuilles apparaissaient des noms, des dates, des transferts entre camps et hôpitaux. Certains documents se contredisaient. Irina l'expliqua sans chercher à masquer les erreurs.\n\nMadame Belan parcourait les colonnes avec un doigt tremblant. Elle reconnut deux noms d'anciens parents d'élèves. Le troisième ne se trouvait pas là. Elle tourna encore une page.\n\n— Tomas Belan, lut-elle doucement.\n\nPavel ne portait pas son nom, mais l'institutrice connaissait celui de son père par cœur. Elle vérifia la date. Le document indiquait un transfert vers un centre sanitaire, six semaines après l'évacuation.\n\n— Il était vivant ce jour-là, dit Nora.\n\nPersonne ne prononça le mot aujourd'hui.\n\nDans la cour, Elias retrouva Sokol à côté d'un arbre sans feuilles. Les deux hommes se regardèrent quelques secondes.\n\n— On vous a reproché d'avoir laissé passer les familles ? demanda Elias.\n\n— Oui. On m'a reproché beaucoup de choses. Mais j'ai revu un des enfants la semaine dernière. Il était sur une bicyclette trop grande et riait comme si rien ne pouvait l'atteindre.\n\nSokol se passa la main sur le visage.\n\n— C'est une raison suffisante pour ne pas regretter.\n\nAu centre d'accueil, l'annonce des registres provoqua une foule. Des gens attendaient avec des photographies, des carnets, des dates approximatives. Nora organisa des files pour éviter que les noms soient lus publiquement. Chaque famille devait être reçue dans une pièce séparée.\n\nPavel arriva le soir. Il essaya de rester calme pendant que Nora lui expliquait ce qu'ils savaient et ce qu'ils ignoraient.\n\n— Alors il est vivant ?\n\n— Il l'était à la date du transfert. Nous continuons de chercher.\n\nLe garçon détourna la tête. Il avait attendu une certitude. On lui remettait une piste.\n\nElias s'attendait à le voir protester. Pavel sortit simplement la lettre qu'il avait laissée autrefois sur le bureau du directeur.\n\n— Je vais lui en écrire une autre, dit-il. Pour qu'il sache où je suis maintenant.\n\nNora lui indiqua le centre sanitaire inscrit dans le registre. Elle prévint qu'il fallait d'abord vérifier son fonctionnement actuel avant d'entreprendre le trajet.\n\nCette nuit-là, un nom supplémentaire fut ajouté à la grande feuille de l'école. Pas dans la colonne des morts, ni dans celle des retrouvés. Dans une troisième colonne, que Madame Belan venait de créer : ceux que l'on cherchait encore."
     },
     {
       "number": 7,
       "title": "VII — La décision de Nora",
       "type": "legacy",
       "url": "livres/la-derniere-ligne.html#ch7",
-      "status": "published"
+      "status": "published",
+      "readingText": "Nora avait appris à dormir quatre heures sans se plaindre, à mémoriser une carte et à distinguer la peur d'un avertissement utile. Elle découvrit pourtant qu'une enquête sur les disparus exigeait une autre forme de résistance : celle de prononcer chaque jour la même phrase sans mentir.\n\nNous ne savons pas encore.\n\nUne femme lui avait demandé si son fils était mort. Un homme voulait savoir pourquoi deux registres portaient des dates différentes. Un enfant l'avait interrogée sur l'odeur des trains qui transportaient les prisonniers. Nora ne pouvait pas répondre à tout. Elle refusa désormais de donner des assurances qu'elle ne possédait pas.\n\nLorsque des rumeurs circulèrent sur un nouveau camp de détention dans les montagnes, elle reçut une proposition de rejoindre une mission de vérification indépendante. Les conditions étaient strictes : pas d'intervention armée, pas de promesse d'extraction, mais la possibilité d'établir des preuves.\n\nElias lui demanda de réfléchir.\n\n— Tu as déjà fait plus que ta part.\n\n— Ça n'a aucun sens, une part, quand les gens continuent de disparaître.\n\nIls se disputèrent pour la première fois depuis des mois. Elias lui reprocha de vouloir tout porter. Nora lui répondit qu'il utilisait son inquiétude pour décider à sa place.\n\nUn silence inconfortable suivit.\n\n— Tu as raison, admit-il enfin. Je suis inquiet. Je n'ai pas le droit de transformer ça en ordre.\n\nLe lendemain, Nora prit le train vers le nord avec trois enquêteurs et un médecin. Elle avait laissé une enveloppe à Madame Belan contenant les copies des documents les plus importants. Dans le wagon, le paysage alternait entre champs cultivés et quartiers détruits. Des familles reconstruisaient des toitures à côté de routes encore barrées.\n\nLe groupe atteignit une petite ville au pied des montagnes. Les autorités locales refusèrent d'abord de leur ouvrir les archives. Nora demanda un rendez-vous officiel et passa deux jours à vérifier les témoignages de personnes libérées.\n\nUne infirmière leur montra un cahier caché sous des draps propres. Elle y avait noté les noms et les dates de passage de dizaines de blessés. En marge figurait l'inscription T. Belan, accompagnée d'une flèche vers un dispensaire fermé depuis peu.\n\nNora prit une photographie et sentit sa gorge se nouer. Elle ne savait pas encore s'il s'agissait du père de Pavel. Elle savait que la vérification devenait possible.\n\nElle envoya un message chiffré au centre d'accueil : document trouvé, identité non confirmée, poursuite de la recherche.\n\nPuis elle rangea le téléphone.\n\nPar la fenêtre, le ciel s'assombrissait. Elle se surprit à penser à Elias, à ses mains abîmées par le chantier, à sa façon d'écouter avant de répondre. Elle aurait voulu lui dire qu'elle comprenait mieux sa désobéissance au pont : le courage n'est pas toujours de décider vite. Il est parfois de rester assez longtemps pour découvrir ce qui est vrai."
     },
     {
       "number": 8,
       "title": "VIII — La traversée suivante",
       "type": "legacy",
       "url": "livres/la-derniere-ligne.html#ch8",
-      "status": "published"
+      "status": "published",
+      "readingText": "Le nouveau pont ouvrit au début de l'automne. Il n'y eut pas de défilé militaire. Les ouvriers avaient demandé une inauguration simple, réservée aux habitants des deux rives. Leïla coupa un ruban bleu avec des ciseaux empruntés à l'école.\n\nElias se tenait près des barrières lorsqu'un bus blanc apparut sur la route du nord. Des membres d'une association humanitaire en descendirent, accompagnés de plusieurs personnes récemment identifiées grâce aux registres.\n\nNora fut la dernière à sortir. Elle portait un sac usé et semblait épuisée, mais ses yeux étaient clairs. À côté d'elle marchait un homme aux épaules voûtées. Il s'appuyait sur une canne, le regard incertain.\n\nPavel l'aperçut avant qu'on prononce son nom.\n\nLe garçon resta d'abord immobile. Puis il avança, s'arrêta encore et finit par courir. Son père lâcha la canne pour le prendre dans ses bras. On n'entendit pas leurs premiers mots. Personne n'essaya de les écouter.\n\nElias détourna le regard. Il avait appris que certaines victoires devaient rester privées.\n\nNora le rejoignit au bord de la chaussée.\n\n— Tu l'as trouvé.\n\n— Avec d'autres. Et nous n'avons pas retrouvé tout le monde.\n\n— Je sais.\n\nElle lui tendit un petit carnet. On y voyait une liste de noms suivis d'indications sur des villages, des institutions et des dates de transfert. Plusieurs lignes n'avaient toujours pas de réponse.\n\n— La mission continue, dit-elle. Je vais repartir après quelques semaines.\n\nElias sentit une vieille angoisse lui serrer la poitrine, puis la laissa passer.\n\n— Tu me diras quand tu sauras où.\n\nNora sourit.\n\n— Et toi, tu m'écriras des nouvelles du chantier ?\n\n— Je pourrais t'envoyer des photographies de béton.\n\n— Ce serait un début.\n\nIls marchèrent ensemble sur le pont neuf. En contrebas, le fleuve suivait son cours sans s'occuper des frontières. De chaque côté, des familles se croisaient pour la première fois depuis la destruction de l'ancienne travée. Certains se reconnaissaient. D'autres se cherchaient des yeux.\n\nAu milieu du passage, Elias retrouva la petite fille au manteau jaune. Elle avait grandi. Les bottes de secours se trouvaient toujours dans son école, expliqua-t-elle, mais elle venait d'en apporter une nouvelle paire pour le prochain enfant qui en aurait besoin.\n\n— Il y en aura encore, dit-elle simplement.\n\nElias ne répondit pas qu'il espérait le contraire. Il lui demanda seulement si elle voulait l'aider à porter la boîte jusqu'au refuge.\n\nPlus tard, dans la cour de Saint-Aune, Madame Belan inaugura un mur de mémoire. Les noms des disparus y figuraient à côté de ceux des personnes retrouvées. Aucun récit officiel ne pourrait remplacer ces vies particulières.\n\nElias avait autrefois cru qu'une ligne séparait les soldats de leurs ennemis. Il comprenait désormais que la frontière la plus importante passait souvent à l'intérieur d'une décision : choisir la facilité ou protéger une personne que l'on ne connaît pas.\n\nLe soir, il rentra à pied. Derrière lui, sur le pont neuf, les phares des voitures formaient une procession tranquille.\n\nEt pour la première fois depuis longtemps, traverser la ville ne ressemblait plus à une fuite."
     },
     {
       "number": 9,
@@ -195,6 +263,246 @@
       "type": "text",
       "text": "Le dernier jour de l’automne, la circulation fut rétablie sur le pont de Sarne. Les premiers véhicules traversèrent au pas, encadrés par des ouvriers qui guettaient chaque vibration. Un bus scolaire suivit. Derrière ses vitres, les enfants agitaient des mains couvertes de buée.\n\nElias se tenait près du refuge lorsque Nora lui demanda ce qu’il ferait désormais. Il avait refusé une offre de retour dans l’armée. Il continuerait quelque temps au chantier, puis aiderait à former des équipes de protection civile.\n\n— Tu n’as pas peur de ne plus servir à rien ? demanda-t-elle avec un sourire.\n\n— Si. C’est peut-être ce qui me permettra de recommencer autrement.\n\nIls marchèrent jusqu’au milieu du pont. De là, on distinguait les toits réparés, les murs encore éventrés et le fleuve qui continuait de couler au milieu des deux. Rien n’était entièrement revenu. La ville n’avait pas effacé la guerre. Mais les habitants avaient cessé d’attendre la permission de vivre.\n\nPavel passa à bicyclette. Son père le suivait à pied, un peu plus lentement, mais sans canne. Il leur adressa un signe.\n\nElias regarda la ligne de goudron au centre de la chaussée. Cette fois, elle ne séparait pas deux camps. Elle indiquait simplement le chemin.\n\nNora lui prit le bras une seconde, puis le lâcha pour laisser passer des enfants. Le soir tombait. Les maisons allumaient leurs lumières, une à une.\n\nLe pont était ouvert. L’histoire de Sarne ne s’achevait pas, mais cette saison-là, enfin, avait une fin.",
       "status": "published"
+    },
+    {
+      "number": 21,
+      "title": "Le premier hiver du pont",
+      "type": "text",
+      "text": "La première neige arriva après l’ouverture du pont. Elias formait quatre bénévoles à dégager les accès lorsqu’un camion chargé de poutres s’immobilisa sur la chaussée. Le conducteur montrait une autorisation municipale. Le responsable du chantier, lui, n’avait accepté aucun chargement de ce poids.\n\nNora fit reculer les piétons sans crier. Ils attendirent le matériel nécessaire pour déplacer le camion. Sous une roue, une plaque vibrait à chaque rafale. Pavel voulut filmer; son père l’emmena derrière la barrière.\n\nLe soir, Leïla examina l’autorisation. La signature était authentique. La limite de charge avait été ajoutée après coup, dans une autre encre.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 22,
+      "title": "La déviation",
+      "type": "text",
+      "text": "La fermeture préventive força les habitants à marcher jusqu’à une passerelle provisoire. Une femme y arriva avec son père dans un fauteuil que deux personnes durent porter. Elias voulut proposer son aide. Elle le remercia puis demanda combien de jours durerait cette situation.\n\nIl ne savait pas. Il détesta entendre sa propre réponse.\n\nNora organisa une navette sur la route longue, avec des horaires affichés au refuge. Ce n’était pas suffisant pour tout le monde. Leïla vint annoncer que le pont pouvait rouvrir aux piétons le lendemain.\n\nSur le tableau, Elias écrivit aussi ce qui resterait fermé. Il ne voulait plus qu’un habitant découvre une limite au milieu du passage.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 23,
+      "title": "Le dépôt aux portes neuves",
+      "type": "text",
+      "text": "Le dépôt municipal possédait de nouvelles serrures et toujours les mêmes vitres fendues. Nora y cherchait les plaques métalliques promises pour les accès du refuge. Le magasinier lui montra un registre où la livraison était cochée depuis dix jours.\n\nIls fouillèrent ensemble les trois hangars. Les plaques n’étaient nulle part.\n\nArmand Serre avait quitté son poste; une autre équipe gérait désormais les achats. Nora refusa donc d’expliquer la disparition avec les fautes anciennes. Elle demanda les bons de transport actuels.\n\nLe dernier portait le nom d’une entreprise nouvelle, Borel Reconstruction. Le conducteur qui avait immobilisé son camion sur le pont travaillait pour elle.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 24,
+      "title": "La réunion du vendredi",
+      "type": "text",
+      "text": "Borel arriva avec des plans magnifiques. Le refuge deviendrait un centre moderne, le dépôt une plateforme logistique et les ouvriers recevraient du matériel neuf. Il demandait seulement d’avancer le paiement d’un deuxième lot.\n\nLeïla posa devant lui la photographie des plaques manquantes, prise lors de leur chargement. Elles étaient reconnaissables à un coin peint en jaune.\n\nBorel parla d’un changement de destination décidé dans l’urgence. Nora demanda où la décision figurait. Il promit de l’envoyer.\n\nLes plans restèrent sur la table après son départ. Elias les regarda avec colère : la ville avait besoin de ces bâtiments. C’était précisément pour cela qu’on ne pouvait pas laisser leur beauté répondre à la place des factures.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 25,
+      "title": "Le bruit sous la glace",
+      "type": "text",
+      "text": "Miro appela depuis son garage. Une eau sombre passait sous la porte alors qu’il n’avait pas plu depuis plusieurs jours. La canalisation du quartier devait être fermée pour travaux.\n\nLeïla arriva avec une lampe et les anciens plans. Un drainage temporaire avait été raccordé vers les maisons, sans que les riverains soient prévenus. Les ouvriers avaient reçu un croquis différent du plan validé.\n\nIls passèrent la nuit à déplacer les vélos et les caisses. Elias trouva dans une boîte les dessins que Pavel avait donnés au garage.\n\nAu matin, Miro réclama surtout qu’on sauve ses outils. La mémoire ne lui servirait pas longtemps sans le moyen de continuer à travailler.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 26,
+      "title": "L’inspectrice du bassin",
+      "type": "text",
+      "text": "L’inspectrice s’appelait Rada. Elle prit un café debout avant de descendre voir le raccordement. Borel tenta de la guider vers les travaux déjà terminés. Elle préféra commencer par l’endroit qui avait inondé le garage.\n\nNora lui montra le croquis des ouvriers et le plan municipal. Rada mesura les pentes, photographia les repères et demanda à parler séparément au chef d’équipe.\n\n« C’est une erreur ou une économie ? » demanda Elias.\n\n« Ce sera peut-être les deux. Laissez-moi établir ce qui a été construit. »\n\nIl recula pour la laisser travailler. Son impatience n’ajouterait aucune précision aux mesures. Rada resta jusqu’à la nuit; le lendemain, elle demanda l’accès au chantier situé en amont.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 27,
+      "title": "Une lettre de l’autre rive",
+      "type": "text",
+      "text": "Sokol écrivit qu’une conduite détournait désormais l’eau près de son village. Les habitants avaient protesté, puis appris que l’ouvrage alimenterait la reconstruction de Sarne. Aucun ne voulait être accusé d’empêcher la ville de se relever.\n\nElias lut la lettre à Nora. Elle lui demanda s’il croyait Sokol. Il répondit oui, puis ajouta qu’ils vérifieraient quand même le trajet de la conduite.\n\nIls partirent avec Rada, sans uniforme. De l’autre rive, le pont semblait plus petit. Elias reconnut les maisons qu’il avait autrefois surveillées comme des positions ennemies.\n\nUne femme les attendait avec un seau vide. Avant tout discours, elle leur montra son robinet.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 28,
+      "title": "Les jardins en amont",
+      "type": "text",
+      "text": "Les jardins de l’autre rive manquaient d’eau depuis trois semaines. Un bassin de chantier, derrière une clôture, en conservait assez pour plusieurs jours. Le branchement ne correspondait pas à l’autorisation présentée par Borel.\n\nSokol avait rassemblé les habitants mais leur demanda de laisser l’inspectrice terminer. Un homme l’accusa de faire confiance trop vite aux gens de Sarne. Elias resta silencieux. Il ne pouvait pas exiger que sa présence rassure tout le monde.\n\nRada fit noter les heures de coupure. Nora proposa un relevé partagé sur les deux rives.\n\nQuand ils repartirent, la femme au seau leur donna trois pommes de terre couvertes de terre. Elias accepta ce cadeau avec plus de gêne qu’un reproche.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 29,
+      "title": "Ce que Pavel avait vu",
+      "type": "text",
+      "text": "Pavel montra une vidéo prise avant l’arrivée du camion sur le pont. Au fond du cadre, des plaques au coin jaune reposaient contre une palissade. Il voulait publier aussitôt la preuve du vol.\n\nLeïla regarda l’image jusqu’au bout. Le lieu ressemblait à un dépôt annexe, mais aucun panneau ne permettait de le situer.\n\n« Ton image peut nous aider. Elle ne raconte pas encore tout. »\n\nPavel lui transmit l’original et nota l’endroit exact d’où il avait filmé. Son père conserva une copie avec lui.\n\nLe soir, Elias croisa l’enfant devant l’école. Pavel lui demanda si les adultes vérifiaient toujours avant d’accuser. Elias répondit qu’ils auraient dû le faire bien plus souvent.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 30,
+      "title": "La barrière jaune",
+      "type": "text",
+      "text": "Le dépôt annexe se trouvait derrière une ancienne usine. Rada obtint l’autorisation de le visiter avec le responsable municipal. Les plaques jaunes y étaient, sous une bâche, à côté de matériaux achetés pour un autre quartier.\n\nLe gardien montra les consignes reçues : aucune sortie avant paiement d’un supplément de stockage. La ville avait pourtant déjà payé la livraison.\n\nBorel contesta leur lecture du contrat. Le responsable municipal suspendit le versement suivant dans l’attente des vérifications. Nora demanda un inventaire contradictoire, pièce par pièce.\n\nIls terminèrent à la lampe. Elias comptait les plaques tandis que Leïla vérifiait leurs dimensions. La reconstruction de Sarne tenait ce soir-là dans un travail patient que personne ne photographia pour une inauguration.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 31,
+      "title": "Le froid dans le refuge",
+      "type": "text",
+      "text": "Le chauffage du refuge tomba en panne le soir où la navette cessa de circuler. Nora installa les familles dans la salle la moins exposée. Une mère refusa de quitter sa chambre : elle y avait enfin rangé les affaires de son fils disparu.\n\nElias lui proposa de porter les boîtes. Elle le laissa attendre sur le seuil, puis lui tendit la plus légère.\n\nDans la grande salle, Pavel avait distribué des couvertures sans regarder les noms des personnes. Nora remarqua ce geste après avoir passé la journée à recompter les listes.\n\nLeïla trouva une pièce de remplacement au garage de Miro. Elle ne convenait qu’en dépannage. Il fallait tenir la nuit; personne ne prétendit avoir résolu l’hiver.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 32,
+      "title": "Le chef d’équipe",
+      "type": "text",
+      "text": "Le chef d’équipe de Borel demanda à voir Nora hors du chantier. Il s’appelait Toma et portait encore la poussière du ciment sur ses manches. Il avait conservé des messages lui ordonnant de réduire certaines fournitures.\n\nIl redoutait de perdre son salaire et ceux de ses ouvriers. Nora ne lui promit aucune protection qu’elle ne pouvait assurer. Elle le mit en relation avec les personnes chargées du contrôle et lui proposa de venir accompagné.\n\nLe lendemain, Toma remit ses copies officiellement. Il retourna ensuite sur le chantier autorisé à poursuivre les réparations urgentes.\n\nElias le croisa sans le désigner aux autres. Dans une ville qui commentait chaque absence, protéger quelqu’un commençait parfois par ne pas raconter sa matinée.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 33,
+      "title": "Les deux plans",
+      "type": "text",
+      "text": "Rada étala les plans dans l’école. Le bassin temporaire n’était pas seulement mal raccordé. Un talus rehaussé sans étude pouvait renvoyer l’eau vers un quartier bas lors du dégel.\n\nLeïla proposa une intervention immédiate. L’inspectrice demanda d’abord un relevé complet et une solution qui ne déplace pas le danger vers l’autre rive. Elias comprit alors pourquoi Sokol avait insisté pour assister à la réunion.\n\nIls se disputèrent sur l’ordre des travaux, puis sortirent voir le terrain ensemble. Devant les maisons, les flèches bleues du plan prenaient un autre poids.\n\nNora nota les besoins d’évacuation pendant que les techniciens définissaient la correction. Pour une fois, Sarne pouvait se préparer avant que l’eau soit dans les portes.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 34,
+      "title": "Le pain du dimanche",
+      "type": "text",
+      "text": "La boulangerie rouvrit avec un seul four. Une file se forma avant l’aube. Miro avait réparé le pétrin; Sokol avait fait passer la farine par une route longue. Personne ne s’était concerté pour en faire un symbole.\n\nElias acheta trois pains et trouva Nora devant le refuge. Elle avait oublié de manger depuis la veille. Ils s’assirent sur une marche, entourés de sacs de sable encore vides.\n\n« Tu rêves encore du pont ? » demanda-t-elle.\n\nIl répondit oui. Cette nuit-là, pourtant, il avait rêvé du camion et de ses papiers, pas des tirs.\n\nNora partagea le pain avec lui. Ils gardèrent quelques minutes pour parler d’un four réparé et d’une chose chaude qui ne demandait aucun rapport.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 35,
+      "title": "Les ouvriers sans paiement",
+      "type": "text",
+      "text": "Borel cessa de payer plusieurs équipes et accusa le contrôle municipal de bloquer l’argent. Les ouvriers vinrent protester devant la mairie. Elias reconnut Toma dans la foule, trop loin des premiers rangs pour se faire entendre.\n\nLeïla demanda une réunion avec les représentants des salariés. Il fallait distinguer les paiements déjà reçus par l’entreprise des sommes encore contestées. Les feuilles de présence montrèrent que le travail avait bien été fait.\n\nNora ouvrit la salle pour que les familles attendent au chaud. Elle refusa de transformer leur colère en problème de discipline.\n\nLa solution prit plusieurs jours. Les premiers versements urgents ne réglèrent pas tout. Toma revint néanmoins avec son équipe pour sécuriser le talus avant le dégel.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 36,
+      "title": "La nuit du dégel",
+      "type": "text",
+      "text": "La température monta brutalement. L’eau courait déjà sur la neige lorsque Rada demanda d’évacuer trois rues. Certains habitants voulaient attendre de voir le fleuve. Nora leur montra les repères installés en amont : c’était là que le danger commençait.\n\nElias dirigea les bénévoles sans ressortir ses ordres de soldat. Il demanda confirmation à chaque départ de navette. Pavel resta avec son père au centre d’accueil.\n\nVers minuit, une voiture fut signalée près d’une maison vide. Une femme était retournée chercher les médicaments de sa mère. L’équipe de secours partit avec le matériel adapté.\n\nElias voulut les suivre. Le responsable lui indiqua les personnes qui attendaient encore son aide au refuge. Il resta à son poste.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 37,
+      "title": "La fenêtre éclairée",
+      "type": "text",
+      "text": "La femme fut ramenée trempée mais consciente. Elle répétait qu’une fenêtre était encore éclairée dans la maison voisine. Le registre indiquait pourtant que ses habitants étaient partis.\n\nNora appela le dernier numéro connu. Une vieille voix répondit : le couple avait refusé l’évacuation pour garder son chien. Elle ne les réprimanda pas. Elle demanda où l’animal se trouvait et prévint les secouristes.\n\nAu matin, deux personnes et un chien boueux entrèrent dans la salle. Elias apporta des couvertures, puis alla corriger le registre avec le responsable d’accueil.\n\nUne case cochée ne suffisait pas à vider une maison. Il connaissait déjà cette vérité. La retrouver avant un décès avait une saveur douloureuse et presque heureuse.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 38,
+      "title": "Le talus ouvert",
+      "type": "text",
+      "text": "L’intervention décidée par les techniciens commença au lever du jour. Leïla suivait les mesures pendant que l’eau changeait progressivement de trajet. De l’autre rive, Sokol transmettait les observations du village.\n\nUn riverain accusa Sarne de se sauver à leurs dépens. Rada l’invita à regarder les niveaux sur les deux relevés. Les chiffres ne supprimèrent pas sa colère, mais lui permirent de voir ce qu’ils contrôlaient réellement.\n\nElias regarda la pelle mécanique s’arrêter au point prévu. Durant la guerre, ouvrir une brèche avait toujours signifié laisser entrer une menace.\n\nCette fois, ils l’avaient préparée ensemble pour que l’eau trouve un passage sans prendre les maisons. Il attendit les dernières mesures avant de respirer plus librement.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 39,
+      "title": "Les vélos dans la cour",
+      "type": "text",
+      "text": "Miro rouvrit son garage dans la cour de l’école. Ses murs n’avaient pas encore séché, mais les navettes avaient besoin de roues et de freins. Des habitants apportèrent des vélos récupérés dans les caves.\n\nPavel voulait réparer le plus grand. Miro lui confia d’abord un pneu ordinaire et resta près de lui. Au bout d’une heure, l’enfant découvrit que la patience fatiguait davantage que l’enthousiasme.\n\nNora arriva avec une bicyclette dont la sonnette ne fonctionnait plus. Elle accepta d’attendre son tour.\n\nElias observa la cour depuis le portail. Il reconnaissait presque tous les visages. Pour la première fois, il les connaissait surtout par ce qu’ils savaient faire, et moins par ce qu’ils avaient perdu.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 40,
+      "title": "La boîte des factures",
+      "type": "text",
+      "text": "Les contrôleurs emportèrent les documents de Borel avec un inventaire signé. Les messages de Toma, les mesures de Rada et les plaques retrouvées établissaient des faits différents qu’il faudrait examiner ensemble.\n\nUne rumeur annonça l’arrestation de toute l’équipe de reconstruction. Nora corrigea l’information au tableau du refuge. Les ouvriers continuaient à travailler sur les chantiers sécurisés; une enquête visait les décisions et les paiements suspects.\n\nBorel avait quitté Sarne après sa première audition. Son départ ne valait pas un verdict.\n\nElias aida Leïla à ranger les copies utiles au chantier. La boîte était plus petite que la caisse retrouvée après la guerre. Il espéra qu’on l’avait ouverte assez tôt pour éviter une nouvelle génération de silences.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 41,
+      "title": "Le mot de Sokol",
+      "type": "text",
+      "text": "Sokol proposa de venir réparer la clôture du refuge avec deux voisins. Nora accepta après avoir prévenu les résidents. Une femme demanda qu’il n’entre pas dans son couloir. Il respecta cette limite sans réclamer d’explication.\n\nElias travailla avec lui dehors. Ils parlèrent surtout du bois humide et des vis trop courtes. À midi, Miro apporta une marmite qu’ils posèrent sur des caisses.\n\n« Tu comptes rester dans la protection civile ? » demanda Sokol.\n\nElias répondit qu’il commençait seulement à apprendre le métier.\n\nIls reprirent les mesures. La clôture devait laisser passer un fauteuil sans qu’on retire une planche. Aucun accord entre anciens adversaires n’aurait compensé une porte trop étroite pour les personnes qui vivaient là.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 42,
+      "title": "Une audience à la bonne heure",
+      "type": "text",
+      "text": "La séance publique commença à dix-huit heures pour permettre aux ouvriers d’y assister. Leïla présenta les écarts entre les travaux facturés et ceux réalisés. Rada expliqua les corrections du bassin sans attribuer aux pluies ce qui relevait des décisions humaines.\n\nToma lut ses notes debout. Il s’interrompit lorsqu’un homme l’accusa d’avoir obéi. Nora lui apporta un verre d’eau. Il reprit en distinguant ce qu’il avait vu de ce qu’il avait supposé.\n\nElias resta au fond de la salle. La ville apprenait un autre usage de la parole publique : poser une question, recevoir une réponse incomplète et continuer à vérifier.\n\nÀ la sortie, Toma retrouva son équipe. Personne ne lui demanda un discours supplémentaire.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 43,
+      "title": "Le nouveau marché",
+      "type": "text",
+      "text": "Le contrat de réparation fut partagé entre plusieurs équipes. Les habitants pouvaient suivre les livraisons et les étapes réellement réceptionnées. Cette organisation demandait davantage de travail à Leïla.\n\n« On va me reprocher de ralentir tout le monde », dit-elle.\n\nNora lui montra la liste des portes toujours bloquées au refuge. Aller vite ne servait à rien si les matériaux arrivaient dans un autre dépôt.\n\nLe premier chargement fut contrôlé sous la pluie. Pavel compta les plaques jaunes avec Miro. Une manquait. Le conducteur appela aussitôt son dépôt : elle avait été écartée parce qu’elle était fissurée.\n\nLeïla le nota, puis signa pour les seules pièces reçues. Un chiffre juste pouvait être aussi modeste que cela.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 44,
+      "title": "La médaille refusée",
+      "type": "text",
+      "text": "La mairie voulut remettre une médaille à Elias pour la nuit du dégel. Il demanda que les équipes de secours et les bénévoles soient nommés avant lui. On lui répondit que la cérémonie risquait de devenir trop longue.\n\nIl refusa poliment.\n\nNora le retrouva devant l’école. Elle lui demanda s’il avait aussi refusé pour ne pas apparaître sur une scène. Il resta silencieux, puis admit qu’il ne savait pas recevoir un remerciement sans y entendre un ordre de devenir exemplaire.\n\nIls convinrent d’organiser un repas au refuge. Ceux qui voudraient remercier quelqu’un pourraient le faire simplement.\n\nLe soir du repas, Elias accepta le dessin de Pavel. Il n’y avait pas de pont dessus. Seulement une grande table.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 45,
+      "title": "Le père de Pavel",
+      "type": "text",
+      "text": "Le père de Pavel demanda à Elias de parler à son fils. L’enfant voulait rejoindre les bénévoles chaque soir et rentrait trop fatigué pour l’école. Elias proposa plutôt qu’ils en parlent tous les trois.\n\nPavel expliqua qu’il craignait de ne servir à rien quand il restait chez lui. Son père regarda Elias, sans accusation, avec une tristesse qu’il reconnut.\n\nIls fixèrent deux après-midis au garage et laissèrent les autres libres. Miro confirma que l’apprentissage exigeait aussi du repos.\n\nEn partant, Pavel demanda à Elias s’il avait des jours sans travail. Le lendemain, Nora le trouva près du fleuve, les mains vides. Il n’avait encore rien prévu pour cette heure. Il décida de ne pas la remplir immédiatement.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 46,
+      "title": "Les chaussures du secours",
+      "type": "text",
+      "text": "Leïla distribuait du matériel neuf lorsque Nora remarqua qu’un bénévole gardait ses bottes fendues. Il ne voulait pas prendre la paire de quelqu’un d’autre. Le stock avait été prévu pour toute l’équipe, y compris les nouveaux.\n\nElias alla chercher la bonne taille. Le bénévole venait de l’autre rive et parlait avec l’accent que les soldats de Sarne reconnaissaient autrefois avant de lever leurs armes.\n\nPersonne ne lui demanda de raconter son histoire pour mériter des chaussures sèches.\n\nLa séance porta sur les cordes, les itinéraires et les limites de chaque rôle. À la fin, Nora fit répéter la consigne la plus difficile : signaler quand on ne pouvait plus continuer. Elias la répéta avec les autres.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 47,
+      "title": "Ce que l’uniforme garde",
+      "type": "text",
+      "text": "En vidant un placard, Elias retrouva son ancien uniforme. Une couture retenait encore de la poussière claire du pont. Il voulut le jeter, puis s’assit avec le vêtement sur les genoux.\n\nNora ne lui dit pas quoi faire. Elle avait gardé sa radio hors service dans une boîte qu’elle n’ouvrait presque jamais.\n\nElias choisit finalement de confier l’uniforme au fonds historique, accompagné d’un texte qui racontait aussi les ordres refusés et les décisions qu’il regrettait. Il ne voulait pas qu’on l’expose comme une réponse simple.\n\nLa personne chargée des collections lui demanda du temps pour préparer le dépôt. Il accepta. En rentrant, il remarqua l’espace vide dans le placard. Rien n’avait disparu de sa mémoire. Il disposait seulement d’une étagère libre.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 48,
+      "title": "Le marché des deux rives",
+      "type": "text",
+      "text": "Le premier marché commun se tint près du pont. Le village de Sokol vendait des légumes; Sarne apportait des outils réparés et du pain. Leïla avait surtout vérifié que les stands laissaient une voie de passage.\n\nUne dispute éclata sur le prix d’un sac de farine. Nora sourit malgré elle : pour une fois, elle pouvait entendre des gens se contredire sans devoir compter les sorties de secours.\n\nMiro répara une roue pendant que Pavel expliquait trop longuement le travail. Son père le rappela pour déjeuner.\n\nElias trouva Sokol devant un étal de livres. Ils choisirent chacun un ouvrage et promirent de l’échanger une fois terminé. Leur prochain rendez-vous ne dépendrait ni d’une audience ni d’une catastrophe.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 49,
+      "title": "Les noms corrigés",
+      "type": "text",
+      "text": "Une famille signala une erreur sur la stèle du pont. Une lettre manquait au prénom de leur fille. L’artisan proposa de corriger dès le lendemain. La mère demanda à être présente.\n\nElias l’accompagna jusqu’à la pierre puis recula. Le travail prit moins d’une heure. La femme passa son doigt sur les lettres nouvelles, remercia l’artisan et resta seule devant le nom.\n\nAu refuge, Nora ajouta une procédure simple pour signaler d’autres corrections. Une mémoire publique pouvait être exacte sans prétendre être achevée.\n\nPavel demanda pourquoi les adultes avaient laissé passer une faute. Elias répondit qu’ils avaient lu vite. L’enfant resta un moment devant la liste. Il relut chaque prénom lentement, comme on vérifie qu’une porte n’oublie personne.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
+    },
+    {
+      "number": 50,
+      "title": "La ligne du matin",
+      "type": "text",
+      "text": "Au printemps, Elias accompagna les nouveaux bénévoles sur le pont. Il leur montra les accès, les repères du fleuve et le tableau où étaient affichées les limites de charge. Aucun ne demanda où les tirs étaient tombés.\n\nNora arrivait de l’autre rive avec Leïla. Derrière elles, Pavel pédalait entre son père et Miro. Le marché ouvrait ses stands. Une navette attendait les personnes qui ne pouvaient pas marcher jusqu’au centre.\n\nElias posa un pied sur la ligne blanche de la chaussée. Elle avait été repeinte la veille; une petite courbe trahissait le détour fait autour d’une plaque.\n\nLa ville n’était pas réparée partout. Les audiences continueraient, des maisons resteraient vides et certains noms ne recevraient jamais de réponse. Mais ce matin-là, il savait où devait aller son effort.\n\nIl fit avancer le groupe jusqu’à la première sortie. Puis il demanda à l’une des nouvelles bénévoles de leur montrer le chemin du retour.",
+      "status": "published",
+      "source": "Suite originale · novembre 2026"
     }
   ],
   "bonusScenes": [
@@ -219,5 +527,7 @@
       "text": "Interlude situé : Après la réouverture du pont.\n\nAu refuge, Elias reconnut le menuisier qui avait fourni les premières planches du pont. Anton avait demandé qu’on lui apporte sa boîte à outils. Il n’avait plus la force de la soulever. Elias la posa près du lit et resta jusqu’à ce que Nora vienne chercher le médecin. Anton mourut avant l’aube, entouré de deux voisins.\n\nLe lendemain, une famille du refuge annonça la naissance d’une fille. Nora accompagna la mère à la consultation pendant qu’Elias réparait le berceau prêté par une autre famille. Sur le bois, il retrouva les initiales d’Anton. Il demanda à ses proches la permission de les conserver.\n\nAu registre, la naissance et le décès occupèrent deux lignes différentes. Elias prit soin de n’en oublier aucune. La famille du menuisier recevrait ses outils ; le berceau repartirait au refuge quand l’enfant aurait grandi.",
       "timeline": "Après la réouverture du pont"
     }
-  ]
+  ],
+  "extraNote": "Édition web en 50 chapitres courts et 10 épisodes. Les 20 chapitres initiaux et les scènes complémentaires sont conservés ; les chapitres 21 à 50 prolongent le récit. Les PDF historiques conservent leur contenu initial.",
+  "edition": "Novembre 2026 · 50 chapitres courts"
 }
