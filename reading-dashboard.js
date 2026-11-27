@@ -12,7 +12,8 @@ export const NOVELS=[
  ['seven','WarLike SEVEN — Les voix derrière la lumière','Science-fiction / Musique'],
  ['brume','Les Veilleurs de Brume','Mystère surnaturel'],
  ['valdorne','Les Héritiers de Valdorne','Thriller adolescent'],
- ['arodan','Arodan — Le Sang des Libres','Épopée antique et révolte']
+ ['arodan','Arodan — Le Sang des Libres','Épopée antique et révolte'],
+ ['abime','Les Jardins de l’Abîme','Dark fantasy / Horreur spirituelle']
 ];
 export const PDFS=[
  ['ombres','La Promesse des Ombres · extrait'],
