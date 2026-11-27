@@ -77,3 +77,7 @@ Validation de cette édition : 29 tests réussis, scripts des quatre lecteurs v�
 ## Les Jardins de l’Abîme — Tome I : Le prix de l’éternité
 
 [Lire les 50 chapitres courts](nouveaux-romans.html?livre=abime). Roman original de dark fantasy, cinq arcs de dix chapitres, couverture SVG originale, navigation du lecteur commun, lecture vocale du navigateur et sauvegarde de progression. Texte court, pas un roman de plusieurs centaines de pages. Aucun EPUB/PDF ni portrait illustré spécifique dans ce lot.
+
+## EXTINCTION 2091
+
+[50 chapitres courts](nouveaux-romans.html?livre=extinction). Quatorze œuvres et 700 chapitres numérotés au catalogue après cet ajout. Récit original, six catégories fictives d’infectés. Pas encore de PDF/EPUB ni de roman long.
