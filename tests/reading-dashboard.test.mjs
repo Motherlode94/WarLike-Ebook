@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {CATALOG,SEASONS,NOVELS,PDFS,getProgress,normalizeChapter,resumeUrl} from '../reading-dashboard.js';
 test('dashboard represents all existing collections without fictional publication counts',()=>{
- assert.equal(SEASONS.length,8);assert.equal(NOVELS.length,4);assert.equal(PDFS.length,3);assert.equal(CATALOG.length,15);
+ assert.equal(SEASONS.length,8);assert.equal(NOVELS.length,5);assert.equal(PDFS.length,3);assert.equal(CATALOG.length,16);
+ assert.equal(CATALOG.find(b=>b.id==='abime').total,50);
  assert.equal(CATALOG.find(b=>b.id==='valdorne').title,'Les Héritiers de Valdorne');
  assert.equal(CATALOG.find(b=>b.id==='arodan').title,'Arodan — Le Sang des Libres');
 });
