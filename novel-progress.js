@@ -1,0 +1,4 @@
+// Distinguish chapters actually opened from the last saved position.
+export function openedChapters(raw,total=50){try{const a=JSON.parse(raw||'[]');if(!Array.isArray(a))return [];return [...new Set(a.filter(n=>Number.isInteger(n)&&n>=1&&n<=total))].sort((a,b)=>a-b);}catch{return [];}}
+export function addOpenedChapter(raw,chapter,total=50){if(!Number.isInteger(chapter)||chapter<1||chapter>total)throw Error('Chapitre invalide');return openedChapters(JSON.stringify([...openedChapters(raw,total),chapter]),total);}
+export function recordNovelChapter(storage,id,chapter,total=50){try{const key='warlike:novel-chapters:'+id,seen=addOpenedChapter(storage.getItem(key),chapter,total);storage.setItem(key,JSON.stringify(seen));storage.setItem('warlike-reading-'+id,String(chapter-1));return {seen,stored:true};}catch{return {seen:[],stored:false};}}
