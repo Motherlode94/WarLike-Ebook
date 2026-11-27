@@ -98,3 +98,45 @@ Ce registre recense les éléments établis par les textes et résumés existant
 - Abîme : distinguer le décret brûlé (9) de la graine conservée (24), et expliciter le retour du groupe de condamnés (29). Le décès d’Orane n’est pas formulé explicitement : ne pas le présenter comme établi.
 - Valdorne : distinguer les preuves documentées, les témoignages et les hypothèses du dossier Verrières. Ne pas clore cette piste à la place du texte.
 - Arodan : conserver la mort de Bren et ne pas inventer la mort de Cassien, dont le dernier combat le laisse gravement blessé.
+
+
+## EXTINCTION 2091 (extinction)
+
+- Cadre : Kinshasa en 2091, puis colonie du Fleuve en 2131.
+- Nalia : témoin scientifique du traitement initial, sœur de Jonas ; transmet ses archives à Sanaa (10).
+- Jonas : frère de Nalia, ancien conducteur de bus ; grand-père de Sanaa. Leur mère meurt plusieurs années après la catastrophe de causes ordinaires (9).
+- Sanaa : 27 ans en 2131, petite-fille de Jonas ; explore avec Imani, électricien, et Elio, médecin (11).
+- Abel : ancien instituteur, Conscient aux périodes de lucidité variables (15–16). Ne pas le confondre avec la patiente de 2091 (21).
+- Varen : commandant de la colonie du Nord (28).
+- Catégories fictionnelles : Errants (6), Traqueurs (12), Écholiens (14), Conscients (16), Titans (19), Primordiaux (24). Ce sont des catégories narratives et non des diagnostics médicaux réels.
+
+## Registre des relations et transitions — E20
+
+| Univers | Personnage ou relation | Ancrage canonique | Limite à respecter |
+|---|---|---|---|
+| Abîme | Kael et sa sœur | 5, 25 : souvenir altéré, sœur décédée | La silhouette du jardin ne prouve pas sa résurrection |
+| Abîme | Seyra et son père | 22 : lettres sur le pacte royal | Renoncer au nom royal ne détruit pas les preuves |
+| Abîme | Azem et son ancien maître | 23 : maître incapable de le reconnaître | Pas de réconciliation consciente établie |
+| Abîme | Miren et Talen | 13 : ardoise et mémoire intermittente | Pas de parenté établie |
+| Abîme | Orane et les voyageurs | 26 : alliance libre, couteau transmis | Pas de décès établi |
+| Valdorne | Léo et Tom | 22 : frères, retrouvailles à la pension | Localisation à préserver dans le récit |
+| Valdorne | Nora et Milo | 27 : appel du frère | Ne pas inventer le contenu de l’appel |
+| Valdorne | Jade et Inès | 21, 30 : pièces scolaires et costume | Un indice matériel ne suffit pas à identifier un coupable |
+| Valdorne | Milo et la fondation | 22–26 : témoignage, photo, vidéo, piste | Distinguer dates, témoignages et preuves confirmées |
+| Arodan | Arodan et Cassien | 20 : mentor blessé gravement | Ne pas le déclarer mort |
+| Arodan | Arodan et Mira | Relation fraternelle dans les références existantes ; comptes transmis au 26 | Ne pas inventer une présence au camp |
+| Arodan | Bren et Arodan | 22 : bras blessé, sauvetage ; 40 : décès | Aucun retour vivant après 40 sans justification canonique |
+| Arodan | Solen et les fugitifs | 25, 30 : éclaireur, rencontre avec les agents de Varis, aveu | L'aveu ne rétablit pas automatiquement la confiance |
+| Arodan | Elian et Arodan | 29 : proposition de trêve | Libération des enfants non garantie par cette rencontre |
+| Extinction | Nalia, Jonas, Sanaa | 9–10 : transmission familiale sur plusieurs décennies | Ne pas confondre les générations |
+| Extinction | Abel et Sanaa | 15–20 : témoignage, coopération et carte | Pas de confiance universelle ni de guérison établie |
+
+### Contrôle éditorial avant chaque lot
+
+1. Identifier le dernier état confirmé de chaque personnage avant le chapitre.
+2. Vérifier les connaissances acquises, les blessures, les objets transmis, les relations et les décès par chapitre.
+3. Distinguer fait explicite, déclaration d'un personnage, hypothèse et information absente.
+4. Conserver les titres, numéros et événements préexistants sauf correction éditoriale documentée.
+5. Vérifier les transitions avec les chapitres précédents et suivants, puis signaler les incertitudes restantes.
+
+Cette extension repose sur les chapitres et références disponibles sur main après E15. Elle ne certifie pas les quatorze manuscrits dans leur intégralité et ne crée aucun portrait définitif.
