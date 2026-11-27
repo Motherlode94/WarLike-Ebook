@@ -70,3 +70,8 @@ Site : https://warlike-ebook.pages.dev/ ; alternative GitHub Pages si activée :
 © 2026 HardieBay Books. Textes, noms et univers : tous droits réservés à l’auteur. Les personnages de fiction et les portraits illustrés sont des créations de leur univers respectif.
 
 Validation de cette édition : 29 tests réussis, scripts des quatre lecteurs vérifiés, EPUB contrôlé (XML, ressources, sommaire et ordre de lecture). Navigation vérifiée dans le navigateur, y compris le passage 31 → 32 de Jusqu’à Toi. Aucune voix n’étant installée dans le navigateur de test, la sortie sonore réelle reste à écouter sur un appareil disposant de voix.
+
+
+## Les Jardins de l’Abîme — Tome I : Le prix de l’éternité
+
+[Lire les 50 chapitres courts](nouveaux-romans.html?livre=abime). Roman original de dark fantasy, cinq arcs de dix chapitres, couverture SVG originale, navigation du lecteur commun, lecture vocale du navigateur et sauvegarde de progression. Texte court, pas un roman de plusieurs centaines de pages. Aucun EPUB/PDF ni portrait illustré spécifique dans ce lot.
