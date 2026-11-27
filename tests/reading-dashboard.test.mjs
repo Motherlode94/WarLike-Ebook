@@ -42,3 +42,5 @@ test('HTML has all interactive dashboard hooks',()=>{
  const progress=getProgress(item,()=>JSON.stringify(Array.from({length:50},(_,i)=>i+1)));assert.equal(progress.finished,true);assert.equal(progress.next,50);
  const seven=CATALOG.find(b=>b.id==='seven');assert.equal(resumeUrl(seven,getProgress(seven,()=> '49')),'./seven-livre.html?chapitre=50');
  });
+
+test('jumping to final novel chapter does not imply all chapters opened',()=>{const book=CATALOG.find(b=>b.id==='abime');const data=new Map([['warlike-reading-abime','49'],['warlike:novel-chapters:abime','[1,50,50]']]);const p=getProgress(book,k=>data.get(k)??null);assert.equal(p.seen,2);assert.equal(p.position,50);assert.equal(p.finished,false);data.set('warlike:novel-chapters:abime',JSON.stringify(Array.from({length:50},(_,i)=>i+1)));assert.equal(getProgress(book,k=>data.get(k)??null).finished,true);});
