@@ -4,7 +4,7 @@ Histoires originales de HardieBay, lisibles dans le navigateur.
 
 ## Édition du 19 novembre 2026
 
-Les **neuf livres visés par cette édition possèdent chacun 50 chapitres courts**. Les trois sagas déjà organisées en 50 chapitres gardent leurs textes. Le catalogue représente ainsi douze œuvres, sans compter deux fois leurs versions PDF.
+Les **neuf livres visés par cette édition possèdent chacun 50 chapitres courts**. Les trois sagas déjà organisées en 50 chapitres gardent leurs textes. Le catalogue représentait alors douze œuvres, sans compter deux fois leurs versions PDF.
 
 | Livre | Lecteur | Chapitres et épisodes |
 | --- | --- | --- |
@@ -42,7 +42,9 @@ Le lecteur HTML autonome de SEVEN inclut les mêmes commandes et ses illustratio
 
 ## Autres collections et pages
 
-- [Trois sagas](nouveaux-romans.html) : *Les Veilleurs de Brume*, *Les Héritiers de Valdorne* et *Arodan — Le Sang des Libres*, 50 chapitres chacune. Les chapitres 1 à 12 de Brume sont enrichis; les suivants restent courts.
+Au 27 novembre 2026 : 13 œuvres, 650 chapitres numérotés, plus le prologue de SEVEN. Les trois PDF historiques ne constituent pas trois œuvres supplémentaires.
+
+- [Quatre sagas](nouveaux-romans.html) : *Les Veilleurs de Brume*, *Les Héritiers de Valdorne* *Arodan — Le Sang des Libres* et *Les Jardins de l’Abîme*, 50 chapitres chacune. Les chapitres 1 à 12 de Brume sont enrichis; les suivants restent courts.
 - [Ma lecture](ma-lecture.html) : progressions, reprises, filtres et carnet de lecture. SEVEN y est inclus.
 - [Personnages](personnages.html), [personnages de Brume](personnages-brume.html) et [sept artistes](seven.html).
 - [Mes livres importés](mes-livres.html) : EPUB/PDF personnels de 30 Mio maximum, conservés dans IndexedDB. Leur lecture nécessite encore des essais avec divers fichiers et appareils.
