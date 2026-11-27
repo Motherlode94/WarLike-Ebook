@@ -2,7 +2,7 @@ import {STORE_KEY,cleanEntry} from './reader-tools.js';
 export const BACKUP_SCHEMA='warlike-ebook-reading-backup-v2';
 export const PROGRESS_KEYS=[
  ...['ligne','jours','toi','dieu','ombres','heures','archives','neon'].map(id=>'warlike:chapters:'+id),
- ...['brume','valdorne','arodan','seven'].map(id=>'warlike-reading-'+id),
+ ...['brume','valdorne','arodan','seven','abime'].map(id=>'warlike-reading-'+id),
  ...['ombres','toi','dieu'].map(id=>'warlike-ebook:page:'+id),
  'warlike-ebook:font-size','warlike-reading-font','warlike-reading-theme','warlike:reader-tools:night',
  STORE_KEY
