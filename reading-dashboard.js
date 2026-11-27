@@ -1,6 +1,7 @@
 import {encryptReadingBackup,restoreEncryptedBackup} from './encrypted-reading-backup.js';
 import {createBackup,restoreBackup} from './reading-backup.js';
 import {loadEntries,bookmarkUrl} from './reader-tools.js';
+import {openedChapters} from './novel-progress.js';
 // WarLike Ebook — local reading dashboard. This module never changes manuscript content.
 export const SEASONS=[
  ['ligne','La Dernière Ligne','Guerre / Drame'],['jours','Les Jours Interdits','Romance adulte'],
@@ -45,7 +46,9 @@ export function getProgress(item,get=safeStorage.get){
   // Novels store a zero-based last chapter index. A missing key means no started reading.
   const started=get('warlike-reading-'+item.id)!==null&&Number.isInteger(saved)&&saved>=0&&saved<item.total;
   const position=started?saved+1:1;
-  return {started,seen:started?position:0,total:item.total,position,next:position,finished:false};
+  const chapters=openedChapters(get('warlike:novel-chapters:'+item.id),item.total);
+  const seen=chapters.length;
+  return {started:started||seen>0,seen,total:item.total,position:started?position:(chapters.at(-1)||1),next:started?position:(chapters.at(-1)||1),finished:seen===item.total};
  }
  const current=Number(get('warlike-ebook:page:'+item.id));
  const started=Number.isInteger(current)&&current>=1&&get('warlike-ebook:page:'+item.id)!==null;
@@ -61,7 +64,7 @@ function element(tag,content,cls){const e=document.createElement(tag);if(content
 function makeCard(item,progress){
  const article=element('article',undefined,'card');article.append(element('span',item.kind==='season'?'Saison de 50 chapitres':item.kind==='novel'?'Saga de 50 chapitres':'Pages de manuscrit','type'));
  article.append(element('h3',item.title),element('p',item.genre));
- const desc=progress.started?(item.kind==='pdf'?'Dernière page : '+progress.position:progress.seen+' / '+item.total+' chapitres consultés ou atteints'):'Pas encore commencé';
+ const desc=progress.started?(item.kind==='pdf'?'Dernière page : '+progress.position:progress.seen+' / '+item.total+' chapitres ouverts'):'Pas encore commencé';
  article.append(element('p',desc));
  if(item.total){const track=element('div',undefined,'track');track.setAttribute('role','progressbar');track.setAttribute('aria-label','Progression de '+item.title);track.setAttribute('aria-valuemin','0');track.setAttribute('aria-valuemax',String(item.total));track.setAttribute('aria-valuenow',String(progress.seen));const fill=element('div');fill.style.width=Math.min(100,progress.seen/item.total*100)+'%';track.append(fill);article.append(track)}
  const link=element('a',progress.started?'Reprendre la lecture':'Commencer la lecture','resume');link.href=resumeUrl(item,progress);article.append(link);
@@ -73,7 +76,7 @@ function render(){
  const records=state(),started=records.filter(x=>x.progress.started);
  document.getElementById('started').textContent=String(started.length);
  document.getElementById('chapters').textContent=String(records.filter(x=>x.kind!=='pdf').reduce((count,x)=>count+x.progress.seen,0));
- document.getElementById('finished').textContent=String(records.filter(x=>x.kind==='season'&&x.progress.finished).length);
+ document.getElementById('finished').textContent=String(records.filter(x=>x.kind!=='pdf'&&x.progress.finished).length);
  const box=document.getElementById('inProgress');box.replaceChildren();
  if(!started.length)box.append(element('p','Aucune lecture enregistrée sur cet appareil. Ouvre un livre pour commencer.','empty'));
  for(const item of started)box.append(makeCard(item,item.progress));
@@ -108,7 +111,7 @@ function exportProgress(){
 }
 function clearProgress(){
  if(!window.confirm('Effacer sur cet appareil toutes les progressions WarLike Ebook connues ? Cette action est irréversible sans sauvegarde.'))return;
- const keys=[...SEASONS.map(b=>'warlike:chapters:'+b[0]),...NOVELS.map(b=>'warlike-reading-'+b[0]),...PDFS.map(b=>'warlike-ebook:page:'+b[0])];
+ const keys=[...SEASONS.map(b=>'warlike:chapters:'+b[0]),...NOVELS.map(b=>'warlike-reading-'+b[0]),...NOVELS.map(b=>'warlike:novel-chapters:'+b[0]),...PDFS.map(b=>'warlike-ebook:page:'+b[0])];
  let ok=true;for(const key of keys)if(!safeStorage.remove(key))ok=false;
  notice(ok?'Les progressions enregistrées ont été effacées de ce navigateur.':'Certaines progressions n’ont pas pu être effacées (stockage bloqué).');render();
 }
