@@ -14,7 +14,8 @@ export const NOVELS=[
  ['brume','Les Veilleurs de Brume','Mystère surnaturel'],
  ['valdorne','Les Héritiers de Valdorne','Thriller adolescent'],
  ['arodan','Arodan — Le Sang des Libres','Épopée antique et révolte'],
- ['abime','Les Jardins de l’Abîme','Dark fantasy / Horreur spirituelle']
+ ['abime','Les Jardins de l’Abîme','Dark fantasy / Horreur spirituelle'],
+ ['extinction','EXTINCTION 2091','Science-fiction / Apocalypse']
 ];
 export const PDFS=[
  ['ombres','La Promesse des Ombres · extrait'],
