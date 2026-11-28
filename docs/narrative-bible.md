@@ -140,3 +140,31 @@ Ce registre recense les éléments établis par les textes et résumés existant
 5. Vérifier les transitions avec les chapitres précédents et suivants, puis signaler les incertitudes restantes.
 
 Cette extension repose sur les chapitres et références disponibles sur main après E15. Elle ne certifie pas les quatorze manuscrits dans leur intégralité et ne crée aucun portrait définitif.
+
+
+## E40 — Continuité des seconds arcs et références visuelles
+
+| Œuvre | Repère | Chapitre | Contrainte narrative et visuelle |
+|---|---|---:|---|
+| Brume | Clara et Éline Varo | 1, 5, 7, 50 | Clara est la mère d’Éline ; distinguer apparition, voix et retrouvailles finales. Ne pas représenter une apparition comme une preuve de présence physique. |
+| Brume | Mara | 6, 13 | Adolescente de quatorze ans ; prénom découvert sur un dessin antérieur à sa naissance. Origine de l'inscription non établie. |
+| Brume | Ada et son frère | 12–13 | Dessin et porte sans poignée ; auteur de chaque inscription incertain. |
+| Brume | Sébastien Ors et Lena | 15 | Le maire nie avoir une fille malgré la photographie et le dossier. Ne pas résoudre cette contradiction par un portrait inventé. |
+| Brume | Luc et les deux pendentifs | 16 | Objets semblables ; identité de la femme qui a laissé le second non établie. |
+| Néon | Naïa et Sera Voss | 20–23 | Sœurs réunies ; les copies numériques ne sont pas les personnes physiques. |
+| Néon | Idris, Alma, Tarek | 21–26 | Auditeur, bibliothécaire, coursier ; préserver les rôles distincts. |
+| Néon | Enoch et le Liseron | 24–26 | Réparateur et terminal flottant ; ne pas attribuer au réparateur la direction du service de doubles. |
+| Dieu | Kaïn, Mara, Méla | 21–23 | La boulangère disparaît ; le carnet de courses conserve son prénom. |
+| Dieu | Veth, Halven, Ceth | 24–26 | Veth a appartenu à l'ordre ; Halven se présente comme gardien ; Ceth ne voit pas nécessairement la même inscription que Soran. |
+| Archives | Éva Sorel et Jonas Bellanger | 20–21 | Nouvelle enquête après la résolution du meurtre de Valette ; ne pas confondre les deux victimes. |
+| Archives | Rémi Larcher | 21–26 | Restaurateur retrouvé mort ; registre d'indemnités disparu. |
+| Archives | Ariane, Léon, Sylvie | 23–26 | Visiteurs aux motivations distinctes ; ne pas confondre indice et responsabilité établie. |
+
+### Études visuelles à produire
+
+- Brume, chapitre 12 : maison d'Ada, porte blanche sans poignée, quatrième tasse.
+- Néon, chapitre 23 : écran publicitaire et reflet de Sera, sans confondre personne et copie.
+- Dieu, chapitre 21 : boulangerie désertée, pains refroidis, tablier et trace dans la farine.
+- Archives, chapitre 26 : établi de restauration et registre photographié, sans révéler le contenu du papier plié.
+
+Les quatre briefs sont des références de production, pas des illustrations livrées. Les caractéristiques physiques non attestées restent ouvertes. Les chapitres 13–18 (Brume) et 21–26 (trois autres œuvres) constituent le premier périmètre de ce lot ; la continuité du reste des textes doit encore faire l'objet d'une relecture approfondie.
